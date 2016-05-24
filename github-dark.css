@@ -1,0 +1,117 @@
+/*!
+ * GitHub Dark
+ * Copyright 2016 Quan You.
+ * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
+*/
+
+body {
+    background-color: #3f4142;
+    color: #fff;
+}
+.header {
+    background-color: #27292B;
+    border: 0px;
+}
+.header-logo-invertocat {
+    color: #fff;
+}
+.header-logo-invertocat:hover {
+    color: #fff;
+}
+.subscribe-feed {
+    color: #eee;
+}
+.form-control,
+.form-select {
+    background-color: #525458;
+    border: 0px;
+}
+.header-nav-link {
+    color: #fff;
+}
+.news div.message,
+.news li blockquote {
+    color: #fff;
+}
+a {
+    color: #bbb;
+    text-decoration: none;
+}
+.news .alert {
+    border-top: 1px solid #555;
+}
+blockcode,
+p {
+    color: #888;
+}
+.boxed-group>h3,
+.boxed-group .heading {
+    background-color: #666;
+    border: 0px;
+}
+.boxed-group .counter {
+    background-color: #525458;
+}
+.counter {
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.protip-callout {
+    color: #fff;
+}
+.private .mini-repo-list-item {
+    background-color: #9e9e9e;
+}
+.news .alert .branch-link,
+.news .alert .pull-info {
+    color: #fff;
+    background: #333;
+}
+/* New Repo */
+
+.reponame-suggestion {
+    color: #6cc644;
+}
+/* Repo */
+
+.repository-meta {
+    color: #fff;
+}
+.readme .markdown-body,
+.readme .plain {
+    background-color: #3f4142;
+}
+/* Repo Settings */
+
+.note p {
+    color: #666;
+}
+/* Profile */
+
+.profilecols .filter-bar {
+    background-color: #3f4142;
+}
+.conversation-list-heading .inner {
+    background: #3f4142;
+}
+.text-emphasized {
+    color: #fff;
+}
+/* Code Inner */
+
+.breadcrumb strong.final-path {
+    color: #767676;
+}
+.commit-tease {
+    background-color: #bbdefb;
+    border: 1px solid #bbdefb;
+}
+.file-info {
+    color: #555;
+}
+.blob-num {
+    color: #fff;
+}
+.blob-code-inner {
+    color: #fff;
+}
