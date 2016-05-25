@@ -1,8 +1,8 @@
-![](http://i.imgur.com/0k05HJT.png)
+![](http://i.imgur.com/A1kRUEW.png)
 
 # GitHub Dark
 
-Userstyle for GitHub Dark.
+Dark theme for GitHub. <code>**v1.1.0**</code>
 
 ### How to use
 
@@ -18,7 +18,7 @@ Then, copy-pasta the styles from `github-dark.css` into a new userstyle. Be sure
 
 If you use the Stylish addon on Chrome or Firefox you can find one-click installs including automatic updates via the packages below.
 
-* [GitHub Dark](https://userstyles.org/styles/128271/github-dark)
+* [GitHub Dark](https://userstyles.org/styles/128271)
 
 ### Bug reports
 
