@@ -1,5 +1,5 @@
-/*!
- * GitHub Dark
+/* 
+ * GitHub Dark v1.1.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -7,6 +7,9 @@
 body {
     background-color: #3f4142;
     color: #fff;
+}
+a {
+	color: #bdbdbd;
 }
 .header {
     background-color: #27292B;
@@ -24,7 +27,14 @@ body {
 .form-control,
 .form-select {
     background-color: #525458;
+    color: #fff;
     border: 0px;
+}
+.input-contrast:focus {
+    background-color: #333;
+}
+.header-search-scope {
+    color: #fff;
 }
 .header-nav-link {
     color: #fff;
@@ -33,20 +43,16 @@ body {
 .news li blockquote {
     color: #fff;
 }
-a {
-    color: #bbb;
-    text-decoration: none;
-}
 .news .alert {
     border-top: 1px solid #555;
 }
 blockcode,
 p {
-    color: #888;
+    color: #999;
 }
 .boxed-group>h3,
 .boxed-group .heading {
-    background-color: #666;
+    background-color: #333;
     border: 0px;
 }
 .boxed-group .counter {
@@ -68,18 +74,79 @@ p {
     background: #333;
 }
 /* New Repo */
-
 .reponame-suggestion {
     color: #6cc644;
 }
+/* Repo Summary */
+.numbers-summary a, .numbers-summary .nolink {
+    color: #bdbdbd;
+}
+.commit-tease {
+    background-color: #d9edf7;
+    border: 1px solid #bcdff1;
+}
+.overall-summary {
+    border: 1px #555 solid;
+}
+.repository-lang-stats-graph {
+	border: 1px #555 solid;
+	border-top-width: 0px;
+}
+.repository-lang-stats ol.repository-lang-stats-numbers li .lang {
+    color: #fff;
+}
+.color-block {
+	border: 1px #fff solid;
+}
+/* Markdown precode */
+.markdown-body .highlight pre, .markdown-body pre {
+    background-color: #616161;
+}
+.markdown-body code, .markdown-body tt {
+    background-color: #616161;
+}
 /* Repo */
-
 .repository-meta {
     color: #fff;
 }
 .readme .markdown-body,
 .readme .plain {
     background-color: #3f4142;
+    border: 1px solid #333;
+}
+/* Repo table*/
+
+.file-wrap {
+    border: 1px solid #555;
+}
+table.files td {
+    border-top: 1px solid #555;
+}
+table.files {
+    background: #3f4142;
+}
+table.files tr.navigation-focus td {
+    background: #333;
+}
+/* Repo Page */
+
+.repohead.experiment-repo-nav {
+    background-color: #333;
+}
+.pagehead {
+    border-bottom: 1px solid #555;
+}
+.reponav-item {
+    color: #fff;
+}
+.reponav-item:hover {
+    color: #fff;
+}
+.reponav-item.selected {
+    color: #eee;
+    background-color: #3f4142;
+    border-color: #ff9800 #3f4142 #3f4142;
+    border-bottom-width: 4px;
 }
 /* Repo Settings */
 
@@ -97,14 +164,16 @@ p {
 .text-emphasized {
     color: #fff;
 }
+.repo-private-label,
+.gist-secret-label {
+    color: #ffefc6;
+    background-color: #3f4142;
+    border: 1px #ffefc6 solid;
+}
 /* Code Inner */
 
 .breadcrumb strong.final-path {
     color: #767676;
-}
-.commit-tease {
-    background-color: #bbdefb;
-    border: 1px solid #bbdefb;
 }
 .file-info {
     color: #555;
@@ -114,4 +183,16 @@ p {
 }
 .blob-code-inner {
     color: #fff;
+}
+/* Add Files Branch Name */
+
+.branch-name {
+    color: #fff;
+    background-color: #3f4142;
+    border: 1px #fff solid;
+}
+
+/* User Mention */
+.user-mention, .team-mention {
+    color: #4d89c1;
 }
