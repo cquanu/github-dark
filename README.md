@@ -1,8 +1,11 @@
-![](http://i.imgur.com/A1kRUEW.png)
+![](http://i.imgur.com/Rt7yY0O.png)
 
 # GitHub Dark
 
-Dark theme for GitHub. <code>**v1.1.0**</code>
+Dark theme for GitHub.  
+
+[![GitHub Release](https://img.shields.io/github/release/cquanu/github-dark.svg)](https://github.com/cquanu/github-dark/releases) 
+[![License](https://img.shields.io/github/license/cquanu/github-dark.svg)](https://github.com/cquanu/github-dark/blob/master/LICENSE)
 
 ### How to use
 
@@ -24,6 +27,6 @@ If you use the Stylish addon on Chrome or Firefox you can find one-click install
 
 Open an issue or submit a pull request, please.
 
-### License
+### License and copyright
 
 Licensed under [MIT](LICENSE) and copyright [@cquanu](https://twitter.com/cquanu).
