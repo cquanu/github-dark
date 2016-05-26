@@ -1,16 +1,19 @@
 /* 
- * GitHub Dark v1.1.0
+ * GitHub Dark v1.2.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
+/* Global */
 
 body {
     background-color: #3f4142;
     color: #fff;
 }
 a {
-	color: #bdbdbd;
+    color: #bdbdbd;
 }
+/* Navbar */
+
 .header {
     background-color: #27292B;
     border: 0px;
@@ -39,6 +42,24 @@ a {
 .header-nav-link {
     color: #fff;
 }
+.dropdown-menu {
+    background-color: #3f4142;
+}
+.dropdown-header {
+    color: #fff;
+}
+.dropdown-item {
+    color: #bdbdbd;
+}
+.tooltipped::after {
+    color: #fff;
+    background: #000;
+}
+.mini-repo-list-item {
+    border-top: 1px solid #666;
+}
+/* Dashboard */
+
 .news div.message,
 .news li blockquote {
     color: #fff;
@@ -65,47 +86,83 @@ p {
 .protip-callout {
     color: #fff;
 }
+.boxed-group-inner {
+    color: #bdbdbd;
+    background: #3f4142;
+    border: 1px solid #666;
+}
 .private .mini-repo-list-item {
-    background-color: #9e9e9e;
+    background-color: #555;
 }
 .news .alert .branch-link,
 .news .alert .pull-info {
     color: #fff;
     background: #333;
 }
+.filter-bar {
+    background-color: #333;
+    border-bottom: 1px solid #333;
+}
+.text-gray {
+    color: #fff !important;
+}
+/* Icons */
+
+.mini-repo-list-item .repo-icon {
+    color: #bdbdbd;
+}
+.private .mini-repo-list-item .repo-icon {
+    color: #fff59d;
+}
 /* New Repo */
+
 .reponame-suggestion {
     color: #6cc644;
 }
-/* Repo Summary */
-.numbers-summary a, .numbers-summary .nolink {
+/* Repo Page */
+
+.numbers-summary a,
+.numbers-summary .nolink {
     color: #bdbdbd;
 }
 .commit-tease {
-    background-color: #d9edf7;
+    margin-top: 4px;
+    background-color: #3f4142;
     border: 1px solid #bcdff1;
+    border-left-width: thick;
+    color: #fff;
+}
+.commit-tease-sha {
+    color: #bdbdbd;
+}
+.commit-author-section {
+    color: #999;
 }
 .overall-summary {
     border: 1px #555 solid;
 }
 .repository-lang-stats-graph {
-	border: 1px #555 solid;
-	border-top-width: 0px;
+    border: 1px #555 solid;
+    border-top-width: 0px;
 }
 .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
     color: #fff;
 }
 .color-block {
-	border: 1px #fff solid;
+    border: 1px #fff solid;
 }
 /* Markdown precode */
-.markdown-body .highlight pre, .markdown-body pre {
+
+.markdown-body .highlight pre,
+.markdown-body pre {
     background-color: #616161;
 }
-.markdown-body code, .markdown-body tt {
+.markdown-body code,
+.markdown-body tt {
     background-color: #616161;
 }
 /* Repo */
+
 .repository-meta {
     color: #fff;
 }
@@ -191,8 +248,60 @@ table.files tr.navigation-focus td {
     background-color: #3f4142;
     border: 1px #fff solid;
 }
-
 /* User Mention */
-.user-mention, .team-mention {
-    color: #4d89c1;
+
+.user-mention,
+.team-mention {
+    color: #81D4FA;
+}
+/* Repo Settings */
+
+.menu {
+    background: inherit;
+    border-color: #666;
+}
+.menu-item {
+    text-shadow: 0 0;
+    border-bottom: 1px solid #666;
+}
+.menu-item.selected {
+    color: #fff;
+    background-color: #333;
+}
+.menu-item:hover {
+    background-color: #f9f9f9;
+    color: #666;
+}
+.menu-item.selected::before {
+    background-color: #FF9800;
+}
+/* Forms */
+
+.form-group .form-control {
+    background: #525458;
+}
+/* Buttons */
+
+.btn:disabled,
+.btn:disabled:hover,
+.btn.disabled,
+.btn.disabled:hover {
+    color: #555;
+    background-color: #929393;
+    border-color: #929393;
+}
+/* Webkit */
+
+::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 1 !important;
+}
+:-moz-placeholder {
+    color: #fff;
+}
+::-moz-placeholder {
+    color: #fff;
+}
+:-ms-input-placeholder {
+    color: #fff;
 }
