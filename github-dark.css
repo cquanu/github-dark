@@ -158,7 +158,7 @@ p {
     background-color: #616161;
 }
 .markdown-body code,
-.markdown-body tt {
+.markdown-body tt, td, th {
     background-color: #616161;
 }
 /* Repo */
