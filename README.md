@@ -2,7 +2,7 @@
 
 # GitHub Dark
 
-Dark theme for GitHub.  
+Dark theme for GitHub - Switch off the lights.
 
 [![GitHub Release](https://img.shields.io/github/release/cquanu/github-dark.svg)](https://github.com/cquanu/github-dark/releases) 
 [![License](https://img.shields.io/github/license/cquanu/github-dark.svg)](https://github.com/cquanu/github-dark/blob/master/LICENSE)
