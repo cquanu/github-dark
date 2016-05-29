@@ -1,4 +1,4 @@
-![](http://i.imgur.com/Rt7yY0O.png)
+![](https://cquanu.github.io/github-dark/current.png)
 
 # GitHub Dark
 
