@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v1.2.1
+ * GitHub Dark v1.3.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -10,7 +10,47 @@ body {
     color: #fff;
 }
 a {
-    color: #bdbdbd;
+    color: #4ea6ea;
+}
+/* Sub Global */
+
+.btn {
+    color: #fff;
+    background-color: #333;
+    background-image: none;
+    border-color: #666;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #3f4142;
+    background-image: none;
+}
+.btn:active,
+.btn.selected,
+.btn.zeroclipboard-is-active {
+    background-color: #333;
+    box-shadow: none;
+}
+.btn:active {
+    background-color: #333;
+}
+.btn-primary,
+.btn-primary:hover {
+    background-color: #6cc644;
+    background-image: none;
+    border-color: #6cc644;
+}
+/* Sub Buttons */
+
+.social-count {
+    color: #fff;
+    background-color: #333;
+    border-color: #666;
+}
+/* Text Color */
+
+.muted-link {
+    color: #eee;
 }
 /* Navbar */
 
@@ -29,7 +69,7 @@ a {
 }
 .form-control,
 .form-select {
-    background-color: #525458;
+    background-color: #333;
     color: #fff;
     border: 0px;
 }
@@ -60,6 +100,23 @@ a {
 }
 /* Dashboard */
 
+.select-menu-modal {
+    background-color: #3f4142;
+    border: 1px solid #666;
+    box-shadow: none;
+}
+.select-menu-header {
+    background: #333;
+    border: 0px;
+}
+.select-menu-header .select-menu-title {
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 0 0;
+}
+.news .alert .simple .title {
+    color: #eee;
+}
 .news div.message,
 .news li blockquote {
     color: #fff;
@@ -77,11 +134,13 @@ p {
     border: 0px;
 }
 .boxed-group .counter {
-    background-color: #525458;
+    background-color: #333;
 }
 .counter {
     padding: 4px 10px;
     border-radius: 10px;
+    background-color: #333;
+    border: 1px #fff solid;
 }
 .protip-callout {
     color: #fff;
@@ -106,6 +165,11 @@ p {
 .text-gray {
     color: #fff !important;
 }
+/* Octofication */
+
+.octofication .broadcast-icon-mask {
+    background-color: #3f4142;
+}
 /* Icons */
 
 .mini-repo-list-item .repo-icon {
@@ -125,11 +189,14 @@ p {
 .numbers-summary .nolink {
     color: #bdbdbd;
 }
+.branch-infobar {
+    color: #eee;
+    background-color: #586b75;
+    border-color: #bcdff1;
+}
 .commit-tease {
-    margin-top: 4px;
-    background-color: #3f4142;
+    background-color: #394850;
     border: 1px solid #bcdff1;
-    border-left-width: thick;
     color: #fff;
 }
 .commit-tease-sha {
@@ -137,6 +204,10 @@ p {
 }
 .commit-author-section {
     color: #999;
+}
+.commit-tease-contributors {
+    background-color: #283840;
+    border-color: #c9e6f2;
 }
 .overall-summary {
     border: 1px #555 solid;
@@ -151,6 +222,18 @@ p {
 .color-block {
     border: 1px #fff solid;
 }
+/* File */
+
+.file {
+    border-color: #666;
+}
+.file-header {
+    background-color: #333;
+    border-color: #666;
+}
+.file-info {
+    color: #eee;
+}
 /* Markdown precode */
 
 .markdown-body .highlight pre,
@@ -158,8 +241,21 @@ p {
     background-color: #616161;
 }
 .markdown-body code,
-.markdown-body tt, td, th {
-    background-color: #616161;
+.markdown-body tt,
+td,
+th {
+    background-color: #3f4142;
+}
+/* Code Colors */
+
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+    color: #5291d4;
 }
 /* Repo */
 
@@ -205,10 +301,111 @@ table.files tr.navigation-focus td {
     border-color: #ff9800 #3f4142 #3f4142;
     border-bottom-width: 4px;
 }
+.reponav-item .counter {
+    color: #fff;
+}
 /* Repo Settings */
 
 .note p {
     color: #666;
+}
+/* Pull Request */
+
+.table-list-header {
+    background-color: #333333;
+}
+.table-list-header-toggle .btn-link.selected,
+.table-list-header-toggle .btn-link.selected:hover {
+    color: #fff;
+}
+.issues-listing .table-list-issues .navigation-focus {
+    background-color: #3f4142;
+}
+.issue-title-link {
+    color: #eee;
+}
+/* Pull Request Conversation Tab */
+
+.tabnav-pr .tabnav-tab.selected {
+    color: #fff;
+    background-color: #3f4142;
+}
+.tabnav-tabs {
+    margin-bottom: 0px;
+}
+.gh-header-meta .author {
+    color: #eee;
+}
+.timeline-comment-header {
+    background-color: #333333;
+    border-color: #333;
+}
+.timeline-comment-header .author {
+    color: #eee;
+}
+.timeline-comment.current-user .timeline-comment-header {
+    background-color: #3f4142;
+}
+.timeline-comment {
+    background-color: #3f4142;
+    border-color: #333;
+}
+.timeline-comment-wrapper {
+    border: 0px;
+}
+.timeline-comment-label {
+    border-color: #666;
+}
+.timeline-commits .commit-message>code a {
+    color: #eee;
+}
+.new-discussion-timeline .closed-banner {
+    background-color: #666;
+    border-color: #3f4142;
+}
+.discussion-timeline-actions {
+    background-color: #3f4142;
+    border-top: 2px solid #555;
+}
+.discussion-timeline::before {
+    background-color: #555;
+}
+.discussion-item .author {
+    color: #eee;
+}
+.commit-icon .octicon {
+    background-color: #3f4142;
+}
+.branch-action-body {
+    background-color: #3f4142;
+}
+.branch-action-body .merge-message,
+.branch-action-body .merge-branch-form {
+    background-color: #3f4142;
+    border-color: #95c97e;
+}
+.tabnav {
+    border-color: #3f4142;
+}
+.tabnav-tab.selected {
+    color: #eee;
+    background-color: #3f4142;
+    border-color: #666;
+    border-radius: 3px 3px 0 0;
+}
+.new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+    background: #333;
+}
+.previewable-comment-form textarea {
+    background-color: #333333;
+}
+.drag-and-drop {
+    color: #bdbdbd;
+    background-color: #333333;
+    border: 0px;
+}
+.tabnav-extra {
+    color: #bdbdbd;
 }
 /* Profile */
 
@@ -231,9 +428,6 @@ table.files tr.navigation-focus td {
 
 .breadcrumb strong.final-path {
     color: #767676;
-}
-.file-info {
-    color: #555;
 }
 .blob-num {
     color: #fff;
@@ -275,12 +469,25 @@ table.files tr.navigation-focus td {
 .menu-item.selected::before {
     background-color: #FF9800;
 }
+/* Sidebar */
+
+.thread-subscription-status {
+    background-color: #3f4142;
+}
+/* Markdown Preview */
+
+.markdown-body img {
+    background-color: #3f4142;
+}
 /* Forms */
 
 .form-group .form-control {
     background: #525458;
 }
-/* Buttons */
+.form-group .form-control:focus {
+    background-color: #333;
+}
+/* Buttons Disabled */
 
 .btn:disabled,
 .btn:disabled:hover,
