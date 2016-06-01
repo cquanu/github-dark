@@ -165,6 +165,10 @@ p {
 .text-gray {
     color: #fff !important;
 }
+
+.org-header {
+    background-color: #333;
+}
 /* Octofication */
 
 .octofication .broadcast-icon-mask {
@@ -434,6 +438,10 @@ table.files tr.navigation-focus td {
 }
 .blob-code-inner {
     color: #fff;
+}
+
+.simple-box {
+    background-color: #333;
 }
 /* Add Files Branch Name */
 
