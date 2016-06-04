@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v1.4.0
+ * GitHub Dark v1.5.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -204,6 +204,13 @@ p {
 .numbers-summary .nolink {
     color: #bdbdbd;
 }
+.recently-touched-branches {
+    background-color: #504a36;
+    border-color: #f1ecdb;
+}
+.recently-pushed-branch-details a {
+    color: #d2ce98;
+}
 .branch-infobar {
     color: #eee;
     background-color: #586b75;
@@ -275,6 +282,13 @@ th {
 .pl-sr .pl-sre {
     color: #5291d4;
 }
+.pl-e,
+.pl-en {
+    color: #a58bcc;
+}
+.pl-k {
+    color: #d46397;
+}
 /* Repo */
 
 .repository-meta {
@@ -330,6 +344,21 @@ table.files tr.navigation-focus td {
 .note p {
     color: #666;
 }
+/* Issues P1 */
+
+.table-list {
+    border-bottom: 1px solid #666;
+}
+/* Issues P2 */
+
+.gh-header-meta {
+    padding-bottom: 20px;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #767676;
+    border-bottom: 1px solid #666;
+}
 /* Pull Request */
 
 .table-list-header {
@@ -384,6 +413,12 @@ table.files tr.navigation-focus td {
 }
 .timeline-comment.current-user .timeline-comment-label {
     border-color: #666;
+}
+.timeline-comment::before {
+	border-right-color: #666 !important;
+}
+.timeline-comment::after {
+	border-right-color: #333 !important;
 }
 .comment-reactions.has-reactions {
     border-color: #666;
@@ -455,6 +490,9 @@ table.files tr.navigation-focus td {
 }
 /* Profile */
 
+.border-gray-light {
+    border-color: #666 !important;
+}
 .profilecols .filter-bar {
     background-color: #3f4142;
 }
@@ -552,6 +590,12 @@ table.files tr.navigation-focus td {
     background-color: #333;
     border-color: #666;
 }
+.list-group-item-link {
+    color: #ccc;
+}
+.list-group-item.navigation-focus {
+    background-color: #3f4142;
+}
 /* Repo Graph */
 
 .tint-box {
@@ -564,6 +608,16 @@ table.files tr.navigation-focus td {
 .capped-card-content {
     display: block;
     background: #3f4142;
+}
+/* Punch Card */
+.day-name {
+    fill: #ccc;
+}
+circle.day {
+    fill: #ccc;
+}
+:not(img) text, circle.day {
+    fill: #ccc !important;
 }
 /* Navbar - Pull Request */
 
@@ -597,6 +651,19 @@ table.files tr.navigation-focus td {
 .markdown-body h5 .octicon-link,
 .markdown-body h6 .octicon-link {
     color: #fff;
+}
+/* Contributions Calendar */
+
+#contributions-calendar rect[fill="#eeeeee"],
+.contrib-legend li[style*="#eee"] {
+    background-color: #333 !important;
+    fill: #333 !important;
+}
+/* Alerts */
+
+.flash {
+    color: #fff;
+    background-color: #273848;
 }
 /* Webkit */
 
