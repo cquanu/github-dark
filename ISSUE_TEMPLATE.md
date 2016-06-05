@@ -1,15 +1,21 @@
-**What's the issue?**
+#### What's the issue:
+<!-- Describe the issue | Type Below This Line --> 
+ 
+ 
+#### Steps to reproduce:
+<!-- How can i reproduce this | Type Below This Line -->
 
-[Describe the issue]
 
-**Steps to reproduce**
+#### Screenshots:
+<!-- Some screenshots of the issue will help me to debug the problem. Faster -->
 
-[How can i reproduce this]
 
-**Screenshots**
+#### Solutions:
+<!-- If you have any -->
 
-[Some screenshots of the issue]
 
-**What version is affected by this problem?**
+#### What version is affected by this problem:
+<!-- What version are you currently running -->
+<!-- V.2.*.* -->
 
-[v1. . ]
+<!-- Thanks for dropping by :)-->
