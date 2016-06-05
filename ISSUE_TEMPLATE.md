@@ -7,15 +7,16 @@
 
 
 #### Screenshots:
-<!-- Some screenshots of the issue will help me to debug the problem. Faster -->
+<!-- Some screenshots of the issue will help me to debug the problem faster | Type Below This Line -->
 
 
 #### Solutions:
-<!-- If you have any -->
+<!-- If you have any | Type Below This Line-->
 
 
 #### What version is affected by this problem:
-<!-- What version are you currently running -->
-<!-- V.2.*.* -->
+<!-- What version are you currently running | Type Below This Line-->
+<!-- For example V2.0.0 -->
+
 
 <!-- Thanks for dropping by :)-->
