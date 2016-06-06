@@ -11,7 +11,7 @@
 
 
 #### Solutions:
-<!-- If you have any | Type Below This Line-->
+<!-- If you have any solutions | Type Below This Line-->
 
 
 #### What version is affected by this problem:
@@ -19,4 +19,4 @@
 <!-- For example V2.0.0 -->
 
 
-<!-- Thanks for dropping by :)-->
+<!-- Appreciate your help :)-->
