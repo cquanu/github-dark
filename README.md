@@ -11,9 +11,9 @@ Dark theme for GitHub - Browse GitHub in nighttime mode.
 
 Install a userstyle manager for your favorite browser:
 
-* Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
-* Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/ (be sure to place the CSS inside the `@-moz-document domain("github.com")` block)
-* Safari: http://sobolev.us/stylish
+- Chrome: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
+- Firefox: https://addons.mozilla.org/en-US/firefox/addon/stylish/ (be sure to place the CSS inside the `@-moz-document domain("github.com")` block)
+- Safari: http://sobolev.us/stylish
 
 Then, copy-pasta the styles from `github-dark.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
 
@@ -21,7 +21,11 @@ Then, copy-pasta the styles from `github-dark.css` into a new userstyle. Be sure
 
 If you use the Stylish addon on Chrome or Firefox you can find one-click installs including automatic updates via the packages below.
 
-* [GitHub Dark 2.0](https://userstyles.org/styles/128271)
+[GitHub Dark 2.0](https://userstyles.org/styles/128271)
+
+### Live update [New]
+
+Subscribe to this [Telegram Channel](https://telegram.me/githubdark) to receive live update/notification when new release is out.
 
 ### Bug reports
 
