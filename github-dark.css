@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v2.0
+ * GitHub Dark v2.1.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -9,10 +9,13 @@ body {
     background-color: #292c36;
     color: #fff;
 }
+h1 {
+    color: #fff;
+}
 p {
     color: #969ab0;
 }
-/* Fake Global */
+/* Class Global */
 
 .lead {
     color: #929292;
@@ -40,6 +43,9 @@ p {
 .form-select.focus,
 .form-select:focus {
     box-shadow: none;
+}
+.form-group .form-control:focus {
+    background-color: #101420;
 }
 .btn {
     color: #fff;
@@ -69,7 +75,35 @@ p {
     background-image: none;
     border-color: #57BB5C;
 }
+.btn-theme-green {
+    background-color: #6cc644;
+}
 .site-footer {
+    border-color: #4c4d55;
+}
+/* Site */
+
+.site-header {
+    background-color: #292c36;
+}
+.site-header-nav .nav-item {
+    color: #fff;
+}
+/* Site Login */
+
+.session-authentication {
+    background-color: #292c36;
+}
+.session-authentication .header-logo {
+    color: #fff;
+}
+.session-authentication .auth-form-body {
+    border-color: #4c4d55;
+}
+.auth-form-body {
+    background-color: #292c36;
+}
+.session-authentication .create-account-callout {
     border-color: #4c4d55;
 }
 /* Home */
@@ -85,7 +119,7 @@ p {
     color: #252832;
     background: #969ab0;
 }
-.ajax-pagination-form .ajax-pagination-btn {
+.ajax-pagination-form .ajax-pagination-d {
     background: #babdcb;
 }
 .boxed-group>h3,
@@ -124,11 +158,14 @@ p {
 .pagehead {
     border-color: #4c4d55;
 }
+.repository-meta {
+    color: #aaa;
+}
 .social-count {
     float: left;
     padding: 2px 7px;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 20px;
     color: #969ab0;
     background-color: #252832;
@@ -189,10 +226,21 @@ table.files td {
     border-color: #4c4d55;
 }
 .commit-tease {
+    color: #8485ce;
     background-color: #394850;
+}
+.commit-tease .message {
+    color: #8485ce;
 }
 .commit-tease-sha {
     color: #4078c0;
+}
+.full-commit {
+    background: #292c36;
+    border: 1px solid #4c4d55;
+}
+.full-commit p.commit-title {
+    color: #00aba5;
 }
 /* README Markdown Live */
 
@@ -200,6 +248,11 @@ table.files td {
 .readme .plain {
     background-color: #252832;
     border-color: #4c4d55;
+}
+.markdown-body .highlight pre,
+.markdown-body pre {
+    background-color: #292c36;
+    border: 1px #4c4d55 solid;
 }
 .markdown-body h1 {
     border-color: #4c4d55;
@@ -225,11 +278,103 @@ table.files td {
 .markdown-body table tr:nth-child(2n) {
     background-color: #343947;
 }
-/* Sub */
+.markdown-body pre code,
+.markdown-body pre tt {
+    color: #969ab0;
+}
+.markdown-body code,
+.markdown-body tt {
+    color: #292c36;
+    background-color: #969ab0;
+}
+.blob-num {
+    border-color: #4c4d55;
+}
+.blob-code-inner {
+    color: #6d6d72;
+}
+.blob-code-hunk,
+.blob-code-expandable {
+    background-color: #343947;
+}
+.blob-num-hunk,
+.blob-num-expandable {
+    background-color: #343947;
+}
+.blob-num-expandable {
+    background-color: #343947;
+}
+.ace_editor .ace_gutter-active-line {
+    background-color: #343947;
+}
+.ace_editor .ace_marker-layer .ace_active-line {
+    background-color: #343947;
+}
+/* Code syntax Highlighting */
 
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+    color: #4078c0;
+}
+.pl-s .pl-s1,
+.pl-smi {
+    color: #bbb;
+}
+.pl-k {
+    color: #b73999;
+}
+.ace_string {
+    color: #4670d8;
+}
+.ace_support.ace_type {
+    color: #b73999;
+}
+.ace_keyword {
+    color: #8485ce;
+}
+.ace_variable {
+    color: #d28e5d;
+}
+.ace_focus {
+    background-color: #000;
+}
+.ace_markup.ace_heading {
+    color: #4670d8;
+}
+/* Repo Code Tab Live | Markdown */
+
+.file {
+    border-color: #4c4d55;
+}
 .file-header {
     background-color: #292c36;
-    border-bottom: 1px solid #d8d8d8;
+    border-color: #4c4d55;
+}
+.breadcrumb strong.final-path {
+    color: #929292;
+}
+.commit-tease-contributors {
+    background-color: #283840;
+    border-color: #c9e6f2;
+}
+.blob-num {
+    color: #999;
+}
+.ace_gutter {
+    background: #292c36;
+    border-color: #4c4d55;
+}
+.ace-github-light {
+    color: #aaa;
+    background-color: #292c36;
+}
+.file-commit-form .commit-form {
+    border-color: #4c4d55;
 }
 /* Repo Issues Tab */
 
@@ -264,6 +409,10 @@ table.files td {
 }
 /* Repo Issues & Pull Request Convo */
 
+.gh-header-edit .edit-issue-title,
+.gh-header-edit .edit-issue-title:focus {
+    background-color: #101420;
+}
 .gh-header-meta .author {
     color: #00aba5;
 }
@@ -322,6 +471,9 @@ timeline-comment::before {
     border-width: 8px;
     border-right-color: #4c4d55;
 }
+.timeline-commits .commit-message>code a {
+    color: #8485ce;
+}
 .discussion-timeline::before {
     width: 1px;
     background-color: #4c4d55;
@@ -330,8 +482,24 @@ timeline-comment::before {
     background-color: #292c36;
     border: 0;
 }
+.discussion-item-ref-title .title-link {
+    color: #8485ce;
+}
+.discussion-item-entity {
+    color: #4078c0;
+}
+.discussion-item+.discussion-item {
+    border-color: #4c4d55;
+}
+.discussion-sidebar-item+.discussion-sidebar-item {
+    border-color: #4c4d55;
+}
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
     background: #343947;
+}
+.new-discussion-timeline .closed-banner {
+    background: #4c4d55;
+    border-bottom: 18px solid #292c36;
 }
 .tabnav {
     border-color: #4c4d55;
@@ -356,6 +524,33 @@ timeline-comment::before {
 .commit-icon .octicon {
     background-color: #292c36;
 }
+.issues-listing .table-list-issues .navigation-focus {
+    background-color: #1f212a;
+}
+/* File Changed */
+
+.diffbar {
+    background-color: #292c36;
+}
+.pr-toolbar {
+    background-color: #292c36;
+}
+/* Release */
+
+.tabnav-extra {
+    padding-right: 15px;
+    color: #aaa;
+}
+/* Commits Tab */
+
+.commit-group-title .octicon-git-commit {
+    margin-right: 17px;
+    color: #4c4d55;
+    background: #292c36;
+}
+.commits-listing::before {
+    background-color: #4c4d55;
+}
 /* Nav */
 
 .subnav-item {
@@ -371,6 +566,16 @@ timeline-comment::before {
     background-color: #252832;
     border-color: #4c4d55;
     box-shadow: none;
+}
+.wiki-wrapper .wiki-auxiliary-content {
+    background: #252832;
+}
+.wiki-wrapper .wiki-auxiliary-content-no-bg {
+    background: #292c36;
+}
+.wiki-rightbar .boxed-group.collapsed>h3 {
+    border-bottom: 1px solid #4c4d55;
+    border-radius: 3px;
 }
 /* Repo Pulse Tab */
 
@@ -401,6 +606,9 @@ timeline-comment::before {
 .axis line {
     stroke: #4c4d55;
 }
+.subhead {
+    border: 0;
+}
 /* Repo Graph | Contributors */
 
 .tint-box {
@@ -424,6 +632,37 @@ circle.day {
 :not(img) text,
 circle.day {
     fill: #969ab0;
+}
+/* Repo Graph | Traffic */
+
+table.capped-list td {
+    ;
+    border-color: #4c4d55;
+}
+table.capped-list th {
+    border-color: #4c4d55;
+}
+table.capped-list tr:nth-child(even) {
+    background-color: #343947;
+}
+/* Repo Graph | Code Frequency */
+
+.code-frequency .addition {
+    fill: #52bd58;
+}
+.code-frequency .deletion {
+    fill: #dc3c3c;
+}
+.cadd {
+    font-weight: bold;
+    color: #52bd58;
+}
+.cdel {
+    font-weight: bold;
+    color: #dc3c3c;
+}
+.graphs .dir {
+    color: #aaa;
 }
 /* Repo Settings Tab */
 
@@ -456,6 +695,14 @@ hr,
     text-shadow: none;
     border-color: #df3e3e;
 }
+/* Profile */
+
+.border-top {
+    border-color: #4c4d55 !important;
+}
+.profilecols .filter-bar {
+    background-color: #292c36;
+}
 /* Notification */
 
 .list-group-item.navigation-focus {
@@ -463,6 +710,54 @@ hr,
 }
 .list-group-item-link {
     color: #fdfdfd;
+}
+.boxed-group-list>li {
+    border-color: #4c4d55;
+}
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px
+}
+::-webkit-scrollbar-thumb {
+    background-color: #343947;
+    border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #C4C4C4;
+}
+::-webkit-scrollbar-track {
+    background-color: #292C36;
+}
+/* Experimental */
+
+.blob-code-addition {
+    background-color: #292c36;
+}
+.blob-num-addition {
+    background-color: #95c76f40;
+}
+.blob-code-deletion {
+    background-color: #292c36;
+    text-decoration: line-through;
+    color: #e5e5e550;
+}
+.blob-num-deletion {
+    background-color: #dc3c3c40;
+}
+.blob-code-addition .x {
+    background-color: #95c76f40;
+}
+.blob-code-deletion .x {
+    background-color: #dc3c3c36;
+}
+/* GitHub Gists */
+
+.header-logo-wordmark {
+    color: #fff;
+}
+.gist-snippet-meta .description {
+    color: #6d6d72;
 }
 /* GitHub Explore */
 
