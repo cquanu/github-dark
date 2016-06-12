@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v2.1.0
+ * GitHub Dark v2.1.1
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -782,4 +782,39 @@ hr,
 .thread-subscription-status {
     background-color: #292c36;
     border: 1px solid #4c4d55;
+}
+/* Octotree Addon */
+
+.octotree_github_sidebar {
+    background-color: #292c36;
+    color: #fff;
+}
+.octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
+    background-color: #292c36;
+    border-bottom: 1px solid #4c4d55;
+    background-image: none;
+}
+.octotree_views .octotree_view .octotree_view_header {
+    text-shadow: none;
+}
+.octotree_github_sidebar input,
+.octotree_github_sidebar textarea {
+    background-color: #101420;
+    border: 1px solid #4c4d55;
+    padding: 2px;
+    color: #fff;
+}
+.octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
+    background-color: #1f2a44;
+}
+.octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
+    background-color: #1f2a44;
+}
+.octotree_sidebar {
+    border-color: #4c4d55;
+}
+.octotree_github_sidebar a.octotree_toggle > span::after,
+.octotree_github_sidebar a.octotree_opts {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
