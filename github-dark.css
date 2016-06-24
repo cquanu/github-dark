@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v2.1.1
+ * GitHub Dark v2.1.2
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -81,7 +81,7 @@ p {
 .site-footer {
     border-color: #4c4d55;
 }
-/* Site */
+/* Main Site */
 
 .site-header {
     background-color: #292c36;
@@ -89,7 +89,7 @@ p {
 .site-header-nav .nav-item {
     color: #fff;
 }
-/* Site Login */
+/* Main Site Login */
 
 .session-authentication {
     background-color: #292c36;
@@ -149,6 +149,9 @@ p {
 }
 .subscribe-feed {
     color: #6d6d72;
+}
+.protip-callout {
+    border-color: #4c4d55;
 }
 /* Repo Main Tab */
 
@@ -222,8 +225,20 @@ table.files tr.navigation-focus td {
 table.files td {
     border-color: #4c4d55;
 }
+table.files td.icon {
+    color: #fff;
+}
+.warning {
+    padding: 0.5em;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+    background-color: #d28e5d;
+}
 .file-wrap {
     border-color: #4c4d55;
+}
+.commit-author-section {
+    color: #ccc;
 }
 .commit-tease {
     color: #8485ce;
@@ -376,11 +391,14 @@ table.files td {
 .file-commit-form .commit-form {
     border-color: #4c4d55;
 }
-/* Repo Issues Tab */
+/* Repo | Issues Tab */
 
 .table-list-header {
     background-color: #292c36;
     border-color: #4c4d55;
+}
+.Box-body-row--highlight .Box-row-link {
+    color: #00aba5;
 }
 .issues-listing .table-list-issues .navigation-focus {
     background-color: #292c36;
@@ -406,6 +424,13 @@ table.files td {
 }
 .protip {
     color: #6d6d72;
+}
+/* Repo | Pull Request Tab */
+
+.border-left,
+.border-right,
+.border-bottom {
+    border-color: #4c4d55 !important;
 }
 /* Repo Issues & Pull Request Convo */
 
@@ -703,6 +728,14 @@ hr,
 .profilecols .filter-bar {
     background-color: #292c36;
 }
+.pinned-repo-list-item {
+    border-color: #4c4d55;
+}
+/* Profile | Repo Tab */
+
+.profilecols .filter-bar .filter-selected {
+    color: #8485ce;
+}
 /* Notification */
 
 .list-group-item.navigation-focus {
@@ -713,6 +746,35 @@ hr,
 }
 .boxed-group-list>li {
     border-color: #4c4d55;
+}
+/* Organisation */
+
+.org-name {
+    color: #fff;
+}
+.orghead {
+    background-color: #252832;
+    border-color: #4c4d55;
+}
+.simple-box {
+    background-color: #292c36;
+    border-color: #4c4d55;
+}
+.org-module-link {
+    color: #00aba5;
+}
+.member-username {
+    color: #00aba5;
+}
+.org-link {
+    color: #00aba5;
+}
+/* Settings | Billing */
+.billing-section .section-content {
+    color: #666;
+}
+.radio-label {
+    color: #666;
 }
 /* Scrollbar */
 
@@ -728,6 +790,11 @@ hr,
 }
 ::-webkit-scrollbar-track {
     background-color: #292C36;
+}
+/* Misc */
+
+.repo-list-item {
+    border-color: #4c4d55;
 }
 /* Experimental */
 
