@@ -557,10 +557,6 @@ table.files td.icon {
     color: #6d6d72;
 }
 
-.text-gray-dark {
-    color: #fff !important;
-}
-
 .milestone-title-link a {
     color: #cecece;
 }
@@ -1035,8 +1031,13 @@ li.session-device {
     background-color: #292c36;
 }
 
-.mute {
-    color: : #aeaeae !important;
+.mute,
+.text-gray-dark {
+    color: #aeaeae !important;
+}
+
+.boxed-group-list>li:first-child {
+    border-top: 1px solid #4c4d55;
 }
 
 
