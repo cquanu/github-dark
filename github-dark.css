@@ -1122,6 +1122,16 @@ li.session-device {
     border-color: #6b5c20;
 }
 
+.facebox-footer {
+    margin: 0 -15px -15;
+    ackground: #343947;
+}
+
+.facebox-footer {
+    background: #343947;
+    border-color: #4c4d55;
+}
+
 
 /* Scrollbar */
 
