@@ -253,6 +253,10 @@ p {
     color: #00aba5;
 }
 
+.reponav-item {
+    color: #9e9e9e;
+}
+
 .reponav-item:hover,
 .reponav-item:focus {
     color: #fff;
@@ -750,6 +754,33 @@ timeline-comment::before {
 .branch-action-body .merge-branch-form {
     background-color: #343947;
     border-top: solid 1px #4c4d55;
+}
+
+
+/* Code Tab | Branches */
+
+.branch-group-heading {
+    text-shadow: none;
+    background: #343947;
+    border: 1px solid #4c4d55;
+}
+
+.branch-summary,
+.branch-group-heading+.branch-summary,
+.branch-summary {
+    border-color: #4c4d55;
+}
+
+.count-value.count-behind {
+    color: #dc3c3c;
+}
+
+.count-value.count-ahead {
+    color: #52bd58;
+}
+
+a.branch-name {
+    color: inherit;
 }
 
 
