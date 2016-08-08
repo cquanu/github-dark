@@ -523,6 +523,11 @@ table.files td.icon {
     border-color: #4c4d55;
 }
 
+.commit-sha {
+    background-color: inherit;
+    border-color: #4c4d55;
+}
+
 
 /* Repo | Issues Tab */
 
