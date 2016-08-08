@@ -876,6 +876,10 @@ timeline-comment::before {
     background: #292c36;
 }
 
+.graphs .area {
+    fill: #00aba5;
+}
+
 
 /* Repo Graph | Punch Card */
 
