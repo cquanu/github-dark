@@ -1028,6 +1028,18 @@ hr,
 }
 
 
+/* Settings | Security */
+
+li.session-device.session-current,
+li.session-device {
+    background-color: #292c36;
+}
+
+.mute {
+    color: : #aeaeae;
+}
+
+
 /* Settings | Billing */
 
 .billing-section .section-content {
