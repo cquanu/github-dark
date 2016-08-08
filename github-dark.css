@@ -1,58 +1,73 @@
 /* 
- * GitHub Dark v2.1.2
+ * GitHub Dark v2.2.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
+
+
 /* HTML Global */
 
 body {
     background-color: #292c36;
     color: #fff;
 }
+
 h1 {
     color: #fff;
 }
+
 p {
     color: #969ab0;
 }
+
+
 /* Class Global */
 
 .lead {
     color: #929292;
 }
+
+
 /* Site Wide Global */
 
 .header {
     background-color: #292c37;
     border-color: #1a1c23;
 }
+
 .header-logo-invertocat {
     color: #fff;
 }
+
 .header-nav-link {
     color: #fff;
 }
+
 .form-control,
 .form-select {
     color: #fff;
     background-color: #101420;
     border-color: #4c4d55;
 }
+
 .form-control.focus,
 .form-control:focus,
 .form-select.focus,
 .form-select:focus {
     box-shadow: none;
 }
+
 .form-group .form-control:focus {
     background-color: #101420;
 }
+
 .btn {
     color: #fff;
     background-color: #292c36;
     background-image: none;
     border-color: #4c4d55;
 }
+
 .btn:hover,
 .btn:active,
 .btn.zeroclipboard-is-hover,
@@ -62,6 +77,7 @@ p {
     background-image: none;
     border-color: #4c4d55;
 }
+
 .btn:active,
 .btn.selected,
 .btn.zeroclipboard-is-active {
@@ -69,104 +85,158 @@ p {
     background-image: none;
     border-color: #4c4d55;
 }
+
 .btn-primary {
     color: #fff;
     background-color: #57BB5C;
     background-image: none;
     border-color: #57BB5C;
 }
+
 .btn-theme-green {
     background-color: #6cc644;
 }
+
 .site-footer {
     border-color: #4c4d55;
 }
+
+
 /* Main Site */
 
 .site-header {
     background-color: #292c36;
 }
+
 .site-header-nav .nav-item {
     color: #fff;
 }
+
+
 /* Main Site Login */
 
 .session-authentication {
     background-color: #292c36;
 }
+
 .session-authentication .header-logo {
     color: #fff;
 }
+
 .session-authentication .auth-form-body {
     border-color: #4c4d55;
 }
+
 .auth-form-body {
     background-color: #292c36;
 }
+
 .session-authentication .create-account-callout {
     border-color: #4c4d55;
 }
+
+
 /* Home */
 
 .news .alert {
     border-color: #4c4d55;
 }
+
 .news .alert .octicon {
     color: #929292;
 }
+
 .news .alert .branch-link,
 .news .alert .pull-info {
     color: #252832;
     background: #969ab0;
 }
+
 .ajax-pagination-form .ajax-pagination-d {
     background: #babdcb;
 }
+
 .boxed-group>h3,
 .boxed-group .heading {
     color: #fff;
     background-color: #292c36;
     border-color: #4c4d55;
 }
+
 .boxed-group-inner {
     background: #292c36;
     border: 1px solid #4c4d55;
 }
+
 .mini-repo-list-item {
     border-color: #4c4d55;
 }
+
 .private .mini-repo-list-item {
     background-color: #343947;
 }
+
 .filter-bar {
     background-color: #292c36;
     border-bottom: 1px solid #4c4d55;
 }
+
 .boxed-group .counter {
     color: #fff;
     background-color: #292c36;
     border: 1px #4c4d55 solid;
 }
+
 .subscribe-feed {
     color: #6d6d72;
 }
+
 .protip-callout {
     border-color: #4c4d55;
 }
+
+.octofication .broadcast-icon-mask {
+    background-color: #292c36;
+}
+
+.link-gray-dark {
+    color: #4078c0 !important;
+}
+
+
+/* New Repo */
+
+.outline-box-highlighted {
+    background-color: #292c36;
+    border-color: #4c4d55;
+}
+
+.outline-box {
+    border: solid 1px #4c4d55;
+}
+
+.copyable-terminal {
+    background-color: #1f212a;
+}
+
+
 /* Repo Main Tab */
 
 .repohead.experiment-repo-nav {
     background-color: #252832;
 }
+
 .pagehead {
     border-color: #4c4d55;
 }
+
 .repository-meta {
     color: #aaa;
 }
+
 .social-count {
     float: left;
-    padding: 2px 7px;
+    padding: 3px 7px;
     font-size: 11px;
     font-weight: 700;
     line-height: 20px;
@@ -177,86 +247,108 @@ p {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
 .user-mention,
 .team-mention {
     color: #00aba5;
 }
+
 .reponav-item:hover,
 .reponav-item:focus {
     color: #fff;
 }
+
 .counter {
     background-color: #252832;
     border: 1px #4c4d55 solid;
 }
+
 .reponav-item .counter {
     color: #f9f9f9;
 }
+
 .reponav-item.selected {
     color: #fff;
     background-color: #292c36;
     border-color: #d28e5d #4c4d55 transparent;
 }
+
 .overall-summary {
     border-color: #4c4d55;
 }
+
 .text-emphasized {
     color: #fff;
 }
+
 .numbers-summary a,
 .numbers-summary .nolink {
     color: #969ab0;
 }
+
 .repository-lang-stats-graph {
     border-color: #4c4d55;
 }
+
 .repository-lang-stats ol.repository-lang-stats-numbers li .language-color {
     border: 1px #4c4d55 solid;
 }
+
 .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
     color: #fff;
 }
+
 table.files {
     background: #292c36;
 }
+
 table.files tr.navigation-focus td {
     background: #1f212a;
 }
+
 table.files td {
     border-color: #4c4d55;
 }
+
 table.files td.icon {
     color: #fff;
 }
+
 .warning {
     padding: 0.5em;
     margin-bottom: 0.8em;
     font-weight: bold;
     background-color: #d28e5d;
 }
+
 .file-wrap {
     border-color: #4c4d55;
 }
+
 .commit-author-section {
     color: #ccc;
 }
+
 .commit-tease {
     color: #8485ce;
-    background-color: #394850;
+    background-color: #364952;
+    border: 1px solid #4c85a0;
 }
-.commit-tease .message {
-    color: #8485ce;
-}
+
 .commit-tease-sha {
     color: #4078c0;
 }
+
 .full-commit {
     background: #292c36;
     border: 1px solid #4c4d55;
 }
+
 .full-commit p.commit-title {
     color: #00aba5;
 }
+
+
 /* README Markdown Live */
 
 .readme .markdown-body,
@@ -264,17 +356,21 @@ table.files td.icon {
     background-color: #252832;
     border-color: #4c4d55;
 }
+
 .markdown-body .highlight pre,
 .markdown-body pre {
     background-color: #292c36;
     border: 1px #4c4d55 solid;
 }
+
 .markdown-body h1 {
     border-color: #4c4d55;
 }
+
 .markdown-body img {
     background-color: #252832;
 }
+
 .markdown-body h1 .octicon-link,
 .markdown-body h2 .octicon-link,
 .markdown-body h3 .octicon-link,
@@ -283,48 +379,62 @@ table.files td.icon {
 .markdown-body h6 .octicon-link {
     color: #fff;
 }
+
 .markdown-body table tr {
     background-color: #292c36;
 }
+
 .markdown-body table th,
 .markdown-body table td {
     border-color: #4c4d55;
 }
+
 .markdown-body table tr:nth-child(2n) {
     background-color: #343947;
 }
+
 .markdown-body pre code,
 .markdown-body pre tt {
     color: #969ab0;
 }
+
 .markdown-body code,
 .markdown-body tt {
     color: #292c36;
     background-color: #969ab0;
 }
+
 .blob-num {
     border-color: #4c4d55;
 }
+
 .blob-code-inner {
     color: #6d6d72;
 }
+
 .blob-code-hunk,
 .blob-code-expandable {
     background-color: #343947;
 }
+
 .blob-num-hunk,
 .blob-num-expandable {
     background-color: #343947;
 }
+
 .blob-num-expandable {
     background-color: #343947;
 }
+
 .ace_editor .ace_gutter-active-line {
     background-color: #343947;
 }
+
 .ace_editor .ace_marker-layer .ace_active-line {
     background-color: #343947;
 }
+
+
 /* Code syntax Highlighting */
 
 .pl-pds,
@@ -336,104 +446,138 @@ table.files td.icon {
 .pl-sr .pl-sre {
     color: #4078c0;
 }
+
 .pl-s .pl-s1,
 .pl-smi {
     color: #bbb;
 }
+
 .pl-k {
     color: #b73999;
 }
+
 .ace_string {
     color: #4670d8;
 }
+
 .ace_support.ace_type {
     color: #b73999;
 }
+
 .ace_keyword {
     color: #8485ce;
 }
+
 .ace_variable {
     color: #d28e5d;
 }
+
 .ace_focus {
     background-color: #000;
 }
+
 .ace_markup.ace_heading {
     color: #4670d8;
 }
+
+
 /* Repo Code Tab Live | Markdown */
 
 .file {
     border-color: #4c4d55;
 }
+
 .file-header {
     background-color: #292c36;
     border-color: #4c4d55;
 }
+
 .breadcrumb strong.final-path {
     color: #929292;
 }
+
 .commit-tease-contributors {
     background-color: #283840;
     border-color: #c9e6f2;
 }
+
 .blob-num {
     color: #999;
 }
+
 .ace_gutter {
     background: #292c36;
     border-color: #4c4d55;
 }
+
 .ace-github-light {
     color: #aaa;
     background-color: #292c36;
 }
+
 .file-commit-form .commit-form {
     border-color: #4c4d55;
 }
+
+
 /* Repo | Issues Tab */
 
 .table-list-header {
     background-color: #292c36;
     border-color: #4c4d55;
 }
+
 .Box-body-row--highlight .Box-row-link {
     color: #00aba5;
 }
+
+.Box-body-row {
+    border-top: 1px solid #4c4d55;
+}
+
+.Box-body-row--highlight.navigation-focus,
+.Box-body-row--highlight:hover {
+    background-color: #1f212a;
+}
+
 .issues-listing .table-list-issues .navigation-focus {
     background-color: #292c36;
 }
+
 .table-list {
     border-color: #4c4d55;
 }
+
 .table-list-cell {
     border-top-color: #4c4d55;
 }
+
 .table-list-bordered .table-list-cell:first-child {
     border-left-color: #4c4d55;
 }
+
 .table-list-bordered .table-list-cell:last-child {
     border-right-color: #4c4d55;
 }
+
 .table-list-header-toggle .btn-link.selected,
 .table-list-header-toggle .btn-link.selected:hover {
     color: #fff;
 }
+
 .issue-title-link {
     color: #00aba5;
 }
+
 .protip {
     color: #6d6d72;
 }
-<<<<<<< HEAD
 
 .milestone-title-link a {
     color: #cecece;
 }
 
 
-=======
->>>>>>> parent of cf9c990... Enhancement Update
 /* Repo | Pull Request Tab */
 
 .border-left,
@@ -441,140 +585,193 @@ table.files td.icon {
 .border-bottom {
     border-color: #4c4d55 !important;
 }
+
+
 /* Repo Issues & Pull Request Convo */
 
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
     background-color: #101420;
 }
+
 .gh-header-meta .author {
     color: #00aba5;
 }
+
 .commit-ref {
     color: #252832;
     background-color: #969ab0;
 }
+
 .commit-ref .user {
     color: #252832;
 }
+
 .tabnav-tab.selected {
     background-color: #292c36;
 }
+
 .tabnav-pr .tabnav-tab.selected {
     color: #fff;
     border-color: #4c4d55;
 }
+
 .tabnav-pr {
     border-color: #4c4d55;
 }
+
 .timeline-comment-wrapper {
     border: 0;
 }
+
 .timeline-comment-header {
     background-color: #343947;
     border-color: #4c4d55;
 }
+
 .timeline-comment-header .author {
     color: #00aba5;
 }
+
 .timeline-comment {
     background-color: #292c36;
     border-color: #4c4d55;
 }
+
 .timeline-comment-wrapper>.timeline-comment::before,
 .timeline-new-comment .timeline-comment::before {
     border-right-color: #4c4d55;
 }
+
 timeline-comment::before {
     border-right-color: #343947 !important;
 }
+
 .timeline-comment::after {
     border-right-color: #343947 !important;
 }
+
 .timeline-comment.current-user .timeline-comment-header {
     background-color: #343947;
     border-color: #4c4d55;
 }
+
 .timeline-comment.current-user {
     border-color: #4c4d55;
 }
+
 .timeline-comment.current-user .timeline-comment-label {
     border-color: #4c4d55;
 }
+
 .timeline-comment-wrapper .timeline-comment.current-user::before {
     border-width: 8px;
     border-right-color: #4c4d55;
 }
+
 .timeline-commits .commit-message>code a {
     color: #8485ce;
 }
+
 .discussion-timeline::before {
     width: 1px;
     background-color: #4c4d55;
 }
+
 .discussion-timeline-actions {
     background-color: #292c36;
     border: 0;
 }
+
 .discussion-item-ref-title .title-link {
     color: #8485ce;
 }
+
 .discussion-item-entity {
     color: #4078c0;
 }
+
 .discussion-item+.discussion-item {
     border-color: #4c4d55;
 }
+
 .discussion-sidebar-item+.discussion-sidebar-item {
     border-color: #4c4d55;
 }
+
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
     background: #343947;
 }
+
 .new-discussion-timeline .closed-banner {
     background: #4c4d55;
     border-bottom: 18px solid #292c36;
 }
+
 .tabnav {
     border-color: #4c4d55;
 }
+
 .tabnav-tab.selected {
     color: #fff;
     border-color: #4c4d55;
 }
+
 .previewable-comment-form textarea {
     background-color: #292c36;
 }
+
 .input-contrast:focus {
     background: #1f212a;
 }
+
 .upload-enabled textarea {
     border-color: #4c4d55;
 }
+
 .drag-and-drop {
     background-color: #292c36;
     border-color: #4c4d55;
 }
+
 .commit-icon .octicon {
     background-color: #292c36;
 }
+
 .issues-listing .table-list-issues .navigation-focus {
     background-color: #1f212a;
 }
+
+.branch-action-body {
+    background-color: #292c36;
+}
+
+.branch-action-body .merge-message,
+.branch-action-body .merge-branch-form {
+    background-color: #343947;
+    border-top: solid 1px #4c4d55;
+}
+
+
 /* File Changed */
 
 .diffbar {
     background-color: #292c36;
 }
+
 .pr-toolbar {
     background-color: #292c36;
 }
+
+
 /* Release */
 
 .tabnav-extra {
     padding-right: 15px;
     color: #aaa;
 }
+
+
 /* Commits Tab */
 
 .commit-group-title .octicon-git-commit {
@@ -582,18 +779,24 @@ timeline-comment::before {
     color: #4c4d55;
     background: #292c36;
 }
+
 .commits-listing::before {
     background-color: #4c4d55;
 }
+
+
 /* Nav */
 
 .subnav-item {
     border-color: #4c4d55;
 }
+
 .subnav-item:hover,
 .subnav-item:focus {
     background-color: #1f212a;
 }
+
+
 /* Repo Wiki Tab */
 
 .blankslate {
@@ -601,103 +804,137 @@ timeline-comment::before {
     border-color: #4c4d55;
     box-shadow: none;
 }
+
 .wiki-wrapper .wiki-auxiliary-content {
     background: #252832;
 }
+
 .wiki-wrapper .wiki-auxiliary-content-no-bg {
     background: #292c36;
 }
+
 .wiki-rightbar .boxed-group.collapsed>h3 {
     border-bottom: 1px solid #4c4d55;
     border-radius: 3px;
 }
+
+
 /* Repo Pulse Tab */
 
 .pulse-graph:first-child {
     border-color: #4c4d55;
 }
+
 .pulse-graph {
     border-bottom-color: #4c4d55;
 }
+
 .conversation-list-heading .inner {
     background: #292c36;
 }
+
 .simple-conversation-list>li {
     border-color: #4c4d55;
 }
+
 .summary-stats li {
     border-left-color: #4c4d55;
 }
+
 .summary-stats li .num {
     color: #969ab0;
 }
+
 .summary-stats li a:hover {
     background: #1f212a;
 }
+
 .diffstat-summary strong {
     color: #84aaf7;
 }
+
 .axis line {
     stroke: #4c4d55;
 }
+
 .subhead {
     border: 0;
 }
+
+
 /* Repo Graph | Contributors */
 
 .tint-box {
     background: #292c36;
 }
+
 .capped-card {
     border-color: #4c4d55;
 }
+
 .capped-card-content {
     background: #292c36;
 }
+
+
 /* Repo Graph | Punch Card */
 
 .day-name {
     fill: #969ab0;
 }
+
 circle.day {
     fill: #969ab0;
     stroke-width: 0;
 }
+
 :not(img) text,
 circle.day {
     fill: #969ab0;
 }
+
+
 /* Repo Graph | Traffic */
 
 table.capped-list td {
     ;
     border-color: #4c4d55;
 }
+
 table.capped-list th {
     border-color: #4c4d55;
 }
+
 table.capped-list tr:nth-child(even) {
     background-color: #343947;
 }
+
+
 /* Repo Graph | Code Frequency */
 
 .code-frequency .addition {
     fill: #52bd58;
 }
+
 .code-frequency .deletion {
     fill: #dc3c3c;
 }
+
 .cadd {
     font-weight: bold;
     color: #52bd58;
 }
+
 .cdel {
     font-weight: bold;
     color: #dc3c3c;
 }
+
 .graphs .dir {
     color: #aaa;
 }
+
+
 /* Repo Settings Tab */
 
 .menu {
@@ -707,78 +944,100 @@ table.capped-list tr:nth-child(even) {
     border: 1px solid #4c4d55;
     border-radius: 3px;
 }
+
 .menu-item {
     text-shadow: none;
     border-bottom: 1px solid #4c4d55;
 }
+
 .menu-item:hover {
     background-color: #1f212a;
 }
+
 .menu-item.selected {
     color: #fff;
     background-color: #1f212a;
 }
+
 .form-group .form-control {
     background-color: #101420;
 }
+
 hr,
 .rule {
     border-bottom: 1px solid #4c4d55;
 }
+
 .boxed-group.dangerzone>h3 {
     text-shadow: none;
     border-color: #df3e3e;
 }
+
+
 /* Profile */
 
 .border-top {
     border-color: #4c4d55 !important;
 }
+
 .profilecols .filter-bar {
     background-color: #292c36;
 }
+
 .pinned-repo-list-item {
     border-color: #4c4d55;
 }
+
+
 /* Profile | Repo Tab */
 
 .profilecols .filter-bar .filter-selected {
     color: #8485ce;
 }
+
+
 /* Notification */
 
 .list-group-item.navigation-focus {
     background-color: #1f212a;
 }
+
 .list-group-item-link {
     color: #fdfdfd;
 }
+
 .boxed-group-list>li {
     border-color: #4c4d55;
 }
+
+
 /* Organisation */
 
 .org-name {
     color: #fff;
 }
+
 .orghead {
     background-color: #252832;
     border-color: #4c4d55;
 }
+
 .simple-box {
     background-color: #292c36;
     border-color: #4c4d55;
 }
+
 .org-module-link {
     color: #00aba5;
 }
+
 .member-username {
     color: #00aba5;
 }
+
 .org-link {
     color: #00aba5;
 }
-<<<<<<< HEAD
 
 
 /* Settings | Security */
@@ -798,103 +1057,132 @@ li.session-device {
 }
 
 
-=======
->>>>>>> parent of cf9c990... Enhancement Update
 /* Settings | Billing */
+
 .billing-section .section-content {
     color: #666;
 }
+
 .radio-label {
     color: #666;
 }
+
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
     width: 10px
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #343947;
     border-radius: 0;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: #C4C4C4;
 }
+
 ::-webkit-scrollbar-track {
     background-color: #292C36;
 }
+
+
 /* Misc */
 
 .repo-list-item {
     border-color: #4c4d55;
 }
+
+
 /* Experimental */
 
 .blob-code-addition {
     background-color: #292c36;
 }
+
 .blob-num-addition {
     background-color: #95c76f40;
 }
+
 .blob-code-deletion {
     background-color: #292c36;
     text-decoration: line-through;
     color: #e5e5e550;
 }
+
 .blob-num-deletion {
     background-color: #dc3c3c40;
 }
+
 .blob-code-addition .x {
     background-color: #95c76f40;
 }
+
 .blob-code-deletion .x {
     background-color: #dc3c3c36;
 }
+
+
 /* GitHub Gists */
 
 .header-logo-wordmark {
     color: #fff;
 }
+
 .gist-snippet-meta .description {
     color: #6d6d72;
 }
+
+
 /* GitHub Explore */
 
 .pagehead-nav-item {
     color: #00aba5;
 }
+
 .pagehead-nav-item:hover {
     color: #8485ce;
 }
+
 .pagehead-nav-item.selected {
     color: #8485ce;
     border-color: #d28e5d;
 }
+
 .exploregrid-item-title {
     color: #fff;
 }
+
 .exploregrid-item {
     color: #969ab0;
     border-color: #4c4d55;
     box-shadow: none;
 }
+
 .thread-subscription-status {
     background-color: #292c36;
     border: 1px solid #4c4d55;
 }
+
+
 /* Octotree Addon */
 
 .octotree_github_sidebar {
     background-color: #292c36;
     color: #fff;
 }
+
 .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
     background-color: #292c36;
     border-bottom: 1px solid #4c4d55;
     background-image: none;
 }
+
 .octotree_views .octotree_view .octotree_view_header {
     text-shadow: none;
 }
+
 .octotree_github_sidebar input,
 .octotree_github_sidebar textarea {
     background-color: #101420;
@@ -902,15 +1190,19 @@ li.session-device {
     padding: 2px;
     color: #fff;
 }
+
 .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
     background-color: #1f2a44;
 }
+
 .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
     background-color: #1f2a44;
 }
+
 .octotree_sidebar {
     border-color: #4c4d55;
 }
+
 .octotree_github_sidebar a.octotree_toggle > span::after,
 .octotree_github_sidebar a.octotree_opts {
     -webkit-filter: invert(1);
