@@ -1081,6 +1081,12 @@ li.session-device {
     border: 1px solid #4c4d55;
 }
 
+.facebox-alert {
+    color: #a9a495;
+    background-color: #464028;
+    border-color: #6b5c20;
+}
+
 
 /* Scrollbar */
 
