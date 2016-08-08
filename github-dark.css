@@ -1074,6 +1074,14 @@ li.session-device {
 }
 
 
+/* Modal */
+
+.facebox-popup {
+    background-color: #292c36;
+    border: 1px solid #4c4d55;
+}
+
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
