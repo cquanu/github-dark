@@ -23,9 +23,13 @@ If you use the Stylish addon on Chrome or Firefox you can find one-click install
 
 [GitHub Dark 2.0](https://userstyles.org/styles/128271)
 
-### Live update [New]
+### Live update
 
 Subscribe to this [Telegram Channel](https://telegram.me/githubdark) to receive live update/notification when new release is out.
+
+### Minified CSS [New]
+
+Added minified CSS for those who prefer smaller file. 
 
 ### Bug reports
 
