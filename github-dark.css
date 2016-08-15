@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v2.2.1
+ * GitHub Dark v2.3.0
  * Copyright 2016 Quan You.
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -8,7 +8,7 @@
 /* HTML Global */
 
 body {
-    background-color: #292c36;
+    background-color: #243447;
     color: #fff;
 }
 
@@ -31,8 +31,8 @@ p {
 /* Site Wide Global */
 
 .header {
-    background-color: #292c37;
-    border-color: #1a1c23;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .header-logo-invertocat {
@@ -47,7 +47,7 @@ p {
 .form-select {
     color: #fff;
     background-color: #101420;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .form-control.focus,
@@ -63,9 +63,9 @@ p {
 
 .btn {
     color: #fff;
-    background-color: #292c36;
+    background-color: #243447;
     background-image: none;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .btn:hover,
@@ -73,17 +73,17 @@ p {
 .btn.zeroclipboard-is-hover,
 .btn.zeroclipboard-is-active {
     text-decoration: none;
-    background-color: #252832;
+    background-color: #151f29;
     background-image: none;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .btn:active,
 .btn.selected,
 .btn.zeroclipboard-is-active {
-    background-color: #292c36;
+    background-color: #243447;
     background-image: none;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .btn-primary {
@@ -98,14 +98,14 @@ p {
 }
 
 .site-footer {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 
 /* Main Site */
 
 .site-header {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .site-header-nav .nav-item {
@@ -116,7 +116,7 @@ p {
 /* Main Site Login */
 
 .session-authentication {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .session-authentication .header-logo {
@@ -124,31 +124,31 @@ p {
 }
 
 .session-authentication .auth-form-body {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .auth-form-body {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .session-authentication .create-account-callout {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 
 /* Home */
 
 .news .alert {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .news .alert .octicon {
-    color: #929292;
+    color: #8899a6;
 }
 
 .news .alert .branch-link,
 .news .alert .pull-info {
-    color: #252832;
+    color: #151f29;
     background: #969ab0;
 }
 
@@ -159,32 +159,40 @@ p {
 .boxed-group>h3,
 .boxed-group .heading {
     color: #fff;
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .boxed-group-inner {
-    background: #292c36;
-    border: 1px solid #4c4d55;
+    background: #243447;
+    border: 1px solid #304251;
 }
 
 .mini-repo-list-item {
-    border-color: #4c4d55;
+    border-color: #304251;
+}
+
+.mini-repo-list-item .repo-icon {
+    color: #8899a6;
 }
 
 .private .mini-repo-list-item {
-    background-color: #343947;
+    background-color: #243447;
+}
+
+.private .mini-repo-list-item .repo-icon {
+    color: #fff9c4;
 }
 
 .filter-bar {
-    background-color: #292c36;
-    border-bottom: 1px solid #4c4d55;
+    background-color: #243447;
+    border-bottom: 1px solid #304251;
 }
 
 .boxed-group .counter {
     color: #fff;
-    background-color: #292c36;
-    border: 1px #4c4d55 solid;
+    background-color: #243447;
+    border: 1px #304251 solid;
 }
 
 .subscribe-feed {
@@ -192,11 +200,11 @@ p {
 }
 
 .protip-callout {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .octofication .broadcast-icon-mask {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .link-gray-dark {
@@ -207,12 +215,12 @@ p {
 /* New Repo */
 
 .outline-box-highlighted {
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .outline-box {
-    border: solid 1px #4c4d55;
+    border: solid 1px #304251;
 }
 
 .copyable-terminal {
@@ -223,15 +231,15 @@ p {
 /* Repo Main Tab */
 
 .repohead.experiment-repo-nav {
-    background-color: #252832;
+    background-color: #151f29;
 }
 
 .pagehead {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .repository-meta {
-    color: #aaa;
+    color: #9e9e9e;
 }
 
 .social-count {
@@ -241,8 +249,8 @@ p {
     font-weight: 700;
     line-height: 20px;
     color: #969ab0;
-    background-color: #252832;
-    border: 1px solid #4c4d55;
+    background-color: #151f29;
+    border: 1px solid #304251;
     border-left: 0;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -263,8 +271,8 @@ p {
 }
 
 .counter {
-    background-color: #252832;
-    border: 1px #4c4d55 solid;
+    background-color: #151f29;
+    border: 1px #304251 solid;
 }
 
 .reponav-item .counter {
@@ -273,12 +281,12 @@ p {
 
 .reponav-item.selected {
     color: #fff;
-    background-color: #292c36;
-    border-color: #d28e5d #4c4d55 transparent;
+    background-color: #243447;
+    border-color: #d28e5d #304251 transparent;
 }
 
 .overall-summary {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .text-emphasized {
@@ -291,11 +299,11 @@ p {
 }
 
 .repository-lang-stats-graph {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .repository-lang-stats ol.repository-lang-stats-numbers li .language-color {
-    border: 1px #4c4d55 solid;
+    border: 1px #304251 solid;
 }
 
 .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
@@ -303,7 +311,7 @@ p {
 }
 
 table.files {
-    background: #292c36;
+    background: #243447;
 }
 
 table.files tr.navigation-focus td {
@@ -311,7 +319,7 @@ table.files tr.navigation-focus td {
 }
 
 table.files td {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 table.files td.icon {
@@ -326,7 +334,7 @@ table.files td.icon {
 }
 
 .file-wrap {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .commit-author-section {
@@ -344,8 +352,8 @@ table.files td.icon {
 }
 
 .full-commit {
-    background: #292c36;
-    border: 1px solid #4c4d55;
+    background: #243447;
+    border: 1px solid #304251;
 }
 
 .full-commit p.commit-title {
@@ -357,22 +365,22 @@ table.files td.icon {
 
 .readme .markdown-body,
 .readme .plain {
-    background-color: #252832;
-    border-color: #4c4d55;
+    background-color: #151f29;
+    border-color: #304251;
 }
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-    background-color: #292c36;
-    border: 1px #4c4d55 solid;
+    background-color: #243447;
+    border: 1px #304251 solid;
 }
 
 .markdown-body h1 {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .markdown-body img {
-    background-color: #252832;
+    background-color: #151f29;
 }
 
 .markdown-body h1 .octicon-link,
@@ -385,16 +393,16 @@ table.files td.icon {
 }
 
 .markdown-body table tr {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .markdown-body table th,
 .markdown-body table td {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .markdown-body table tr:nth-child(2n) {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 .markdown-body pre code,
@@ -404,12 +412,12 @@ table.files td.icon {
 
 .markdown-body code,
 .markdown-body tt {
-    color: #292c36;
+    color: #243447;
     background-color: #969ab0;
 }
 
 .blob-num {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .blob-code-inner {
@@ -418,24 +426,24 @@ table.files td.icon {
 
 .blob-code-hunk,
 .blob-code-expandable {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 .blob-num-hunk,
 .blob-num-expandable {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 .blob-num-expandable {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 .ace_editor .ace_gutter-active-line {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 .ace_editor .ace_marker-layer .ace_active-line {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 
@@ -488,12 +496,12 @@ table.files td.icon {
 /* Repo Code Tab Live | Markdown */
 
 .file {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .file-header {
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .breadcrumb strong.final-path {
@@ -510,30 +518,30 @@ table.files td.icon {
 }
 
 .ace_gutter {
-    background: #292c36;
-    border-color: #4c4d55;
+    background: #243447;
+    border-color: #304251;
 }
 
 .ace-github-light {
-    color: #aaa;
-    background-color: #292c36;
+    color: #9e9e9e;
+    background-color: #243447;
 }
 
 .file-commit-form .commit-form {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .commit-sha {
     background-color: inherit;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 
 /* Repo | Issues Tab */
 
 .table-list-header {
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .Box-body-row--highlight .Box-row-link {
@@ -541,7 +549,7 @@ table.files td.icon {
 }
 
 .Box-body-row {
-    border-top: 1px solid #4c4d55;
+    border-top: 1px solid #304251;
 }
 
 .Box-body-row--highlight.navigation-focus,
@@ -550,23 +558,23 @@ table.files td.icon {
 }
 
 .issues-listing .table-list-issues .navigation-focus {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .table-list {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .table-list-cell {
-    border-top-color: #4c4d55;
+    border-top-color: #304251;
 }
 
 .table-list-bordered .table-list-cell:first-child {
-    border-left-color: #4c4d55;
+    border-left-color: #304251;
 }
 
 .table-list-bordered .table-list-cell:last-child {
-    border-right-color: #4c4d55;
+    border-right-color: #304251;
 }
 
 .table-list-header-toggle .btn-link.selected,
@@ -592,7 +600,7 @@ table.files td.icon {
 .border-left,
 .border-right,
 .border-bottom {
-    border-color: #4c4d55 !important;
+    border-color: #304251 !important;
 }
 
 
@@ -608,25 +616,25 @@ table.files td.icon {
 }
 
 .commit-ref {
-    color: #252832;
+    color: #151f29;
     background-color: #969ab0;
 }
 
 .commit-ref .user {
-    color: #252832;
+    color: #151f29;
 }
 
 .tabnav-tab.selected {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .tabnav-pr .tabnav-tab.selected {
     color: #fff;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .tabnav-pr {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .timeline-comment-wrapper {
@@ -634,8 +642,8 @@ table.files td.icon {
 }
 
 .timeline-comment-header {
-    background-color: #343947;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .timeline-comment-header .author {
@@ -643,39 +651,39 @@ table.files td.icon {
 }
 
 .timeline-comment {
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .timeline-comment-wrapper>.timeline-comment::before,
 .timeline-new-comment .timeline-comment::before {
-    border-right-color: #4c4d55;
+    border-right-color: #304251;
 }
 
 timeline-comment::before {
-    border-right-color: #343947 !important;
+    border-right-color: #243447 !important;
 }
 
 .timeline-comment::after {
-    border-right-color: #343947 !important;
+    border-right-color: #243447 !important;
 }
 
 .timeline-comment.current-user .timeline-comment-header {
-    background-color: #343947;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .timeline-comment.current-user {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .timeline-comment.current-user .timeline-comment-label {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .timeline-comment-wrapper .timeline-comment.current-user::before {
     border-width: 8px;
-    border-right-color: #4c4d55;
+    border-right-color: #304251;
 }
 
 .timeline-commits .commit-message>code a {
@@ -684,11 +692,11 @@ timeline-comment::before {
 
 .discussion-timeline::before {
     width: 1px;
-    background-color: #4c4d55;
+    background-color: #304251;
 }
 
 .discussion-timeline-actions {
-    background-color: #292c36;
+    background-color: #243447;
     border: 0;
 }
 
@@ -701,33 +709,33 @@ timeline-comment::before {
 }
 
 .discussion-item+.discussion-item {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .discussion-sidebar-item+.discussion-sidebar-item {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
-    background: #343947;
+    background: #243447;
 }
 
 .new-discussion-timeline .closed-banner {
-    background: #4c4d55;
-    border-bottom: 18px solid #292c36;
+    background: #304251;
+    border-bottom: 18px solid #243447;
 }
 
 .tabnav {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .tabnav-tab.selected {
     color: #fff;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .previewable-comment-form textarea {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .input-contrast:focus {
@@ -735,16 +743,16 @@ timeline-comment::before {
 }
 
 .upload-enabled textarea {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .drag-and-drop {
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .commit-icon .octicon {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .issues-listing .table-list-issues .navigation-focus {
@@ -752,13 +760,13 @@ timeline-comment::before {
 }
 
 .branch-action-body {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .branch-action-body .merge-message,
 .branch-action-body .merge-branch-form {
-    background-color: #343947;
-    border-top: solid 1px #4c4d55;
+    background-color: #243447;
+    border-top: solid 1px #304251;
 }
 
 
@@ -766,14 +774,14 @@ timeline-comment::before {
 
 .branch-group-heading {
     text-shadow: none;
-    background: #343947;
-    border: 1px solid #4c4d55;
+    background: #243447;
+    border: 1px solid #304251;
 }
 
 .branch-summary,
 .branch-group-heading+.branch-summary,
 .branch-summary {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .count-value.count-behind {
@@ -792,11 +800,11 @@ a.branch-name {
 /* File Changed */
 
 .diffbar {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .pr-toolbar {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 
@@ -804,7 +812,7 @@ a.branch-name {
 
 .tabnav-extra {
     padding-right: 15px;
-    color: #aaa;
+    color: #9e9e9e;
 }
 
 
@@ -812,19 +820,19 @@ a.branch-name {
 
 .commit-group-title .octicon-git-commit {
     margin-right: 17px;
-    color: #4c4d55;
-    background: #292c36;
+    color: #304251;
+    background: #243447;
 }
 
 .commits-listing::before {
-    background-color: #4c4d55;
+    background-color: #304251;
 }
 
 
 /* Nav */
 
 .subnav-item {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .subnav-item:hover,
@@ -836,21 +844,21 @@ a.branch-name {
 /* Repo Wiki Tab */
 
 .blankslate {
-    background-color: #252832;
-    border-color: #4c4d55;
+    background-color: #151f29;
+    border-color: #304251;
     box-shadow: none;
 }
 
 .wiki-wrapper .wiki-auxiliary-content {
-    background: #252832;
+    background: #151f29;
 }
 
 .wiki-wrapper .wiki-auxiliary-content-no-bg {
-    background: #292c36;
+    background: #243447;
 }
 
 .wiki-rightbar .boxed-group.collapsed>h3 {
-    border-bottom: 1px solid #4c4d55;
+    border-bottom: 1px solid #304251;
     border-radius: 3px;
 }
 
@@ -858,23 +866,23 @@ a.branch-name {
 /* Repo Pulse Tab */
 
 .pulse-graph:first-child {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .pulse-graph {
-    border-bottom-color: #4c4d55;
+    border-bottom-color: #304251;
 }
 
 .conversation-list-heading .inner {
-    background: #292c36;
+    background: #243447;
 }
 
 .simple-conversation-list>li {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .summary-stats li {
-    border-left-color: #4c4d55;
+    border-left-color: #304251;
 }
 
 .summary-stats li .num {
@@ -890,7 +898,7 @@ a.branch-name {
 }
 
 .axis line {
-    stroke: #4c4d55;
+    stroke: #304251;
 }
 
 .subhead {
@@ -901,15 +909,15 @@ a.branch-name {
 /* Repo Graph | Contributors */
 
 .tint-box {
-    background: #292c36;
+    background: #243447;
 }
 
 .capped-card {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .capped-card-content {
-    background: #292c36;
+    background: #243447;
 }
 
 .graphs .area {
@@ -938,15 +946,15 @@ circle.day {
 
 table.capped-list td {
     ;
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 table.capped-list th {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 table.capped-list tr:nth-child(even) {
-    background-color: #343947;
+    background-color: #243447;
 }
 
 
@@ -971,7 +979,7 @@ table.capped-list tr:nth-child(even) {
 }
 
 .graphs .dir {
-    color: #aaa;
+    color: #9e9e9e;
 }
 
 
@@ -980,14 +988,14 @@ table.capped-list tr:nth-child(even) {
 .menu {
     margin-bottom: 15px;
     list-style: none;
-    background-color: #292c36;
-    border: 1px solid #4c4d55;
+    background-color: #243447;
+    border: 1px solid #304251;
     border-radius: 3px;
 }
 
 .menu-item {
     text-shadow: none;
-    border-bottom: 1px solid #4c4d55;
+    border-bottom: 1px solid #304251;
 }
 
 .menu-item:hover {
@@ -1005,7 +1013,7 @@ table.capped-list tr:nth-child(even) {
 
 hr,
 .rule {
-    border-bottom: 1px solid #4c4d55;
+    border-bottom: 1px solid #304251;
 }
 
 .boxed-group.dangerzone>h3 {
@@ -1017,15 +1025,15 @@ hr,
 /* Profile */
 
 .border-top {
-    border-color: #4c4d55 !important;
+    border-color: #304251 !important;
 }
 
 .profilecols .filter-bar {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .pinned-repo-list-item {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 
@@ -1047,7 +1055,7 @@ hr,
 }
 
 .boxed-group-list>li {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .flash {
@@ -1064,13 +1072,13 @@ hr,
 }
 
 .orghead {
-    background-color: #252832;
-    border-color: #4c4d55;
+    background-color: #151f29;
+    border-color: #304251;
 }
 
 .simple-box {
-    background-color: #292c36;
-    border-color: #4c4d55;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 .org-module-link {
@@ -1090,7 +1098,7 @@ hr,
 
 li.session-device.session-current,
 li.session-device {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .mute,
@@ -1099,7 +1107,7 @@ li.session-device {
 }
 
 .boxed-group-list>li:first-child {
-    border-top: 1px solid #4c4d55;
+    border-top: 1px solid #304251;
 }
 
 
@@ -1117,8 +1125,8 @@ li.session-device {
 /* Modal */
 
 .facebox-popup {
-    background-color: #292c36;
-    border: 1px solid #4c4d55;
+    background-color: #243447;
+    border: 1px solid #304251;
 }
 
 .facebox-alert {
@@ -1129,12 +1137,12 @@ li.session-device {
 
 .facebox-footer {
     margin: 0 -15px -15;
-    ackground: #343947;
+    background: #243447;
 }
 
 .facebox-footer {
-    background: #343947;
-    border-color: #4c4d55;
+    background: #243447;
+    border-color: #304251;
 }
 
 
@@ -1145,7 +1153,7 @@ li.session-device {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #343947;
+    background-color: #243447;
     border-radius: 0;
 }
 
@@ -1154,21 +1162,21 @@ li.session-device {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #292C36;
+    background-color: #243447;
 }
 
 
 /* Misc */
 
 .repo-list-item {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 
 /* Experimental */
 
 .blob-code-addition {
-    background-color: #292c36;
+    background-color: #243447;
 }
 
 .blob-num-addition {
@@ -1176,7 +1184,7 @@ li.session-device {
 }
 
 .blob-code-deletion {
-    background-color: #292c36;
+    background-color: #243447;
     text-decoration: line-through;
     color: #e5e5e550;
 }
@@ -1226,26 +1234,26 @@ li.session-device {
 
 .exploregrid-item {
     color: #969ab0;
-    border-color: #4c4d55;
+    border-color: #304251;
     box-shadow: none;
 }
 
 .thread-subscription-status {
-    background-color: #292c36;
-    border: 1px solid #4c4d55;
+    background-color: #243447;
+    border: 1px solid #304251;
 }
 
 
 /* Octotree Addon */
 
 .octotree_github_sidebar {
-    background-color: #292c36;
+    background-color: #243447;
     color: #fff;
 }
 
 .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
-    background-color: #292c36;
-    border-bottom: 1px solid #4c4d55;
+    background-color: #243447;
+    border-bottom: 1px solid #304251;
     background-image: none;
 }
 
@@ -1256,7 +1264,7 @@ li.session-device {
 .octotree_github_sidebar input,
 .octotree_github_sidebar textarea {
     background-color: #101420;
-    border: 1px solid #4c4d55;
+    border: 1px solid #304251;
     padding: 2px;
     color: #fff;
 }
@@ -1270,7 +1278,7 @@ li.session-device {
 }
 
 .octotree_sidebar {
-    border-color: #4c4d55;
+    border-color: #304251;
 }
 
 .octotree_github_sidebar a.octotree_toggle > span::after,
