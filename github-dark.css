@@ -1295,6 +1295,10 @@ li.session-device {
     border-color: #6b5c20;
 }
 
+.facebox-header {
+    border-color: #304251;
+}
+
 .facebox-footer {
     margin: 0 -15px -15;
     background: #243447;
