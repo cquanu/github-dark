@@ -13,7 +13,7 @@ body {
 }
 
 p {
-    color: #969ab0 !important;
+    color: #607d8b !important;
 }
 
 
@@ -1109,6 +1109,15 @@ hr,
 
 .org-link {
     color: #00aba5;
+}
+
+
+/* Settings Page */
+
+.menu-heading {
+    color: #fff;
+    background-color: #243447;
+    border-color: #304251;
 }
 
 
