@@ -360,6 +360,12 @@ table.files td.icon {
     color: #00aba5;
 }
 
+.dropdown-menu {
+    background-color: #1a2632;
+    border: 1px solid #304251;
+    box-shadow: none;
+}
+
 
 /* README Markdown Live */
 
