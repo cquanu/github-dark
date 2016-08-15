@@ -366,6 +366,14 @@ table.files td.icon {
     box-shadow: none;
 }
 
+.dropdown-divider {
+    background-color: #304251;
+}
+
+.dropdown-item {
+    color: #9e9e9e;
+}
+
 
 /* README Markdown Live */
 
