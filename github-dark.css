@@ -46,7 +46,7 @@ p {
 .form-control,
 .form-select {
     color: #fff;
-    background-color: #101420;
+    background-color: #020304;
     border-color: #304251;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 .form-group .form-control:focus {
-    background-color: #101420;
+    background-color: #020304;
 }
 
 .btn {
@@ -622,7 +622,7 @@ table.files td.icon {
 
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
-    background-color: #101420;
+    background-color: #020304;
 }
 
 .gh-header-meta .author {
@@ -1022,7 +1022,7 @@ table.capped-list tr:nth-child(even) {
 }
 
 .form-group .form-control {
-    background-color: #101420;
+    background-color: #020304;
 }
 
 hr,
@@ -1282,7 +1282,7 @@ li.session-device {
 
 .octotree_github_sidebar input,
 .octotree_github_sidebar textarea {
-    background-color: #101420;
+    background-color: #020304;
     border: 1px solid #304251;
     padding: 2px;
     color: #fff;
