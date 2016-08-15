@@ -46,7 +46,7 @@ p {
 .form-control,
 .form-select {
     color: #fff;
-    background-color: #020304;
+    background-color: #151f29;
     border-color: #304251;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 .form-group .form-control:focus {
-    background-color: #020304;
+    background-color: #151f29;
 }
 
 .btn {
@@ -224,7 +224,7 @@ p {
 }
 
 .copyable-terminal {
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 
@@ -315,7 +315,7 @@ table.files {
 }
 
 table.files tr.navigation-focus td {
-    background: #1f212a;
+    background: #304251;
 }
 
 table.files td {
@@ -374,6 +374,10 @@ table.files td.icon {
     color: #9e9e9e;
 }
 
+.dropdown-item:hover {
+    background-color: #243447;
+}
+
 button.dropdown-item.dropdown-signout {
     color: #ff5722;
 }
@@ -430,8 +434,8 @@ button.dropdown-item.dropdown-signout {
 
 .markdown-body code,
 .markdown-body tt {
-    color: #1a2632;
-    background-color: #969ab0;
+    color: #151f29;
+    background-color: #384f6b;
 }
 
 .blob-num {
@@ -572,7 +576,7 @@ button.dropdown-item.dropdown-signout {
 
 .Box-body-row--highlight.navigation-focus,
 .Box-body-row--highlight:hover {
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 .issues-listing .table-list-issues .navigation-focus {
@@ -626,7 +630,7 @@ button.dropdown-item.dropdown-signout {
 
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
-    background-color: #020304;
+    background-color: #151f29;
 }
 
 .gh-header-meta .author {
@@ -757,7 +761,7 @@ timeline-comment::before {
 }
 
 .input-contrast:focus {
-    background: #1f212a;
+    background: #0b1015;
 }
 
 .upload-enabled textarea {
@@ -774,7 +778,7 @@ timeline-comment::before {
 }
 
 .issues-listing .table-list-issues .navigation-focus {
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 .branch-action-body {
@@ -855,7 +859,7 @@ a.branch-name {
 
 .subnav-item:hover,
 .subnav-item:focus {
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 
@@ -908,7 +912,7 @@ a.branch-name {
 }
 
 .summary-stats li a:hover {
-    background: #1f212a;
+    background: #0b1015;
 }
 
 .diffstat-summary strong {
@@ -1017,16 +1021,16 @@ table.capped-list tr:nth-child(even) {
 }
 
 .menu-item:hover {
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 .menu-item.selected {
     color: #fff;
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 .form-group .form-control {
-    background-color: #020304;
+    background-color: #151f29;
 }
 
 hr,
@@ -1065,7 +1069,7 @@ hr,
 /* Notification */
 
 .list-group-item.navigation-focus {
-    background-color: #1f212a;
+    background-color: #0b1015;
 }
 
 .list-group-item-link {
@@ -1286,7 +1290,7 @@ li.session-device {
 
 .octotree_github_sidebar input,
 .octotree_github_sidebar textarea {
-    background-color: #020304;
+    background-color: #151f29;
     border: 1px solid #304251;
     padding: 2px;
     color: #fff;
