@@ -220,7 +220,7 @@ p {
 }
 
 .copyable-terminal {
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 
@@ -572,7 +572,7 @@ button.dropdown-item.dropdown-signout {
 
 .Box-body-row--highlight.navigation-focus,
 .Box-body-row--highlight:hover {
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 .issues-listing .table-list-issues .navigation-focus {
@@ -757,7 +757,7 @@ timeline-comment::before {
 }
 
 .input-contrast:focus {
-    background: #0b1015;
+    background: #151f29;
 }
 
 .upload-enabled textarea {
@@ -774,7 +774,7 @@ timeline-comment::before {
 }
 
 .issues-listing .table-list-issues .navigation-focus {
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 .branch-action-body {
@@ -855,7 +855,7 @@ a.branch-name {
 
 .subnav-item:hover,
 .subnav-item:focus {
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 
@@ -908,7 +908,7 @@ a.branch-name {
 }
 
 .summary-stats li a:hover {
-    background: #0b1015;
+    background: #151f29;
 }
 
 .diffstat-summary strong {
@@ -1017,12 +1017,12 @@ table.capped-list tr:nth-child(even) {
 }
 
 .menu-item:hover {
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 .menu-item.selected {
     color: #fff;
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 .form-group .form-control {
@@ -1065,7 +1065,7 @@ hr,
 /* Notification */
 
 .list-group-item.navigation-focus {
-    background-color: #0b1015;
+    background-color: #151f29;
 }
 
 .list-group-item-link {
