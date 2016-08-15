@@ -1154,7 +1154,11 @@ li.session-device {
 }
 
 .boxed-group-list>li:first-child {
-    border-top: 1px solid #304251;
+    border-color: #304251;
+}
+
+.boxed-group-inner .help {
+    border-color: #304251;
 }
 
 .auth-form-header {
@@ -1164,6 +1168,10 @@ li.session-device {
 
 
 /* Settings | Billing */
+
+.billing-section {
+    border-color: #304251;
+}
 
 .billing-section .section-content {
     color: #666;
