@@ -374,6 +374,10 @@ table.files td.icon {
     color: #9e9e9e;
 }
 
+button.dropdown-item.dropdown-signout {
+    color: #ff5722;
+}
+
 
 /* README Markdown Live */
 
