@@ -35,9 +35,19 @@ p {
     color: #fff;
 }
 
+.header-search-scope {
+    border-color: #304251;
+}
+
 .header-nav-link {
     color: #fff;
 }
+
+
+/*.scoped-search .form-control .header-search-scope {
+    background-color: #1a2632;
+    border-color: #304251;
+}*/
 
 .form-control,
 .form-select {
@@ -1274,6 +1284,10 @@ li.session-device {
 
 
 /* GitHub Explore */
+
+.sort-bar {
+    border-color: #304251;
+}
 
 .pagehead-nav-item {
     color: #00aba5;
