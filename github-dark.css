@@ -1005,6 +1005,10 @@ a.branch-name {
     fill: #00aba5;
 }
 
+.capped-card h3 {
+    border-color: #304251;
+}
+
 
 /* Repo Graph | Punch Card */
 
