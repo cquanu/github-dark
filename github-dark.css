@@ -223,6 +223,10 @@ p {
     background-color: #151f29;
 }
 
+.reponame-suggestion {
+    color: #4caf50;
+}
+
 
 /* Repo Main Tab */
 
@@ -1117,6 +1121,18 @@ hr,
 .menu-heading {
     color: #fff;
     background-color: #243447;
+    border-color: #304251;
+}
+
+.listgroup {
+    border-color: #304251;
+}
+
+.listgroup-item+.listgroup-item {
+    border-color: #304251;
+}
+
+.oauth-border {
     border-color: #304251;
 }
 
