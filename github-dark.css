@@ -24,6 +24,40 @@ p {
 }
 
 
+/* Main Site */
+
+.site-header {
+    background-color: #1a2632;
+}
+
+.site-header-nav .nav-item {
+    color: #fff;
+}
+
+
+/* Main Site Login */
+
+.session-authentication {
+    background-color: #1a2632;
+}
+
+.session-authentication .header-logo {
+    color: #fff;
+}
+
+.session-authentication .auth-form-body {
+    border-color: #304251;
+}
+
+.auth-form-body {
+    background-color: #1a2632;
+}
+
+.session-authentication .create-account-callout {
+    border-color: #304251;
+}
+
+
 /* Site Wide Global */
 
 .header {
@@ -107,38 +141,26 @@ p {
     border-color: #304251;
 }
 
-
-/* Main Site */
-
-.site-header {
+.dropdown-menu {
     background-color: #1a2632;
+    border: 1px solid #304251;
+    box-shadow: none;
 }
 
-.site-header-nav .nav-item {
-    color: #fff;
+.dropdown-divider {
+    background-color: #304251;
 }
 
-
-/* Main Site Login */
-
-.session-authentication {
-    background-color: #1a2632;
+.dropdown-item {
+    color: #9e9e9e;
 }
 
-.session-authentication .header-logo {
-    color: #fff;
+.dropdown-item:hover {
+    background-color: #243447;
 }
 
-.session-authentication .auth-form-body {
-    border-color: #304251;
-}
-
-.auth-form-body {
-    background-color: #1a2632;
-}
-
-.session-authentication .create-account-callout {
-    border-color: #304251;
+button.dropdown-item.dropdown-signout {
+    color: #df3e3e;
 }
 
 
@@ -238,7 +260,7 @@ p {
 }
 
 
-/* Repo Main Tab */
+/* Repo Page (Main) */
 
 .repohead.experiment-repo-nav {
     background-color: #151f29;
@@ -325,7 +347,7 @@ table.files {
 }
 
 table.files tr.navigation-focus td {
-    background: #304251;
+    background: #151f29;
 }
 
 table.files td {
@@ -354,11 +376,16 @@ table.files td.icon {
 .commit-tease {
     color: #8485ce;
     background-color: #364952;
-    border: 1px solid #4c85a0;
+    border-color: #4c85a0;
 }
 
 .commit-tease-sha {
     color: #4078c0;
+}
+
+.commit-tease-contributors {
+    background-color: #283840;
+    border-color: #4c85a0;
 }
 
 .full-commit {
@@ -370,26 +397,12 @@ table.files td.icon {
     color: #00aba5;
 }
 
-.dropdown-menu {
-    background-color: #1a2632;
-    border: 1px solid #304251;
-    box-shadow: none;
+.file-navigation .get-repo-btn {
+    border-color: #304251;
 }
 
-.dropdown-divider {
-    background-color: #304251;
-}
-
-.dropdown-item {
-    color: #9e9e9e;
-}
-
-.dropdown-item:hover {
-    background-color: #243447;
-}
-
-button.dropdown-item.dropdown-signout {
-    color: #df3e3e;
+.file-navigation .get-repo-btn:first-child {
+    border-color: #304251;
 }
 
 
@@ -538,11 +551,6 @@ button.dropdown-item.dropdown-signout {
 
 .breadcrumb strong.final-path {
     color: #929292;
-}
-
-.commit-tease-contributors {
-    background-color: #283840;
-    border-color: #c9e6f2;
 }
 
 .blob-num {
