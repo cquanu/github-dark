@@ -463,6 +463,7 @@ table.files td.icon {
 }
 
 .blob-num {
+    color: #537698;
     border-color: #304251;
 }
 
@@ -552,10 +553,6 @@ table.files td.icon {
 
 .breadcrumb strong.final-path {
     color: #929292;
-}
-
-.blob-num {
-    color: #999;
 }
 
 .ace_gutter {
@@ -1368,30 +1365,28 @@ li.session-device {
 
 /* Experimental */
 
-.blob-code-addition {
-    background-color: #1a2632;
-}
 
-.blob-num-addition {
-    background-color: #95c76f40;
+/* Blob Minus */
+
+.blob-num-deletion {
+    background-color: #ef9a9a;
 }
 
 .blob-code-deletion {
     background-color: #1a2632;
     text-decoration: line-through;
-    color: #e5e5e550;
+    color: #ef9a9a;
 }
 
-.blob-num-deletion {
-    background-color: #dc3c3c40;
+
+/* Blob Plus */
+
+.blob-num-addition {
+    background-color: #a5d6a7;
 }
 
-.blob-code-addition .x {
-    background-color: #95c76f40;
-}
-
-.blob-code-deletion .x {
-    background-color: #dc3c3c36;
+.blob-code-addition {
+    background-color: #1a2632;
 }
 
 
