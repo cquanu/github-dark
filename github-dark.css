@@ -1059,7 +1059,7 @@ a.branch-name {
 /* Repo Graph | Punch Card */
 
 .day-name {
-    fill: #969ab0;
+    fill: #8899a6;
 }
 
 circle.day {
@@ -1070,6 +1070,19 @@ circle.day {
 :not(img) text,
 circle.day {
     fill: #969ab0;
+}
+
+line.axis {
+    stroke: #304251;
+}
+
+line.axis.even {
+    stroke: #304251;
+}
+
+:not(img) text,
+circle.day {
+    fill: #8899a6;
 }
 
 
@@ -1150,6 +1163,10 @@ hr,
 .boxed-group.dangerzone>h3 {
     text-shadow: none;
     border-color: #df3e3e;
+}
+
+.integrations-callout-standalone .integration-settings-callout {
+    border-color: #304251;
 }
 
 
