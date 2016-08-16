@@ -919,7 +919,23 @@ a.branch-name {
 }
 
 
-/* Release */
+/* Release & Tags */
+
+.release-timeline {
+    border-top: 2px solid #304251;
+}
+
+.release-body {
+    border-color: #304251;
+}
+
+.releases-tag-list {
+    border-color: #304251;
+}
+
+.releases-tag-list tr {
+    border-color: #304251;
+}
 
 .tabnav-extra {
     padding-right: 15px;
