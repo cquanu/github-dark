@@ -58,6 +58,10 @@ p {
     border-color: #304251;
 }
 
+.session-authentication .auth-form-header {
+    color: #fff;
+}
+
 
 /* Site Wide Global */
 
@@ -718,6 +722,10 @@ table.files td.icon {
     background-color: #151f29;
 }
 
+.gh-header-meta {
+    border-color: #304251;
+}
+
 .gh-header-meta .author {
     color: #00aba5;
 }
@@ -820,6 +828,12 @@ timeline-comment::before {
 }
 
 .discussion-sidebar-item+.discussion-sidebar-item {
+    border-color: #304251;
+}
+
+.discussion-item-icon {
+    color: #8899a6;
+    background-color: #243447;
     border-color: #304251;
 }
 
