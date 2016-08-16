@@ -1414,6 +1414,19 @@ li.session-device {
 }
 
 
+/* Rework Buttons */
+
+.ajax-pagination-form .ajax-pagination-btn {
+    color: #9e9e9e;
+    background: #243447;
+    border-color: #304251;
+}
+
+.ajax-pagination-form .ajax-pagination-btn:hover {
+    background-color: #151f29;
+}
+
+
 /* GitHub Explore */
 
 .sort-bar {
@@ -1491,3 +1504,6 @@ li.session-device {
     -webkit-filter: invert(1);
     filter: invert(1);
 }
+
+
+/* End */
