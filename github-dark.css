@@ -685,6 +685,10 @@ table.files td.icon {
     border-color: #304251;
 }
 
+.select-menu-item.selected {
+    color: #fff;
+}
+
 .select-menu-filters {
     background-color: #1a2632;
 }
@@ -1002,6 +1006,10 @@ a.branch-name {
 
 .conversation-list-heading .inner {
     background: #1a2632;
+}
+
+.conversation-list-heading {
+    border-color: #304251;
 }
 
 .simple-conversation-list>li {
