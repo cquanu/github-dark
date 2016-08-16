@@ -484,7 +484,7 @@ table.files td.icon {
 .markdown-body code,
 .markdown-body tt {
     color: #151f29;
-    background-color: #384f6b;
+    background-color: #627790;
 }
 
 .blob-num {
@@ -884,6 +884,14 @@ timeline-comment::before {
 .branch-summary,
 .branch-group-heading+.branch-summary,
 .branch-summary {
+    border-color: #304251;
+}
+
+.branch-a-b-count .meter {
+    background-color: #243447;
+}
+
+.branch-a-b-count .count-half:last-child {
     border-color: #304251;
 }
 
