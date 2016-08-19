@@ -322,6 +322,10 @@ button.dropdown-item.dropdown-signout {
     border-color: #d28e5d #304251 transparent;
 }
 
+.btn.selected:hover {
+    background-color: #151f29;
+}
+
 .overall-summary {
     border-color: #304251;
 }
@@ -712,6 +716,11 @@ table.files td.icon {
 .border-right,
 .border-bottom {
     border-color: #304251 !important;
+}
+
+.pr-toolbar.is-stuck::after {
+    border-color: #304251;
+    box-shadow: none;
 }
 
 
@@ -1203,6 +1212,10 @@ hr,
 }
 
 .pinned-repo-list-item {
+    border-color: #304251;
+}
+
+.pinned-repo-filters {
     border-color: #304251;
 }
 
