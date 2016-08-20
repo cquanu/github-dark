@@ -1684,6 +1684,13 @@ li.session-device {
 }
 
 
+/* GitHub Blog */
+
+.blog-title {
+    color: #fff;
+}
+
+
 /* Octotree Addon */
 
 .octotree_github_sidebar {
