@@ -58,6 +58,22 @@ p {
     background: #1a2632;
 }
 
+.home-hero-signup .form-control-lg {
+    border-color: #304251;
+}
+
+.shade-gray {
+    background-color: #121b23 !important;
+}
+
+.tile-block {
+    border-color: #304251;
+}
+
+.tile-bordered:not(:last-child) {
+    border-color: #304251;
+}
+
 
 /* Main Site Login */
 
