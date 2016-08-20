@@ -25,7 +25,7 @@ p {
 }
 
 
-/* Main Site */
+/* Main Site and New User */
 
 .site-header {
     background-color: #243447;
@@ -33,6 +33,29 @@ p {
 
 .site-header-nav .nav-item {
     color: #fff;
+}
+
+.jumbotron-home {
+    background-image: none;
+    background-color: #1a2632;
+}
+
+.features-list .list-divider,
+.setup-form .tos-info,
+.setup-form .setup-organization-next {
+    border-color: #304251;
+}
+
+.radio-label {
+    border-color: #304251;
+}
+
+.tag-input-tag {
+    background: #243447;
+}
+
+.tag-input-tag .remove {
+    background: #1a2632;
 }
 
 
@@ -166,6 +189,13 @@ p {
 
 button.dropdown-item.dropdown-signout {
     color: #df3e3e;
+}
+
+
+/* Site Related */
+
+.setup-header {
+    border-color: #304251;
 }
 
 
@@ -1307,6 +1337,7 @@ hr,
     border-color: #304251;
 }
 
+
 /* Profile | Contribution */
 
 #contributions-calendar rect[fill="#eeeeee"] {
@@ -1412,7 +1443,7 @@ hr,
 }
 
 
-/* Personal Settings Main() */
+/* Personal Settings (Main) */
 
 .menu-heading {
     color: #fff;
