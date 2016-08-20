@@ -517,7 +517,7 @@ table.files td.icon {
 }
 
 .blob-num {
-    color: #537698;
+    color: #5e6b77;
     border-color: #304251;
 }
 
@@ -1024,6 +1024,11 @@ ul.comparison-list>li.title {
 
 ul.comparison-list>li {
     border-color: #304251;
+}
+
+.file-diff-split .empty-cell {
+    background-color: #1a2632;
+    border-right-color: #304251;
 }
 
 
