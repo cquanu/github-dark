@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="If light theme hurts your eyes, switch off the lights on GitHub for a pleasant reading experience.">
+    <meta name="keywords" content="GitHub, Dark, night, theme, style, mode">
+
+    <meta property="og:title" content="GitHub Dark - Browse GitHub in nighttime mode">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cquanu.github.io/github-dark/">
+    <meta property="og:image" content="https://cquanu.github.io/github-dark/preview.png">
+    <title>GitHub Dark</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a2632;
+        }
+        
+        p {
+            color: #607d8b;
+        }
+        
+        .border {
+            border: 1px #304251 solid;
+        }
+        
+        .page-header {
+            border-color: #304251;
+            color: #fff;
+        }
+        
+        .flour,
+        .jumbotron h1 {
+            color: #fff;
+        }
+        
+        .jumbotron {
+            background-color: #1a2632;
+            padding-top: 55px;
+            padding-bottom: 55px;
+        }
+        
+        .panel {
+            background-color: #243447;
+            margin-bottom: 0;
+        }
+        
+        #userstyles-container {
+            margin-top: 5px;
+        }
+        
+        .userstyles-style-name {
+            color: #fff;
+            text-decoration: none !important;
+        }
+        
+        .userstyles-style-info {
+            color: #00aba5 !important;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron flour">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>GitHub Dark 2.0 <img src="https://img.shields.io/github/release/cquanu/github-dark.svg"> <img src="https://img.shields.io/github/license/cquanu/github-dark.svg"></h1>
+                    <p>If light theme hurts your eyes, switch off the lights on GitHub for a pleasant reading experience.</p>
+                    <p><a class="btn btn-primary btn-lg" href="https://userstyles.org/styles/128271/github-dark" role="button">Install</a> <a class="btn btn-link btn-lg flour" href="https://github.com/cquanu/github-dark" role="button">View on GitHub</a></p>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-3">
+                                    <img src="https://i.imgur.com/HuY24R7.png" width="65">
+                                </div>
+                                <div class="col-md-9 col-xs-9">
+                                    <div id="userstyles-container">
+                                        <script>
+                                            if (window.addEventListener)
+                                                window.addEventListener("load", userstylesLoad, false);
+                                            else if (window.attachEvent)
+                                                window.attachEvent("onload", userstylesLoad);
+
+                                            function userstylesLoad() {
+                                                var c = document.getElementById("userstyles-container");
+                                                var s1 = document.createElement("script");
+                                                s1.setAttribute("async", "true");
+                                                var s2 = s1.cloneNode(false);
+                                                s1.src = "https://userstyles.org/widgets/v1.js";
+                                                c.appendChild(s1);
+                                                s2.src = "https://widget.userstyles.org/users/334883.jsonp?callback=userstyles.handleData";
+                                                c.appendChild(s2);
+                                            }
+                                        </script>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <img class="img-responsive border" src="https://cquanu.github.io/github-dark/preview.png">
+
+        <h3 class="page-header">How to use</h3>
+        <p>Install a userstyle manager for your favorite browser:</p>
+
+        <p>Chrome: <a href="https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en">https://chrome.google.com/webstore/detail/stylish</a></p>
+        <p>Firefox: <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">https://addons.mozilla.org/en-US/firefox/addon/stylish</a> (be sure to place the CSS inside the `@-moz-document domain("github.com")` block)</p>
+        <p>Safari: <a href="http://sobolev.us/stylish/">http://sobolev.us/stylish</a></p>
+
+        <h3 class="page-header">Userstyles.org</h3>
+        <p>If you use the Stylish addon on Chrome or Firefox you can find one-click installs including automatic updates via the packages below.</p>
+        <a href="https://userstyles.org/styles/128271" class="btn btn-primary">GitHub Dark</a>
+
+        <h3 class="page-header">Bug reports</h3>
+        <p>Open an issue or submit a pull request, please.</p>
+
+        <h3 class="page-header">License and copyright</h3>
+        <p>Licensed under <a href="https://github.com/cquanu/github-dark/blob/master/LICENSE">MIT</a> and copyright <a href="https://twitter.com/cquanu">@cquanu</a>.</p>
+        <br>
+    </div>
+
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57505bd113ce7027"></script>
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-78494123-1', 'auto');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
