@@ -648,6 +648,14 @@ table.files td.icon {
     border-right-color: #304251;
 }
 
+.table-list-header-toggle .btn-link {
+    color: #9e9e9e;
+}
+
+.table-list-header-toggle .btn-link:hover {
+    color: #fff;
+}
+
 .table-list-header-toggle .btn-link.selected,
 .table-list-header-toggle .btn-link.selected:hover {
     color: #fff;
