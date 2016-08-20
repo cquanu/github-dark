@@ -1307,6 +1307,8 @@ hr,
     border-color: #304251;
 }
 
+/* Profile | Contribution */
+
 #contributions-calendar rect[fill="#eeeeee"] {
     fill: #151f29;
 }
