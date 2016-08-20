@@ -440,6 +440,27 @@ table.files td.icon {
 }
 
 
+/* Repo Blame */
+
+.blame-commit-title,
+.blame-commit-title .message {
+    color: #4078c0;
+}
+
+.blame-commit,
+.blame-commit+.blame-line {
+    border-color: #304251;
+}
+
+.blame-blob-num {
+    background-color: #243447;
+}
+
+.muted-link {
+    color: #00aba5;
+}
+
+
 /* README Markdown Live */
 
 .readme .markdown-body,
