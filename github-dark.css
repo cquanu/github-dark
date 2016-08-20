@@ -1731,6 +1731,18 @@ li.session-device {
     border-color: #304251;
 }
 
+.showcase-page-header {
+    border-color: #304251;
+}
+
+.showcase-page-repo-list {
+    border-color: #304251;
+}
+
+.showcase-page-pattern::after {
+    background: none #1a2632;
+}
+
 
 /* GitHub Blog */
 
