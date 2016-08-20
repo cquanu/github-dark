@@ -1,4 +1,4 @@
-![](https://cquanu.github.io/github-dark/preview.png?v2)
+![](https://cquanu.github.io/github-dark/preview.png)
 
 # GitHub Dark 2.0
 
