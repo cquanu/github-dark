@@ -1030,7 +1030,8 @@ ul.comparison-list>li {
 /* Release & Tags */
 
 .release-timeline {
-    border-top: 2px solid #304251;
+    border-color: #304251;
+    border-width: 1px;
 }
 
 .release-body {
