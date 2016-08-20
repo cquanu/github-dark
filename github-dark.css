@@ -1647,6 +1647,10 @@ li.session-device {
     border-color: #d28e5d;
 }
 
+.pagehead.explore-head {
+    border-bottom-color: #304251;
+}
+
 .exploregrid-item-title {
     color: #fff;
 }
@@ -1660,6 +1664,23 @@ li.session-device {
 .thread-subscription-status {
     background-color: #1a2632;
     border: 1px solid #304251;
+}
+
+.explore-section {
+    border-color: #304251;
+}
+
+.explore-section:nth-child(even) {
+    background: #243447;
+}
+
+.explore-collection h2 {
+    color: #fff;
+}
+
+.repo-collection>ul {
+    background: #151f29;
+    border-color: #304251;
 }
 
 
