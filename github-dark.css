@@ -1307,6 +1307,10 @@ hr,
     border-color: #304251;
 }
 
+#contributions-calendar rect[fill="#eeeeee"] {
+    fill: #151f29;
+}
+
 
 /* Profile | Repo Tab */
 
