@@ -28,7 +28,7 @@ p {
 /* Main Site */
 
 .site-header {
-    background-color: #1a2632;
+    background-color: #243447;
 }
 
 .site-header-nav .nav-item {
@@ -457,7 +457,7 @@ table.files td.icon {
 }
 
 .muted-link {
-    color: #00aba5;
+    color: #00aba5 !important;
 }
 
 
@@ -1593,6 +1593,38 @@ li.session-device {
 
 .ajax-pagination-form .ajax-pagination-btn:hover {
     background-color: #151f29;
+}
+
+
+/* Github Pricing */
+
+.shade-gradient {
+    background-image: none;
+}
+
+.display-heading-1,
+.display-heading-2,
+.display-heading-3,
+.display-heading-4 {
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #1a2632 !important;
+}
+
+.pricing-card {
+    background-color: #1a2632;
+    border-color: #304251;
+    box-shadow: none;
+}
+
+.pricing-card-vertical .pricing-card-name {
+    border-color: #304251;
+}
+
+.pricing-card-vertical .pricing-card-cta {
+    border-color: #304251;
 }
 
 
