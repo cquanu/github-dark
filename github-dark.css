@@ -971,7 +971,7 @@ a.branch-name {
 }
 
 
-/* File Changed */
+/* File Changed | Compare */
 
 .diffbar {
     background-color: #1a2632;
@@ -979,6 +979,30 @@ a.branch-name {
 
 .pr-toolbar {
     background-color: #1a2632;
+}
+
+.range-editor {
+    background-color: #1a2632;
+    border-color: #304251;
+}
+
+.compare-pr-placeholder {
+    background-color: #1a2632;
+    border-color: #cea61b;
+}
+
+ul.comparison-list {
+    background: #1a2632;
+    border-color: #304251;
+}
+
+ul.comparison-list>li.title {
+    color: #9e9e9e;
+    background: #243447;
+}
+
+ul.comparison-list>li {
+    border-color: #304251;
 }
 
 
