@@ -897,6 +897,14 @@ timeline-comment::before {
     background-color: #151f29;
 }
 
+.branch-action-state-clean .branch-action-body::after {
+    border-right-color: #6cc644;
+}
+
+.branch-action-state-unstable .branch-action-body::after {
+    border-right-color: #cea61b;
+}
+
 .branch-action-body {
     background-color: #1a2632;
 }
