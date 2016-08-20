@@ -1399,7 +1399,7 @@ hr,
 }
 
 
-/* Settings Page */
+/* Personal Settings Main() */
 
 .menu-heading {
     color: #fff;
@@ -1420,6 +1420,10 @@ hr,
 }
 
 .saved-reply-form {
+    border-color: #304251;
+}
+
+.user-key-badge {
     border-color: #304251;
 }
 
