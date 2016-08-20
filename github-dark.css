@@ -1035,6 +1035,7 @@ ul.comparison-list>li {
 
 .release-body {
     border-color: #304251;
+    border-width: 1px;
 }
 
 .releases-tag-list {
