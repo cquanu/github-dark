@@ -885,6 +885,10 @@ timeline-comment::before {
     border-right-color: #304251;
 }
 
+.timeline-comment-label {
+    border-color: #304251;
+}
+
 .comment-reactions.has-reactions {
     border-color: #304251;
 }
