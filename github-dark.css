@@ -640,6 +640,21 @@ table.files td.icon {
 }
 
 
+/* Markdown Standalone */
+
+.markdown-body h2 {
+    border-color: #304251;
+}
+
+.markdown-body hr {
+    background-color: #304251;
+}
+
+.markdown-body blockquote {
+    border-color: #304251;
+}
+
+
 /* Repo Code Tab Live | Markdown */
 
 .file {
