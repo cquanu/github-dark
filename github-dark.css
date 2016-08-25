@@ -1616,6 +1616,18 @@ li.session-device {
     color: #8899a6;
 }
 
+.codesearch-aside .filter-list {
+    border-color: #304251;
+}
+
+.codesearch-aside .filter-list li span.bar {
+    background: #243447;
+}
+
+.filter-item:hover {
+    background-color: #243447;
+}
+
 
 /* Experimental */
 
