@@ -1172,6 +1172,10 @@ ul.comparison-list>li {
     background: #1a2632;
 }
 
+.wiki-wrapper .wiki-custom-sidebar {
+    border-color: #304251;
+}
+
 
 /* Repo Pulse Tab */
 
