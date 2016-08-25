@@ -1161,16 +1161,15 @@ ul.comparison-list>li {
 }
 
 .wiki-wrapper .wiki-auxiliary-content {
-    background: #151f29;
+    background: #243447;
+}
+
+.wiki-rightbar .boxed-group.collapsed>h3 {
+    border-color: #304251;
 }
 
 .wiki-wrapper .wiki-auxiliary-content-no-bg {
     background: #1a2632;
-}
-
-.wiki-rightbar .boxed-group.collapsed>h3 {
-    border-bottom: 1px solid #304251;
-    border-radius: 3px;
 }
 
 
