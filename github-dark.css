@@ -1586,7 +1586,7 @@ li.session-device {
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-    width: 10px
+    width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
