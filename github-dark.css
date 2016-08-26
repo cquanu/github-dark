@@ -1443,6 +1443,18 @@ hr,
     color: #00aba5;
 }
 
+.subnav-bordered {
+    border-color: #304251;
+}
+
+.org-module-title {
+    border-color: #304251;
+}
+
+.member-row {
+    border-color: #304251;
+}
+
 
 /* Create Organisation */
 
