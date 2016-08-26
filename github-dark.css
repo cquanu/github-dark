@@ -1455,6 +1455,12 @@ hr,
     border-color: #304251;
 }
 
+.pagehead-tabs-item.selected {
+    color: #fff;
+    background-color: #1a2632;
+    border-color: #d26911 #304251 transparent;
+}
+
 
 /* Create Organisation */
 
