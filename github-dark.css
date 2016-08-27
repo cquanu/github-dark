@@ -1009,6 +1009,10 @@ timeline-comment::before {
     border-top: solid 1px #304251;
 }
 
+.branch-action-state-merged .branch-action-body {
+    border-color: #6e5494;
+}
+
 .merge-status-list {
     border-color: #304251;
 }
