@@ -290,6 +290,13 @@ button.dropdown-item.dropdown-signout {
     color: #4078c0 !important;
 }
 
+.more-repos {
+    text-align: center;
+    background-color: #243447;
+    box-shadow: none;
+    border-top: 1px solid #304251;
+}
+
 
 /* New Repo */
 
