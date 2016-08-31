@@ -1137,6 +1137,18 @@ ul.comparison-list>li {
     color: #9e9e9e;
 }
 
+.tag-info h3 a .tag-name {
+    color: #4078c0;
+}
+
+.release-downloads {
+    border-color: #304251;
+}
+
+.release-downloads li {
+    border-color: #304251;
+}
+
 
 /* Commits Tab */
 
