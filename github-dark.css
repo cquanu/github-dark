@@ -1420,6 +1420,10 @@ hr,
     border-color: #304251;
 }
 
+.underline-nav-item:hover {
+    color: #607d8b;
+}
+
 .profile-timeline-card-wrapper {
     border-top: solid 1px #304251;
     border-bottom: solid 1px #304251;
