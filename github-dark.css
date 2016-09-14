@@ -1402,6 +1402,38 @@ hr,
     border-color: #304251;
 }
 
+.user-profile-nav {
+    background-color: #243447;
+    border-color: #304251;
+}
+
+.border-gray-dark {
+    border-color: #304251 !important;
+}
+
+.underline-nav-item.selected {
+    color: #fff;
+}
+
+.user-profile-sticky-bar::after {
+    background-color: #243447;
+    border-color: #304251;
+}
+
+.profile-timeline-card-wrapper {
+    border-top: solid 1px #304251;
+    border-bottom: solid 1px #304251;
+}
+
+.profile-timeline.discussion-timeline::before {
+    left: 11px;
+    background-color: #304251;
+}
+
+.profile-timeline.discussion-timeline .profile-timeline-month-heading::after {
+    background-color: #304251;
+}
+
 
 /* Profile | Contribution */
 
