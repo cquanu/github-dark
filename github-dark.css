@@ -1200,6 +1200,33 @@ ul.comparison-list>li {
 }
 
 
+/* Repo Project Tab */
+
+.border {
+    border-color: #304251 !important;
+}
+
+.bg-gray {
+    background-color: #1a2632 !important;
+}
+
+.project-header {
+    background-color: #1a2632;
+}
+
+.project-columns {
+    background-color: #1a2632;
+}
+
+.bg-white {
+    background-color: #243447 !important;
+}
+
+.bg-gray-light {
+    background-color: #1a2632 !important;
+}
+
+
 /* Repo Pulse Tab */
 
 .pulse-graph:first-child {
