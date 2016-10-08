@@ -458,6 +458,11 @@ table.files td.icon {
     color: #4078c0;
 }
 
+.branch-infobar {
+    background-color: #1a2632;
+    border-color: #3e5570;
+}
+
 .full-commit {
     background: #1a2632;
     border: 1px solid #304251;
