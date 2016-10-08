@@ -228,7 +228,7 @@ button.dropdown-item.dropdown-signout {
 .news .alert .branch-link,
 .news .alert .pull-info {
     color: #151f29;
-    background: #969ab0;
+    background: #627790;
 }
 
 .ajax-pagination-form .ajax-pagination-d {
@@ -848,7 +848,7 @@ table.files td.icon {
 
 .commit-ref {
     color: #151f29;
-    background-color: #969ab0;
+    background-color: #627790;
 }
 
 .commit-ref .user {
