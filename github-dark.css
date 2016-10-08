@@ -480,6 +480,11 @@ table.files td.icon {
     color: #9e9e9e;
 }
 
+.full-commit .btn-outline,
+.full-commit .btn-outline:disabled {
+    border-color: #304251;
+}
+
 .commits-list-item.navigation-focus {
     background: #151f29;
 }
@@ -1087,6 +1092,10 @@ timeline-comment::before {
 
 a.branch-name {
     color: inherit;
+}
+
+.table-of-contents li+li {
+    border-color: #304251;
 }
 
 
@@ -1822,7 +1831,7 @@ li.session-device {
 }
 
 
-/* Experimental */
+/* Experimental | Enchancement */
 
 
 /* Blob Minus */
@@ -1847,6 +1856,9 @@ li.session-device {
 .blob-code-addition {
     background-color: #1a2632;
 }
+
+
+/* End of Experimental */
 
 
 /* GitHub Gists */
