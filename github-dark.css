@@ -437,8 +437,8 @@ table.files td.icon {
 
 .commit-tease {
     color: #8485ce;
-    background-color: #364952;
-    border-color: #4c85a0;
+    background-color: #243447;
+    border-color: #3e5570;
 }
 
 .commits-list-item .commit-author {
@@ -450,8 +450,8 @@ table.files td.icon {
 }
 
 .commit-tease-contributors {
-    background-color: #283840;
-    border-color: #4c85a0;
+    background-color: #151f29;
+    border-color: #3e5570;
 }
 
 .commit .commit-title a {
