@@ -1830,6 +1830,11 @@ li.session-device {
 
 /* Helper */
 
+.timeline-commits .hidden-text-expander .ellipsis-expander {
+    color: #8899a6;
+    background: #243447;
+}
+
 .hidden-text-expander a,
 .ellipsis-expander {
     color: #8899a6;
