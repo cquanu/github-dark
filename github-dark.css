@@ -333,17 +333,10 @@ button.dropdown-item.dropdown-signout {
 }
 
 .social-count {
-    float: left;
-    padding: 3px 7px;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 20px;
-    color: #969ab0;
+    color: #607d8b;
     background-color: #151f29;
     border: 1px solid #304251;
     border-left: 0;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
 }
 
 .user-mention,
