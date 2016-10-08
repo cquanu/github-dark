@@ -1802,6 +1802,15 @@ li.session-device {
 }
 
 
+/* Helper */
+
+.hidden-text-expander a,
+.ellipsis-expander {
+    color: #8899a6;
+    background: #243447;
+}
+
+
 /* Experimental */
 
 
