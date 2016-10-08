@@ -984,6 +984,10 @@ timeline-comment::before {
     background: #243447;
 }
 
+.new-discussion-timeline .previewable-comment-form .comment-body {
+    border-color: #304251;
+}
+
 .new-discussion-timeline .closed-banner {
     background: #304251;
     border-bottom: 18px solid #1a2632;
@@ -1155,6 +1159,10 @@ ul.comparison-list>li {
 .review-thread-reply {
     background-color: #243447;
     border-color: #304251;
+}
+
+.review-thread-reply .inline-comment-form {
+    background-color: #1a2632;
 }
 
 .review-comment .reaction-summary-item:not(.add-reaction-btn) {
