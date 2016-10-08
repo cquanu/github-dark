@@ -1644,7 +1644,7 @@ hr,
 }
 
 
-/* Personal Settings (Main) */
+/* Personal Settings (Global) */
 
 .menu-heading {
     color: #fff;
@@ -1669,6 +1669,10 @@ hr,
 }
 
 .user-key-badge {
+    border-color: #304251;
+}
+
+dl.new-email-form {
     border-color: #304251;
 }
 
