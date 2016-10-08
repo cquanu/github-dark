@@ -1133,6 +1133,10 @@ ul.comparison-list>li {
     border-right-color: #304251;
 }
 
+.feature-callout-octicon {
+    border-color: #304251;
+}
+
 .feature-callout {
     border-color: #304251;
 }
