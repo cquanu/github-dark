@@ -1805,6 +1805,13 @@ li.session-device {
     background-color: #151f29;
 }
 
+.btn-outline:disabled,
+.btn-outline:disabled:hover,
+.btn-outline.disabled,
+.btn-outline.disabled:hover {
+    border-color: #304251;
+}
+
 
 /* Github Pricing */
 
