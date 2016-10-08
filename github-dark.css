@@ -955,6 +955,28 @@ timeline-comment::before {
     border-color: #304251;
 }
 
+.discussion-item+.discussion-item-review {
+    border-color: #304251;
+}
+
+.discussion-item-review .file-header {
+    background-color: #1a2632;
+    border-color: #304251;
+}
+
+.discussion-item-review+.discussion-item {
+    border-top: 1px solid #304251;
+}
+
+.discussion-item-review .blob-wrapper {
+    border-color: #304251;
+}
+
+.review-comment-contents::after,
+.review-comment.is-comment-editing::after {
+    background-color: #304251;
+}
+
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
     background: #243447;
 }
@@ -1068,10 +1090,14 @@ a.branch-name {
 }
 
 
-/* File Changed | Compare */
+/* File Changed | Compare | Reviews */
 
 .diffbar {
     background-color: #1a2632;
+}
+
+.diff-table tr:not(:last-child) .line-comments {
+    border-color: #304251;
 }
 
 .pr-toolbar {
@@ -1108,6 +1134,27 @@ ul.comparison-list>li {
 }
 
 .feature-callout {
+    border-color: #304251;
+}
+
+.review-thread {
+    border-color: #304251;
+}
+
+.review-thread-reply {
+    background-color: #243447;
+    border-color: #304251;
+}
+
+.review-comment .reaction-summary-item:not(.add-reaction-btn) {
+    border-color: #304251;
+}
+
+.last-review-thread {
+    border-color: #304251;
+}
+
+.inline-comment-form {
     border-color: #304251;
 }
 
