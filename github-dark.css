@@ -993,6 +993,15 @@ timeline-comment::before {
     border-bottom: 18px solid #1a2632;
 }
 
+.suggester {
+    background: #243447;
+    border-color: #304251;
+}
+
+.suggester li {
+    border-color: #304251;
+}
+
 .tabnav {
     border-color: #304251;
 }
