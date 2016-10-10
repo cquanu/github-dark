@@ -1109,6 +1109,10 @@ a.branch-name {
     border-color: #304251;
 }
 
+.commit-desc+.commit-branches {
+    border-color: #304251;
+}
+
 
 /* File Changed | Compare | Reviews */
 
