@@ -495,6 +495,29 @@ table.files td.icon {
     border-color: #304251;
 }
 
+.signed-commit-badge {
+    border-color: #304251;
+}
+
+.signed-commit-signer-name .signer {
+    display: block;
+    font-weight: bold;
+    color: #00aba5;
+}
+
+.flex-table-item-primary {
+    color: #fff;
+}
+
+span.d-block {
+    color: #fff;
+}
+
+.signed-commit-header {
+    background-color: #243447;
+    border-color: #304251;
+}
+
 
 /* Repo Blame */
 
