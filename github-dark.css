@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v2.5.0
+ * GitHub Dark v2.5.1
  * Copyright 2016 Quan You.
  * GitHub Project (https://cquanu.github.io/github-dark/)
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
@@ -1761,8 +1761,7 @@ li.session-device {
 }
 
 .blob-code-deletion {
-    background-color: #1a2632;
-    text-decoration: line-through;
+    background-color: #2c1a32;
     color: #ef9a9a;
 }
 
@@ -1774,7 +1773,7 @@ li.session-device {
 }
 
 .blob-code-addition {
-    background-color: #1a2632;
+    background-color: #172b34;
 }
 
 
