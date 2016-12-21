@@ -1103,6 +1103,10 @@ timeline-comment::before {
     border-color: #304251;
 }
 
+.status-heading {
+    color: #607d8b;
+}
+
 
 /* Site | Issue Tab */
 
