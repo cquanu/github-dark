@@ -788,6 +788,10 @@ span.d-block {
     color: #cecece;
 }
 
+.Box-body {
+    border-color: #304251;
+}
+
 
 /* Dropdown Menu */
 
@@ -1097,6 +1101,25 @@ timeline-comment::before {
 
 .branch-action-item+.branch-action-item {
     border-color: #304251;
+}
+
+
+/* Site | Issue Tab */
+
+.Box-row--focus-gray.navigation-focus {
+    background-color: #1a2632;
+}
+
+.Box-row:first-of-type {
+    border-color: #304251;
+}
+
+.Box-row {
+    border-color: #304251;
+}
+
+a.Box-row-link.h4.js-navigation-open {
+    color: #4078c0;
 }
 
 
