@@ -1,6 +1,7 @@
-/* 
- * GitHub Dark v2.6.0
+/*
+ * GitHub Dark v2.6.1
  * Copyright 2016 Quan You.
+ * Mods by Lance Jordan
  * GitHub Project (https://cquanu.github.io/github-dark/)
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -1022,6 +1023,10 @@ timeline-comment::before {
 .new-discussion-timeline .closed-banner {
     background: #304251;
     border-bottom: 18px solid #1a2632;
+}
+
+.discussion-item .renamed-was, .discussion-item .renamed-is {
+	color: #ccc;
 }
 
 .suggester {
@@ -2147,5 +2152,8 @@ li.session-device {
     filter: invert(1);
 }
 
+.markdown-body .task-list-item.hovered {
+  background: #424a7e !important;
+}
 
 /* End */
