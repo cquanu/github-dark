@@ -1,5 +1,5 @@
 /* 
- * GitHub Dark v2.5.1
+ * GitHub Dark v2.6.0
  * Copyright 2016 Quan You.
  * GitHub Project (https://cquanu.github.io/github-dark/)
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
@@ -15,6 +15,10 @@ body {
 
 p {
     color: #607d8b !important;
+}
+
+h4 {
+    color: #fff;
 }
 
 
@@ -228,7 +232,7 @@ button.dropdown-item.dropdown-signout {
 .news .alert .branch-link,
 .news .alert .pull-info {
     color: #151f29;
-    background: #969ab0;
+    background: #627790;
 }
 
 .ajax-pagination-form .ajax-pagination-d {
@@ -333,17 +337,10 @@ button.dropdown-item.dropdown-signout {
 }
 
 .social-count {
-    float: left;
-    padding: 3px 7px;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 20px;
-    color: #969ab0;
+    color: #607d8b;
     background-color: #151f29;
     border: 1px solid #304251;
     border-left: 0;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
 }
 
 .user-mention,
@@ -437,8 +434,8 @@ table.files td.icon {
 
 .commit-tease {
     color: #8485ce;
-    background-color: #364952;
-    border-color: #4c85a0;
+    background-color: #243447;
+    border-color: #3e5570;
 }
 
 .commits-list-item .commit-author {
@@ -450,12 +447,17 @@ table.files td.icon {
 }
 
 .commit-tease-contributors {
-    background-color: #283840;
-    border-color: #4c85a0;
+    background-color: #151f29;
+    border-color: #3e5570;
 }
 
 .commit .commit-title a {
     color: #4078c0;
+}
+
+.branch-infobar {
+    background-color: #1a2632;
+    border-color: #3e5570;
 }
 
 .full-commit {
@@ -480,6 +482,11 @@ table.files td.icon {
     color: #9e9e9e;
 }
 
+.full-commit .btn-outline,
+.full-commit .btn-outline:disabled {
+    border-color: #304251;
+}
+
 .commits-list-item.navigation-focus {
     background: #151f29;
 }
@@ -489,6 +496,29 @@ table.files td.icon {
 }
 
 .file-navigation .get-repo-btn:first-child {
+    border-color: #304251;
+}
+
+.signed-commit-badge {
+    border-color: #304251;
+}
+
+.signed-commit-signer-name .signer {
+    display: block;
+    font-weight: bold;
+    color: #00aba5;
+}
+
+.flex-table-item-primary {
+    color: #fff;
+}
+
+span.d-block {
+    color: #fff;
+}
+
+.signed-commit-header {
+    background-color: #243447;
     border-color: #304251;
 }
 
@@ -762,6 +792,10 @@ table.files td.icon {
     color: #cecece;
 }
 
+.Box-body {
+    border-color: #304251;
+}
+
 
 /* Dropdown Menu */
 
@@ -838,7 +872,7 @@ table.files td.icon {
 
 .commit-ref {
     color: #151f29;
-    background-color: #969ab0;
+    background-color: #627790;
 }
 
 .commit-ref .user {
@@ -955,13 +989,48 @@ timeline-comment::before {
     border-color: #304251;
 }
 
+.discussion-item+.discussion-item-review {
+    border-color: #304251;
+}
+
+.discussion-item-review .file-header {
+    background-color: #1a2632;
+    border-color: #304251;
+}
+
+.discussion-item-review+.discussion-item {
+    border-top: 1px solid #304251;
+}
+
+.discussion-item-review .blob-wrapper {
+    border-color: #304251;
+}
+
+.review-comment-contents::after,
+.review-comment.is-comment-editing::after {
+    background-color: #304251;
+}
+
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
     background: #243447;
+}
+
+.new-discussion-timeline .previewable-comment-form .comment-body {
+    border-color: #304251;
 }
 
 .new-discussion-timeline .closed-banner {
     background: #304251;
     border-bottom: 18px solid #1a2632;
+}
+
+.suggester {
+    background: #243447;
+    border-color: #304251;
+}
+
+.suggester li {
+    border-color: #304251;
 }
 
 .tabnav {
@@ -1038,6 +1107,29 @@ timeline-comment::before {
     border-color: #304251;
 }
 
+.status-heading {
+    color: #607d8b;
+}
+
+
+/* Site | Issue Tab */
+
+.Box-row--focus-gray.navigation-focus {
+    background-color: #1a2632;
+}
+
+.Box-row:first-of-type {
+    border-color: #304251;
+}
+
+.Box-row {
+    border-color: #304251;
+}
+
+a.Box-row-link.h4.js-navigation-open {
+    color: #4078c0;
+}
+
 
 /* Code Tab | Branches */
 
@@ -1067,11 +1159,23 @@ a.branch-name {
     color: inherit;
 }
 
+.table-of-contents li+li {
+    border-color: #304251;
+}
 
-/* File Changed | Compare */
+.commit-desc+.commit-branches {
+    border-color: #304251;
+}
+
+
+/* File Changed | Compare | Reviews */
 
 .diffbar {
     background-color: #1a2632;
+}
+
+.diff-table tr:not(:last-child) .line-comments {
+    border-color: #304251;
 }
 
 .pr-toolbar {
@@ -1105,6 +1209,39 @@ ul.comparison-list>li {
 .file-diff-split .empty-cell {
     background-color: #1a2632;
     border-right-color: #304251;
+}
+
+.feature-callout-octicon {
+    border-color: #304251;
+}
+
+.feature-callout {
+    border-color: #304251;
+}
+
+.review-thread {
+    border-color: #304251;
+}
+
+.review-thread-reply {
+    background-color: #243447;
+    border-color: #304251;
+}
+
+.review-thread-reply .inline-comment-form {
+    background-color: #1a2632;
+}
+
+.review-comment .reaction-summary-item:not(.add-reaction-btn) {
+    border-color: #304251;
+}
+
+.last-review-thread {
+    border-color: #304251;
+}
+
+.inline-comment-form {
+    border-color: #304251;
 }
 
 
@@ -1452,8 +1589,7 @@ hr,
 }
 
 .profile-timeline-card-wrapper {
-    border-top: solid 1px #304251;
-    border-bottom: solid 1px #304251;
+    border: 0;
 }
 
 .profile-timeline.discussion-timeline::before {
@@ -1463,6 +1599,10 @@ hr,
 
 .profile-timeline.discussion-timeline .profile-timeline-month-heading::after {
     background-color: #304251;
+}
+
+.profile-rollup-wrapper+.profile-rollup-wrapper {
+    border-color: #304251;
 }
 
 
@@ -1589,7 +1729,7 @@ hr,
 }
 
 
-/* Personal Settings (Main) */
+/* Personal Settings (Global) */
 
 .menu-heading {
     color: #fff;
@@ -1614,6 +1754,14 @@ hr,
 }
 
 .user-key-badge {
+    border-color: #304251;
+}
+
+dl.new-email-form {
+    border-color: #304251;
+}
+
+.Subhead {
     border-color: #304251;
 }
 
@@ -1751,7 +1899,21 @@ li.session-device {
 }
 
 
-/* Experimental */
+/* Helper */
+
+.timeline-commits .hidden-text-expander .ellipsis-expander {
+    color: #8899a6;
+    background: #243447;
+}
+
+.hidden-text-expander a,
+.ellipsis-expander {
+    color: #8899a6;
+    background: #243447;
+}
+
+
+/* Experimental | Enchancement */
 
 
 /* Blob Minus */
@@ -1777,6 +1939,9 @@ li.session-device {
 }
 
 
+/* End of Experimental */
+
+
 /* GitHub Gists */
 
 .header-logo-wordmark {
@@ -1788,7 +1953,7 @@ li.session-device {
 }
 
 
-/* Rework Buttons */
+/* Rework Buttons | Icons */
 
 .ajax-pagination-form .ajax-pagination-btn {
     color: #9e9e9e;
@@ -1798,6 +1963,33 @@ li.session-device {
 
 .ajax-pagination-form .ajax-pagination-btn:hover {
     background-color: #151f29;
+}
+
+.btn-outline:disabled,
+.btn-outline:disabled:hover,
+.btn-outline.disabled,
+.btn-outline.disabled:hover {
+    border-color: #304251;
+}
+
+.btn-octicon {
+    color: #8899a6;
+}
+
+.toolbar-item {
+    color: #8899a6;
+}
+
+.toolbar-item .menu-target {
+    color: #8899a6;
+}
+
+.timeline-comment-actions {
+    color: #8899a6;
+}
+
+.discussion-sidebar-toggle .octicon {
+    color: #8899a6;
 }
 
 
@@ -1938,11 +2130,11 @@ li.session-device {
 }
 
 .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
-    background-color: #1f2a44;
+    background-color: #243447;
 }
 
 .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
-    background-color: #1f2a44;
+    background-color: #243447;
 }
 
 .octotree_sidebar {
