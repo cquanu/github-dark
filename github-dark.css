@@ -2321,3 +2321,50 @@ li.session-device {
 .site-footer-marketing-col ul li a {
 	color: #0366d6 !important;
 }
+
+/* fix #39 */
+.code-list .divider .blob-num, .code-list .divider .blob-code{
+  background-color:#151f29;
+}
+
+/* codemirror vs ace fix */
+.CodeMirror,
+.CodeMirror-lines, 
+.CodeMirror-gutters {
+    background-color: #1a2632 !important;    
+}
+
+/* editor: line nums */
+.CodeMirror-linenumber {
+    color: #5e6b77 !important;
+    border-color: #304251;
+}
+
+/* editor: syntax */
+.CodeMirror-line span {
+	color: #6d6d72;
+}
+.cm-string {
+	color: #4078c0 !important;
+}
+
+.cm-keyword {
+ 	color: #b73999 !important;   
+}
+
+.cm-property, 
+.cm-atom,
+.cm-number,
+.cm-meta {
+    color: #0086b3 !important;
+}
+.cm-qualifier, 
+.cm-variable-3 {
+    color: #795da3 !important;
+}
+.cm-tag {
+    color: #63a35c !important;
+}
+.cm-variable-3 {
+ 	color:    
+}
