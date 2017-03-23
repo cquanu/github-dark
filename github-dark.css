@@ -2168,6 +2168,9 @@ li.session-device {
     color: #fff;
     opacity: .85;
 }
+.reaction-summary-item {
+    background-color: #1a2632 !important;
+}
 /* calender */
 
 .calendar-graph rect[fill="#ebedf0"],
