@@ -1085,6 +1085,10 @@ timeline-comment::before {
     border-top: solid 1px #304251;
 }
 
+.merge-branch-heading {
+  color: #fff;
+}
+
 .branch-action-state-merged .branch-action-body {
     border-color: #6e5494;
 }
@@ -2149,3 +2153,221 @@ li.session-device {
 
 
 /* End */
+
+/* Fix new additions to github. */
+
+.topic-tag {
+    background-color: #304251;
+}
+.simple-box-footer {
+    background-color: #304251;
+    border-top: #304251;
+}
+.pagehead-tabs-item:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.pagehead-tabs-item .counter {
+    color: #fff;
+    opacity: .85;
+}
+.reaction-summary-item {
+    background-color: #1a2632 !important;
+}
+/* calender */
+
+.calendar-graph rect[fill="#ebedf0"],
+.calendar-graph rect[fill="#c6e48b"],
+.calendar-graph rect[fill="#7bc96f"],
+.calendar-graph rect[fill="#239a3b"],
+.calendar-graph rect[fill="#196127"],
+.heat {
+    background-color: #4183C4 !important;
+    fill: #4183C4 !important;
+    opacity: .15;
+}
+.contrib-legend {
+    display: none !important;
+}
+.calendar-graph .days-selected rect.day.active {
+    stroke: #ddd !important;
+}
+.calendar-graph rect.day:hover {
+    stroke: #fff !important;
+}
+/* reg colors */
+
+.calendar-graph rect[fill="#c6e48b"] {
+    opacity: .3;
+}
+.calendar-graph rect[fill="#7bc96f"] {
+    opacity: .5;
+}
+.calendar-graph rect[fill="#239a3b"] {
+    opacity: .7;
+}
+.calendar-graph rect[fill="#196127"] {
+    opacity: 1;
+}
+/* user fix */
+
+.underline-nav-item {
+    color: #6a737d;
+}
+.underline-nav-item .counter {
+    color: #fff;
+    opacity: .65;
+}
+.underline-nav-item:hover {
+    color: #fff;
+}
+.notification-indicator .mail-status {
+    background-color: #00aba5 !important;
+    background-image: none !important;
+}
+.vcard-username {
+    color: #fff;
+    opacity: .65;
+}
+
+/* User Circled Images */
+.vcard-avatar img {
+    border-radius: 100% !important;
+    border: 3px solid #304251 !important;
+}
+
+/* settings user fix */
+.Box {
+    background: none !important;
+}
+
+.Box .Box-row .listgroup-item-body {
+	color: #607d8b !important;
+}
+
+.Box .Box-row .listgroup-item-title {
+    opacity: .85;
+}
+
+/* feed fix, user & owner color */
+.simple .title a:first-child,
+.body .title a:first-child, 
+.public .author a,
+.owner {
+    color: #00aba5 !important;
+}
+
+.member-name {
+ 	color: #FFF;
+    opacity: .75;
+}
+.member-name:hover{
+ 	opacity: 1;   
+}
+
+/* org fix */
+.unstyled-members-count,
+.js-repositories-count{
+	color: #FFF;
+}
+
+.js-stat-label {
+}
+
+.note-emphasis {
+	color: #FFF !important;
+}
+
+.team-actions,
+.team-info-card,
+.stats-group-stat {
+ 	border-color: #304251 !important;   
+}
+
+/* blog */
+.blog-post-title a {
+    color: #FFF !important;
+    opacity: .85;
+}
+
+.blog-post-body h2 {
+	border-color: #304251 !important;
+}
+
+.blog-post-body h2,
+.blog-post-body h3 {
+    color: #FFF;
+}
+
+.blog-post-body ul,
+.blog-post-body ol {
+	color: #607d8b;   
+}
+
+.pagination,
+.pagination a,
+.pagination span {
+	border-color: #304251 !important;
+    background-color: #1a2632 !important;
+}
+
+.pagination a,
+.pagination .next_page,
+.pagination .previous_page{
+	color: #FFF;
+}
+
+.meta-item:nth-child(2) a {
+    color: #00aba5 !important;
+}
+
+.site-footer-marketing-col ul li a {
+	color: #0366d6 !important;
+}
+
+/* fix #39 */
+.code-list .divider .blob-num, .code-list .divider .blob-code{
+  background-color:#151f29;
+}
+
+/* codemirror vs ace fix */
+.CodeMirror,
+.CodeMirror-lines, 
+.CodeMirror-gutters {
+    background-color: #1a2632 !important;    
+}
+
+/* editor: line nums */
+.CodeMirror-linenumber {
+    color: #5e6b77 !important;
+    border-color: #304251;
+}
+
+/* editor: syntax */
+.CodeMirror-line span {
+	color: #6d6d72;
+}
+.cm-string {
+	color: #4078c0 !important;
+}
+
+.cm-keyword {
+ 	color: #b73999 !important;   
+}
+
+.cm-property, 
+.cm-atom,
+.cm-number,
+.cm-meta {
+    color: #0086b3 !important;
+}
+.cm-qualifier, 
+.cm-variable-3 {
+    color: #795da3 !important;
+}
+.cm-tag {
+    color: #63a35c !important;
+}
+.cm-variable-3 {
+ 	color:    
+}
