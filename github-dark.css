@@ -1547,6 +1547,19 @@ hr,
     border-color: #df3e3e;
 }
 
+.Box {
+    background-color: #1a2632;
+    border: 1px solid #1a2632;
+}
+
+.btn:disabled, .btn.disabled {
+    color: white;
+    background-color: #1a2632;
+    background-image: none;
+    border-color: rgb(42, 58, 72);
+    box-shadow: none;
+}
+
 .integrations-callout-standalone .integration-settings-callout {
     border-color: #304251;
 }
