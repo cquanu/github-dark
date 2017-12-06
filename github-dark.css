@@ -2165,6 +2165,9 @@ li.session-device {
     filter: invert(1);
 }
 
+.discussion-item .renamed-was, .discussion-item .renamed-is {
+    color: #fff;
+}
 
 /* End */
 
