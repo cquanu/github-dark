@@ -1414,6 +1414,16 @@ ul.comparison-list>li {
     border: 0;
 }
 
+.Box {
+    background-color: #1a2632;
+    border-color: #304251;
+}
+
+.Box-header {
+    background-color: #243447;
+    border-color: #304251;
+}
+
 
 /* Repo Graph | Contributors */
 
