@@ -1657,6 +1657,10 @@ hr,
     border-color: #4c85a0;
 }
 
+.notifications .list-group-item {
+    border-top: 1px solid #304251;
+}
+
 
 /* Organisation */
 
