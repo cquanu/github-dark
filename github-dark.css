@@ -31,7 +31,7 @@ h4 {
 
 /* Main Site and New User */
 
-.site-header {
+.Header {
     background-color: #243447;
 }
 
@@ -905,7 +905,8 @@ span.d-block {
     color: #00aba5;
 }
 
-.timeline-comment {
+.timeline-comment, 
+.timeline-comment .Box  {
     background-color: #1a2632;
     border-color: #304251;
 }
