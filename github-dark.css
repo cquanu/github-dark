@@ -905,7 +905,8 @@ span.d-block {
     color: #00aba5;
 }
 
-.timeline-comment {
+.timeline-comment, 
+.timeline-comment .Box  {
     background-color: #1a2632;
     border-color: #304251;
 }
