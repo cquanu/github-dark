@@ -1161,7 +1161,8 @@ a.Box-row-link.h4.js-navigation-open {
 }
 
 a.branch-name {
-    color: inherit;
+    color: #151f29;
+    background-color: #627790;
 }
 
 .table-of-contents li+li {
