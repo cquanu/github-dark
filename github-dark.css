@@ -1668,6 +1668,14 @@ hr,
     border-color: #4c85a0;
 }
 
+.notifications-list .notifications .list-group-item:not(.confirmation):first-child {
+    border-top: 0px solid #304251;
+}
+
+.notifications-list .notifications .list-group-item:not(.confirmation) {
+    border-top: 1px solid #304251;
+}
+
 
 /* Organisation */
 
