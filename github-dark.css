@@ -1373,6 +1373,14 @@ ul.comparison-list>li {
     background-color: #1a2632 !important;
 }
 
+.js-project-column-cards {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.js-project-column-cards::-webkit-scrollbar {
+    display: none;
+}
 
 /* Repo Pulse Tab */
 
