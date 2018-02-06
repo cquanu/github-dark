@@ -1361,6 +1361,10 @@ ul.comparison-list>li {
     background-color: #1a2632;
 }
 
+.project-column {
+    background-color: #151f29;
+}
+
 .bg-white {
     background-color: #243447 !important;
 }
