@@ -32,7 +32,7 @@ h4 {
 
 /* Main Site and New User */
 
-.site-header {
+.Header {
     background-color: #243447;
 }
 
@@ -906,7 +906,8 @@ span.d-block {
     color: #00aba5;
 }
 
-.timeline-comment {
+.timeline-comment,
+.timeline-comment .Box  {
     background-color: #1a2632;
     border-color: #304251;
 }
@@ -1124,7 +1125,7 @@ timeline-comment::before {
 /* Site | Issue Tab */
 
 .Box-row--focus-gray.navigation-focus {
-    background-color: #1a2632;
+    background-color: #243447;
 }
 
 .Box-row:first-of-type {
@@ -1165,7 +1166,8 @@ a.Box-row-link.h4.js-navigation-open {
 }
 
 a.branch-name {
-    color: inherit;
+    color: #151f29;
+    background-color: #627790;
 }
 
 .table-of-contents li+li {
@@ -1364,6 +1366,10 @@ ul.comparison-list>li {
     background-color: #1a2632;
 }
 
+.project-column {
+    background-color: #151f29;
+}
+
 .bg-white {
     background-color: #243447 !important;
 }
@@ -1372,6 +1378,13 @@ ul.comparison-list>li {
     background-color: #1a2632 !important;
 }
 
+.js-project-column-cards {
+    -ms-overflow-style: none;
+}
+
+.js-project-column-cards::-webkit-scrollbar {
+    display: none;
+}
 
 /* Repo Pulse Tab */
 
@@ -1417,6 +1430,16 @@ ul.comparison-list>li {
 
 .subhead {
     border: 0;
+}
+
+.Box {
+    background-color: #1a2632;
+    border-color: #304251;
+}
+
+.Box-header {
+    background-color: #243447;
+    border-color: #304251;
 }
 
 
@@ -1552,6 +1575,19 @@ hr,
     border-color: #df3e3e;
 }
 
+.Box {
+    background-color: #1a2632;
+    border: 1px solid #1a2632;
+}
+
+.btn:disabled, .btn.disabled {
+    color: white;
+    background-color: #1a2632;
+    background-image: none;
+    border-color: rgb(42, 58, 72);
+    box-shadow: none;
+}
+
 .integrations-callout-standalone .integration-settings-callout {
     border-color: #304251;
 }
@@ -1647,6 +1683,14 @@ hr,
     color: white;
     background-color: #364952;
     border-color: #4c85a0;
+}
+
+.notifications-list .notifications .list-group-item:not(.confirmation):first-child {
+    border-top: 0px solid #304251;
+}
+
+.notifications-list .notifications .list-group-item:not(.confirmation) {
+    border-top: 1px solid #304251;
 }
 
 
@@ -2158,6 +2202,9 @@ li.session-device {
 
 .markdown-body .task-list-item.hovered {
   background: #424a7e !important;
+
+.discussion-item .renamed-was, .discussion-item .renamed-is {
+    color: #607d8b;
 }
 
 /* End */
@@ -2259,7 +2306,7 @@ li.session-device {
 
 /* feed fix, user & owner color */
 .simple .title a:first-child,
-.body .title a:first-child, 
+.body .title a:first-child,
 .public .author a,
 .owner {
     color: #00aba5 !important;
@@ -2270,7 +2317,7 @@ li.session-device {
     opacity: .75;
 }
 .member-name:hover{
- 	opacity: 1;   
+ 	opacity: 1;
 }
 
 /* org fix */
@@ -2289,7 +2336,7 @@ li.session-device {
 .team-actions,
 .team-info-card,
 .stats-group-stat {
- 	border-color: #304251 !important;   
+ 	border-color: #304251 !important;
 }
 
 /* blog */
@@ -2309,7 +2356,7 @@ li.session-device {
 
 .blog-post-body ul,
 .blog-post-body ol {
-	color: #607d8b;   
+	color: #607d8b;
 }
 
 .pagination,
@@ -2340,9 +2387,9 @@ li.session-device {
 
 /* codemirror vs ace fix */
 .CodeMirror,
-.CodeMirror-lines, 
+.CodeMirror-lines,
 .CodeMirror-gutters {
-    background-color: #1a2632 !important;    
+    background-color: #1a2632 !important;
 }
 
 /* editor: line nums */
@@ -2360,16 +2407,16 @@ li.session-device {
 }
 
 .cm-keyword {
- 	color: #b73999 !important;   
+ 	color: #b73999 !important;
 }
 
-.cm-property, 
+.cm-property,
 .cm-atom,
 .cm-number,
 .cm-meta {
     color: #0086b3 !important;
 }
-.cm-qualifier, 
+.cm-qualifier,
 .cm-variable-3 {
     color: #795da3 !important;
 }
@@ -2377,5 +2424,5 @@ li.session-device {
     color: #63a35c !important;
 }
 .cm-variable-3 {
- 	color:    
+ 	color:
 }
