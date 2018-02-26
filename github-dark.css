@@ -1,6 +1,7 @@
-/* 
- * GitHub Dark v2.6.0
+/*
+ * GitHub Dark v2.6.1
  * Copyright 2016 Quan You.
+ * Mods by Lance Jordan
  * GitHub Project (https://cquanu.github.io/github-dark/)
  * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
@@ -905,7 +906,7 @@ span.d-block {
     color: #00aba5;
 }
 
-.timeline-comment, 
+.timeline-comment,
 .timeline-comment .Box  {
     background-color: #1a2632;
     border-color: #304251;
@@ -1023,6 +1024,10 @@ timeline-comment::before {
 .new-discussion-timeline .closed-banner {
     background: #304251;
     border-bottom: 18px solid #1a2632;
+}
+
+.discussion-item .renamed-was, .discussion-item .renamed-is {
+	color: #ccc;
 }
 
 .suggester {
@@ -1967,12 +1972,11 @@ li.session-device {
 /* Blob Minus */
 
 .blob-num-deletion {
-    background-color: #ef9a9a;
+    background-color: #3b2343;
 }
 
 .blob-code-deletion {
-    background-color: #1a2632;
-    text-decoration: line-through;
+    background-color: #2c1a32;
     color: #ef9a9a;
 }
 
@@ -1984,7 +1988,7 @@ li.session-device {
 }
 
 .blob-code-addition {
-    background-color: #1a2632;
+    background-color: #1a323c;
 }
 
 
@@ -2196,6 +2200,9 @@ li.session-device {
     filter: invert(1);
 }
 
+.markdown-body .task-list-item.hovered {
+  background: #424a7e !important;
+
 .discussion-item .renamed-was, .discussion-item .renamed-is {
     color: #607d8b;
 }
@@ -2299,7 +2306,7 @@ li.session-device {
 
 /* feed fix, user & owner color */
 .simple .title a:first-child,
-.body .title a:first-child, 
+.body .title a:first-child,
 .public .author a,
 .owner {
     color: #00aba5 !important;
@@ -2310,7 +2317,7 @@ li.session-device {
     opacity: .75;
 }
 .member-name:hover{
- 	opacity: 1;   
+ 	opacity: 1;
 }
 
 /* org fix */
@@ -2329,7 +2336,7 @@ li.session-device {
 .team-actions,
 .team-info-card,
 .stats-group-stat {
- 	border-color: #304251 !important;   
+ 	border-color: #304251 !important;
 }
 
 /* blog */
@@ -2349,7 +2356,7 @@ li.session-device {
 
 .blog-post-body ul,
 .blog-post-body ol {
-	color: #607d8b;   
+	color: #607d8b;
 }
 
 .pagination,
@@ -2380,9 +2387,9 @@ li.session-device {
 
 /* codemirror vs ace fix */
 .CodeMirror,
-.CodeMirror-lines, 
+.CodeMirror-lines,
 .CodeMirror-gutters {
-    background-color: #1a2632 !important;    
+    background-color: #1a2632 !important;
 }
 
 /* editor: line nums */
@@ -2400,16 +2407,16 @@ li.session-device {
 }
 
 .cm-keyword {
- 	color: #b73999 !important;   
+ 	color: #b73999 !important;
 }
 
-.cm-property, 
+.cm-property,
 .cm-atom,
 .cm-number,
 .cm-meta {
     color: #0086b3 !important;
 }
-.cm-qualifier, 
+.cm-qualifier,
 .cm-variable-3 {
     color: #795da3 !important;
 }
@@ -2417,5 +2424,5 @@ li.session-device {
     color: #63a35c !important;
 }
 .cm-variable-3 {
- 	color:    
+ 	color:
 }
