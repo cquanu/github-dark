@@ -1821,8 +1821,8 @@ dl.new-email-form {
 
 /* Settings | Security */
 
-li.session-device.session-current,
-li.session-device {
+.session-device.session-current,
+.session-device {
     background-color: #1a2632;
 }
 
@@ -2202,7 +2202,7 @@ li.session-device {
 
 .markdown-body .task-list-item.hovered {
   background: #424a7e !important;
-
+}
 .discussion-item .renamed-was, .discussion-item .renamed-is {
     color: #607d8b;
 }
@@ -2422,7 +2422,4 @@ li.session-device {
 }
 .cm-tag {
     color: #63a35c !important;
-}
-.cm-variable-3 {
- 	color:
 }
