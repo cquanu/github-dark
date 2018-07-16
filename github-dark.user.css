@@ -1,0 +1,1845 @@
+/* ==UserStyle==
+@name           GitHub Dark v2.6.1
+@namespace      github.com/cquanu/github-dark
+@version        2.6.1
+@description    GitHub Dark 2.0
+@author         Quan You, Tyler Thrailkill
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    /*
+     * GitHub Dark v2.6.1
+     * Copyright 2016 Quan You.
+     * Mods by Lance Jordan
+     * GitHub Project (https://cquanu.github.io/github-dark/)
+     * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
+    */
+    /* HTML Global */
+    body {
+        background-color: #1a2632;
+        color: #fff;
+    }
+    p {
+        color: #607d8b !important;
+    }
+    h4 {
+        color: #fff;
+    }
+    /* Class Global */
+    .lead {
+        color: #929292;
+    }
+    /* Main Site and New User */
+    .Header {
+        background-color: #243447;
+    }
+    .site-header-nav .nav-item {
+        color: #fff;
+    }
+    .jumbotron-home {
+        background-image: none;
+        background-color: #1a2632;
+    }
+    .features-list .list-divider,
+    .setup-form .tos-info,
+    .setup-form .setup-organization-next {
+        border-color: #304251;
+    }
+    .radio-label {
+        border-color: #304251;
+    }
+    .tag-input-tag {
+        background: #243447;
+    }
+    .tag-input-tag .remove {
+        background: #1a2632;
+    }
+    .home-hero-signup .form-control-lg {
+        border-color: #304251;
+    }
+    .shade-gray {
+        background-color: #121b23 !important;
+    }
+    .tile-block {
+        border-color: #304251;
+    }
+    .tile-bordered:not(:last-child) {
+        border-color: #304251;
+    }
+    /* Main Site Login */
+    .session-authentication {
+        background-color: #1a2632;
+    }
+    .session-authentication .header-logo {
+        color: #fff;
+    }
+    .session-authentication .auth-form-body {
+        border-color: #304251;
+    }
+    .auth-form-body {
+        background-color: #1a2632;
+    }
+    .session-authentication .create-account-callout {
+        border-color: #304251;
+    }
+    .session-authentication .auth-form-header {
+        color: #fff;
+    }
+    /* Site Wide Global */
+    .header {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .header-logo-invertocat {
+        color: #fff;
+    }
+    .header-search-scope {
+        border-color: #304251;
+    }
+    .header-nav-link {
+        color: #fff;
+    }
+    /*.scoped-search .form-control .header-search-scope {
+        background-color: #1a2632;
+        border-color: #304251;
+    }*/
+    .form-control,
+    .form-select {
+        color: #fff;
+        background-color: #151f29;
+        border-color: #304251;
+    }
+    .form-control.focus,
+    .form-control:focus,
+    .form-select.focus,
+    .form-select:focus {
+        box-shadow: none;
+    }
+    .form-group .form-control:focus {
+        background-color: #151f29;
+    }
+    .btn {
+        color: #fff;
+        background-color: #1a2632;
+        background-image: none;
+        border-color: #304251;
+    }
+    .btn:hover,
+    .btn:active,
+    .btn.zeroclipboard-is-hover,
+    .btn.zeroclipboard-is-active {
+        text-decoration: none;
+        background-color: #151f29;
+        background-image: none;
+        border-color: #304251;
+    }
+    .btn:active,
+    .btn.selected,
+    .btn.zeroclipboard-is-active {
+        background-color: #1a2632;
+        background-image: none;
+        border-color: #304251;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #57BB5C;
+        background-image: none;
+        border-color: #57BB5C;
+    }
+    .btn-theme-green {
+        background-color: #6cc644;
+    }
+    .site-footer {
+        border-color: #304251;
+    }
+    .dropdown-menu {
+        background-color: #1a2632;
+        border: 1px solid #304251;
+        box-shadow: none;
+    }
+    .dropdown-divider {
+        background-color: #304251;
+    }
+    .dropdown-item {
+        color: #9e9e9e;
+    }
+    .dropdown-item:hover {
+        background-color: #243447;
+    }
+    button.dropdown-item.dropdown-signout {
+        color: #df3e3e;
+    }
+    /* Site Related */
+    .setup-header {
+        border-color: #304251;
+    }
+    /* Home */
+    .news .alert {
+        border-color: #304251;
+    }
+    .news .alert .octicon {
+        color: #8899a6;
+    }
+    .news .alert .branch-link,
+    .news .alert .pull-info {
+        color: #151f29;
+        background: #627790;
+    }
+    .ajax-pagination-form .ajax-pagination-d {
+        background: #babdcb;
+    }
+    .boxed-group>h3,
+    .boxed-group .heading {
+        color: #fff;
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .boxed-group-inner {
+        background: #1a2632;
+        border: 1px solid #304251;
+    }
+    .mini-repo-list-item {
+        border-color: #304251;
+    }
+    .mini-repo-list-item .repo-icon {
+        color: #8899a6;
+    }
+    .private .mini-repo-list-item {
+        background-color: #243447;
+    }
+    .private .mini-repo-list-item .repo-icon {
+        color: #fff9c4;
+    }
+    .filter-bar {
+        background-color: #1a2632;
+        border-bottom: 1px solid #304251;
+    }
+    .boxed-group .counter {
+        color: #fff;
+        background-color: #1a2632;
+        border: 1px #304251 solid;
+    }
+    .subscribe-feed {
+        color: #6d6d72;
+    }
+    .protip-callout {
+        border-color: #304251;
+    }
+    .octofication .broadcast-icon-mask {
+        background-color: #1a2632;
+    }
+    .link-gray-dark {
+        color: #4078c0 !important;
+    }
+    .more-repos {
+        text-align: center;
+        background-color: #243447;
+        box-shadow: none;
+        border-top: 1px solid #304251;
+    }
+    /* New Repo */
+    .outline-box-highlighted {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .outline-box {
+        border: solid 1px #304251;
+    }
+    .copyable-terminal {
+        background-color: #151f29;
+    }
+    .reponame-suggestion {
+        color: #4caf50;
+    }
+    /* Repo Page (Main) */
+    .repohead.experiment-repo-nav {
+        background-color: #151f29;
+    }
+    .pagehead {
+        border-color: #304251;
+    }
+    .repository-meta {
+        color: #9e9e9e;
+    }
+    .social-count {
+        color: #607d8b;
+        background-color: #151f29;
+        border: 1px solid #304251;
+        border-left: 0;
+    }
+    .user-mention,
+    .team-mention {
+        color: #00aba5;
+    }
+    .reponav-item {
+        color: #9e9e9e;
+    }
+    .reponav-item:hover,
+    .reponav-item:focus {
+        color: #fff;
+    }
+    .counter {
+        background-color: #151f29;
+        border: 1px #304251 solid;
+    }
+    .reponav-item .counter {
+        color: #f9f9f9;
+    }
+    .reponav-item.selected {
+        color: #fff;
+        background-color: #1a2632;
+        border-color: #d28e5d #304251 transparent;
+    }
+    .btn.selected:hover {
+        background-color: #151f29;
+    }
+    .overall-summary {
+        border-color: #304251;
+    }
+    .text-emphasized {
+        color: #fff;
+    }
+    .numbers-summary a,
+    .numbers-summary .nolink {
+        color: #969ab0;
+    }
+    .repository-lang-stats-graph {
+        border-color: #304251;
+    }
+    .repository-lang-stats ol.repository-lang-stats-numbers li .language-color {
+        border: 1px #304251 solid;
+    }
+    .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
+        color: #fff;
+    }
+    table.files {
+        background: #1a2632;
+    }
+    table.files tr.navigation-focus td {
+        background: #151f29;
+    }
+    table.files td {
+        border-color: #304251;
+    }
+    table.files td.icon {
+        color: #fff;
+    }
+    .warning {
+        padding: 0.5em;
+        margin-bottom: 0.8em;
+        font-weight: bold;
+        background-color: #d28e5d;
+    }
+    .file-wrap {
+        border-color: #304251;
+    }
+    .commit-author-section {
+        color: #ccc;
+    }
+    .commit-tease {
+        color: #8485ce;
+        background-color: #243447;
+        border-color: #3e5570;
+    }
+    .commits-list-item .commit-author {
+        color: #00aba5;
+    }
+    .commit-tease-sha {
+        color: #4078c0;
+    }
+    .commit-tease-contributors {
+        background-color: #151f29;
+        border-color: #3e5570;
+    }
+    .commit .commit-title a {
+        color: #4078c0;
+    }
+    .branch-infobar {
+        background-color: #1a2632;
+        border-color: #3e5570;
+    }
+    .full-commit {
+        background: #1a2632;
+        border: 1px solid #304251;
+    }
+    .full-commit p.commit-title {
+        color: #00aba5;
+    }
+    .full-commit .commit-meta {
+        background: #243447;
+        border-color: #304251;
+    }
+    .full-commit .sha-block {
+        color: #fff;
+    }
+    .full-commit .sha-block>.sha {
+        color: #9e9e9e;
+    }
+    .full-commit .btn-outline,
+    .full-commit .btn-outline:disabled {
+        border-color: #304251;
+    }
+    .commits-list-item.navigation-focus {
+        background: #151f29;
+    }
+    .file-navigation .get-repo-btn {
+        border-color: #304251;
+    }
+    .file-navigation .get-repo-btn:first-child {
+        border-color: #304251;
+    }
+    .signed-commit-badge {
+        border-color: #304251;
+    }
+    .signed-commit-signer-name .signer {
+        display: block;
+        font-weight: bold;
+        color: #00aba5;
+    }
+    .flex-table-item-primary {
+        color: #fff;
+    }
+    span.d-block {
+        color: #fff;
+    }
+    .signed-commit-header {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    /* Repo Blame */
+    .blame-commit-title,
+    .blame-commit-title .message {
+        color: #4078c0;
+    }
+    .blame-commit,
+    .blame-commit+.blame-line {
+        border-color: #304251;
+    }
+    .blame-blob-num {
+        background-color: #243447;
+    }
+    .muted-link {
+        color: #00aba5 !important;
+    }
+    /* README Markdown Live */
+    .readme .markdown-body,
+    .readme .plain {
+        background-color: #151f29;
+        border-color: #304251;
+    }
+    .markdown-body .highlight pre,
+    .markdown-body pre {
+        background-color: #1a2632;
+        border: 1px #304251 solid;
+    }
+    .markdown-body h1 {
+        border-color: #304251;
+    }
+    .markdown-body img {
+        background-color: #151f29;
+    }
+    .markdown-body h1 .octicon-link,
+    .markdown-body h2 .octicon-link,
+    .markdown-body h3 .octicon-link,
+    .markdown-body h4 .octicon-link,
+    .markdown-body h5 .octicon-link,
+    .markdown-body h6 .octicon-link {
+        color: #fff;
+    }
+    .markdown-body table tr {
+        background-color: #1a2632;
+    }
+    .markdown-body table th,
+    .markdown-body table td {
+        border-color: #304251;
+    }
+    .markdown-body table tr:nth-child(2n) {
+        background-color: #243447;
+    }
+    .markdown-body pre code,
+    .markdown-body pre tt {
+        color: #969ab0;
+    }
+    .markdown-body code,
+    .markdown-body tt {
+        color: #151f29;
+        background-color: #627790;
+    }
+    .blob-num {
+        color: #5e6b77;
+        border-color: #304251;
+    }
+    .blob-code-inner {
+        color: #6d6d72;
+    }
+    .blob-code-hunk,
+    .blob-code-expandable {
+        background-color: #243447;
+    }
+    .blob-num-hunk,
+    .blob-num-expandable {
+        background-color: #243447;
+    }
+    .blob-num-expandable {
+        background-color: #243447;
+    }
+    .ace_editor .ace_gutter-active-line {
+        background-color: #243447;
+    }
+    .ace_editor .ace_marker-layer .ace_active-line {
+        background-color: #243447;
+    }
+    /* Code syntax Highlighting */
+    .pl-pds,
+    .pl-s,
+    .pl-s .pl-pse .pl-s1,
+    .pl-sr,
+    .pl-sr .pl-cce,
+    .pl-sr .pl-sra,
+    .pl-sr .pl-sre {
+        color: #4078c0;
+    }
+    .pl-s .pl-s1,
+    .pl-smi {
+        color: #bbb;
+    }
+    .pl-k {
+        color: #b73999;
+    }
+    .ace_string {
+        color: #4670d8;
+    }
+    .ace_support.ace_type {
+        color: #b73999;
+    }
+    .ace_keyword {
+        color: #8485ce;
+    }
+    .ace_variable {
+        color: #d28e5d;
+    }
+    .ace_focus {
+        background-color: #000;
+    }
+    .ace_markup.ace_heading {
+        color: #4670d8;
+    }
+    /* Markdown Standalone */
+    .markdown-body h2 {
+        border-color: #304251;
+    }
+    .markdown-body hr {
+        background-color: #304251;
+    }
+    .markdown-body blockquote {
+        border-color: #304251;
+    }
+    /* Repo Code Tab Live | Markdown */
+    .file {
+        border-color: #304251;
+    }
+    .file-header {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .breadcrumb strong.final-path {
+        color: #929292;
+    }
+    .ace_gutter {
+        background: #1a2632;
+        border-color: #304251;
+    }
+    .ace-github-light {
+        color: #9e9e9e;
+        background-color: #1a2632;
+    }
+    .file-commit-form .commit-form {
+        border-color: #304251;
+    }
+    .commit-sha {
+        background-color: inherit;
+        border-color: #304251;
+    }
+    /* Repo | Issues Tab */
+    .table-list-header {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .Box-body-row--highlight .Box-row-link {
+        color: #00aba5;
+    }
+    .Box-body-row {
+        border-top: 1px solid #304251;
+    }
+    .Box-body-row--highlight.navigation-focus,
+    .Box-body-row--highlight:hover {
+        background-color: #151f29;
+    }
+    .issues-listing .table-list-issues .navigation-focus {
+        background-color: #1a2632;
+    }
+    .table-list {
+        border-color: #304251;
+    }
+    .table-list-cell {
+        border-top-color: #304251;
+    }
+    .table-list-bordered .table-list-cell:first-child {
+        border-left-color: #304251;
+    }
+    .table-list-bordered .table-list-cell:last-child {
+        border-right-color: #304251;
+    }
+    .table-list-header-toggle .btn-link {
+        color: #9e9e9e;
+    }
+    .table-list-header-toggle .btn-link:hover {
+        color: #fff;
+    }
+    .table-list-header-toggle .btn-link.selected,
+    .table-list-header-toggle .btn-link.selected:hover {
+        color: #fff;
+    }
+    .issue-title-link {
+        color: #00aba5;
+    }
+    .protip {
+        color: #6d6d72;
+    }
+    .milestone-title-link a {
+        color: #cecece;
+    }
+    .Box-body {
+        border-color: #304251;
+    }
+    /* Dropdown Menu */
+    .select-menu-modal {
+        border-color: #304251;
+        box-shadow: none;
+    }
+    .select-menu-header {
+        background: #243447;
+        border-color: #304251;
+    }
+    .select-menu-header .select-menu-title {
+        color: #9e9e9e;
+        text-shadow: none;
+    }
+    .select-menu-header {
+        background: #243447;
+        border-bottom: 1px solid #304251;
+    }
+    .select-menu-item {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .select-menu-item.selected {
+        color: #fff;
+    }
+    .select-menu-filters {
+        background-color: #1a2632;
+    }
+    .select-menu-text-filter:first-child:last-child {
+        border-color: #304251;
+    }
+    .select-menu-text-filter input {
+        border-color: #304251;
+    }
+    /* Repo | Pull Request Tab */
+    .border-left,
+    .border-right,
+    .border-bottom {
+        border-color: #304251 !important;
+    }
+    .pr-toolbar.is-stuck::after {
+        border-color: #304251;
+        box-shadow: none;
+    }
+    /* Repo Issues & Pull Request Convo */
+    .gh-header-edit .edit-issue-title,
+    .gh-header-edit .edit-issue-title:focus {
+        background-color: #151f29;
+    }
+    .gh-header-meta {
+        border-color: #304251;
+    }
+    .gh-header-meta .author {
+        color: #00aba5;
+    }
+    .commit-ref {
+        color: #151f29;
+        background-color: #627790;
+    }
+    .commit-ref .user {
+        color: #151f29;
+    }
+    .tabnav-tab.selected {
+        background-color: #1a2632;
+    }
+    .tabnav-pr .tabnav-tab.selected {
+        color: #fff;
+        border-color: #304251;
+    }
+    .tabnav-pr {
+        border-color: #304251;
+    }
+    .timeline-comment-wrapper {
+        border: 0;
+    }
+    .timeline-comment-header {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .timeline-comment-header .author {
+        color: #00aba5;
+    }
+    .timeline-comment,
+    .timeline-comment .Box {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .timeline-comment-wrapper>.timeline-comment::before,
+    .timeline-new-comment .timeline-comment::before {
+        border-right-color: #304251;
+    }
+    timeline-comment::before {
+        border-right-color: #243447 !important;
+    }
+    .timeline-comment::after {
+        border-right-color: #243447 !important;
+    }
+    .timeline-comment.current-user .timeline-comment-header {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .timeline-comment.current-user {
+        border-color: #304251;
+    }
+    .timeline-comment.current-user .timeline-comment-label {
+        border-color: #304251;
+    }
+    .timeline-comment-wrapper .timeline-comment.current-user::before {
+        border-width: 8px;
+        border-right-color: #304251;
+    }
+    .timeline-comment-label {
+        border-color: #304251;
+    }
+    .comment-reactions.has-reactions {
+        border-color: #304251;
+    }
+    .reaction-summary-item {
+        border-color: #304251;
+    }
+    .timeline-commits .commit-message>code a {
+        color: #8485ce;
+    }
+    .discussion-timeline::before {
+        width: 1px;
+        background-color: #304251;
+    }
+    .discussion-timeline-actions {
+        background-color: #1a2632;
+        border: 0;
+    }
+    .discussion-item-ref-title .title-link {
+        color: #8485ce;
+    }
+    .discussion-item-entity {
+        color: #4078c0;
+    }
+    .discussion-item+.discussion-item {
+        border-color: #304251;
+    }
+    .discussion-sidebar-item+.discussion-sidebar-item {
+        border-color: #304251;
+    }
+    .discussion-item-icon {
+        color: #8899a6;
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .discussion-item+.discussion-item-review {
+        border-color: #304251;
+    }
+    .discussion-item-review .file-header {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .discussion-item-review+.discussion-item {
+        border-top: 1px solid #304251;
+    }
+    .discussion-item-review .blob-wrapper {
+        border-color: #304251;
+    }
+    .review-comment-contents::after,
+    .review-comment.is-comment-editing::after {
+        background-color: #304251;
+    }
+    .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
+        background: #243447;
+    }
+    .new-discussion-timeline .previewable-comment-form .comment-body {
+        border-color: #304251;
+    }
+    .new-discussion-timeline .closed-banner {
+        background: #304251;
+        border-bottom: 18px solid #1a2632;
+    }
+    .discussion-item .renamed-was,
+    .discussion-item .renamed-is {
+        color: #ccc;
+    }
+    .suggester {
+        background: #243447;
+        border-color: #304251;
+    }
+    .suggester li {
+        border-color: #304251;
+    }
+    .tabnav {
+        border-color: #304251;
+    }
+    .tabnav-tab.selected {
+        color: #fff;
+        border-color: #304251;
+    }
+    .previewable-comment-form textarea {
+        background-color: #1a2632;
+    }
+    .input-contrast:focus {
+        background: #151f29;
+    }
+    .upload-enabled textarea {
+        border-color: #304251;
+    }
+    .drag-and-drop {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .commit-icon .octicon {
+        background-color: #1a2632;
+    }
+    .issues-listing .table-list-issues .navigation-focus {
+        background-color: #151f29;
+    }
+    .branch-action-state-clean .branch-action-body::after {
+        border-right-color: #6cc644;
+    }
+    .branch-action-state-unstable .branch-action-body::after {
+        border-right-color: #cea61b;
+    }
+    .branch-action-body {
+        background-color: #1a2632;
+    }
+    .branch-action-body .merge-message,
+    .branch-action-body .merge-branch-form {
+        background-color: #243447;
+        border-top: solid 1px #304251;
+    }
+    .merge-branch-heading {
+        color: #fff;
+    }
+    .branch-action-state-merged .branch-action-body {
+        border-color: #6e5494;
+    }
+    .merge-status-list {
+        border-color: #304251;
+    }
+    .merge-status-item {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .branch-group-heading {
+        background: #243447;
+        border-color: #304251;
+    }
+    .branch-action-item+.branch-action-item {
+        border-color: #304251;
+    }
+    .status-heading {
+        color: #607d8b;
+    }
+    /* Site | Issue Tab */
+    .Box-row--focus-gray.navigation-focus {
+        background-color: #243447;
+    }
+    .Box-row:first-of-type {
+        border-color: #304251;
+    }
+    .Box-row {
+        border-color: #304251;
+    }
+    a.Box-row-link.h4.js-navigation-open {
+        color: #4078c0;
+    }
+    /* Code Tab | Branches */
+    .branch-summary,
+    .branch-group-heading+.branch-summary,
+    .branch-summary {
+        border-color: #304251;
+    }
+    .branch-a-b-count .meter {
+        background-color: #243447;
+    }
+    .branch-a-b-count .count-half:last-child {
+        border-color: #304251;
+    }
+    .count-value.count-behind {
+        color: #dc3c3c;
+    }
+    .count-value.count-ahead {
+        color: #52bd58;
+    }
+    a.branch-name {
+        color: #151f29;
+        background-color: #627790;
+    }
+    .table-of-contents li+li {
+        border-color: #304251;
+    }
+    .commit-desc+.commit-branches {
+        border-color: #304251;
+    }
+    /* File Changed | Compare | Reviews */
+    .diffbar {
+        background-color: #1a2632;
+    }
+    .diff-table tr:not(:last-child) .line-comments {
+        border-color: #304251;
+    }
+    .pr-toolbar {
+        background-color: #1a2632;
+    }
+    .range-editor {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .compare-pr-placeholder {
+        background-color: #1a2632;
+        border-color: #cea61b;
+    }
+    ul.comparison-list {
+        background: #1a2632;
+        border-color: #304251;
+    }
+    ul.comparison-list>li.title {
+        color: #9e9e9e;
+        background: #243447;
+    }
+    ul.comparison-list>li {
+        border-color: #304251;
+    }
+    .file-diff-split .empty-cell {
+        background-color: #1a2632;
+        border-right-color: #304251;
+    }
+    .feature-callout-octicon {
+        border-color: #304251;
+    }
+    .feature-callout {
+        border-color: #304251;
+    }
+    .review-thread {
+        border-color: #304251;
+    }
+    .review-thread-reply {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .review-thread-reply .inline-comment-form {
+        background-color: #1a2632;
+    }
+    .review-comment .reaction-summary-item:not(.add-reaction-btn) {
+        border-color: #304251;
+    }
+    .last-review-thread {
+        border-color: #304251;
+    }
+    .inline-comment-form {
+        border-color: #304251;
+    }
+    /* Release & Tags */
+    .release-timeline {
+        border-color: #304251;
+        border-width: 1px;
+    }
+    .release-body {
+        border-color: #304251;
+        border-width: 1px;
+    }
+    .releases-tag-list {
+        border-color: #304251;
+    }
+    .releases-tag-list tr {
+        border-color: #304251;
+    }
+    .release-show {
+        border-color: #304251;
+    }
+    .tabnav-extra {
+        padding-right: 15px;
+        color: #9e9e9e;
+    }
+    .tag-info h3 a .tag-name {
+        color: #4078c0;
+    }
+    .release-downloads {
+        border-color: #304251;
+    }
+    .release-downloads li {
+        border-color: #304251;
+    }
+    /* Commits Tab */
+    .commit-group-title .octicon-git-commit {
+        margin-right: 17px;
+        color: #304251;
+        background: #1a2632;
+    }
+    .commits-listing::before {
+        background-color: #304251;
+    }
+    /* Nav */
+    .subnav-item {
+        border-color: #304251;
+    }
+    .subnav-item:hover,
+    .subnav-item:focus {
+        background-color: #151f29;
+    }
+    /* Repo Wiki Tab */
+    .blankslate {
+        background-color: #151f29;
+        border-color: #304251;
+        box-shadow: none;
+    }
+    .wiki-wrapper .wiki-auxiliary-content {
+        background: #243447;
+    }
+    .wiki-rightbar .boxed-group.collapsed>h3 {
+        border-color: #304251;
+    }
+    .wiki-wrapper .wiki-auxiliary-content-no-bg {
+        background: #1a2632;
+    }
+    .wiki-wrapper .wiki-custom-sidebar {
+        border-color: #304251;
+    }
+    /* Repo Project Tab */
+    .border {
+        border-color: #304251 !important;
+    }
+    .bg-gray {
+        background-color: #1a2632 !important;
+    }
+    .project-header {
+        background-color: #1a2632;
+    }
+    .project-columns {
+        background-color: #1a2632;
+    }
+    .project-column {
+        background-color: #151f29;
+    }
+    .bg-white {
+        background-color: #243447 !important;
+    }
+    .bg-gray-light {
+        background-color: #1a2632 !important;
+    }
+    .js-project-column-cards {
+        -ms-overflow-style: none;
+    }
+    .js-project-column-cards::-webkit-scrollbar {
+        display: none;
+    }
+    /* Repo Pulse Tab */
+    .pulse-graph:first-child {
+        border-color: #304251;
+    }
+    .pulse-graph {
+        border-bottom-color: #304251;
+    }
+    .conversation-list-heading .inner {
+        background: #1a2632;
+    }
+    .conversation-list-heading {
+        border-color: #304251;
+    }
+    .simple-conversation-list>li {
+        border-color: #304251;
+    }
+    .summary-stats li {
+        border-left-color: #304251;
+    }
+    .summary-stats li .num {
+        color: #969ab0;
+    }
+    .summary-stats li a:hover {
+        background: #151f29;
+    }
+    .diffstat-summary strong {
+        color: #84aaf7;
+    }
+    .axis line {
+        stroke: #304251;
+    }
+    .subhead {
+        border: 0;
+    }
+    .Box {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .Box-header {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    /* Repo Graph | Contributors */
+    .tint-box {
+        background: #1a2632;
+    }
+    .capped-card {
+        border-color: #304251;
+    }
+    .capped-card-content {
+        background: #1a2632;
+    }
+    .graphs .area {
+        fill: #00aba5;
+    }
+    .capped-card h3 {
+        border-color: #304251;
+    }
+    /* Repo Graph | Punch Card */
+    .day-name {
+        fill: #8899a6;
+    }
+    circle.day {
+        fill: #969ab0;
+        stroke-width: 0;
+    }
+    :not(img) text,
+    circle.day {
+        fill: #969ab0;
+    }
+    line.axis {
+        stroke: #304251;
+    }
+    line.axis.even {
+        stroke: #304251;
+    }
+    :not(img) text,
+    circle.day {
+        fill: #8899a6;
+    }
+    /* Repo Graph | Traffic */
+    table.capped-list td {
+        ;
+        border-color: #304251;
+    }
+    table.capped-list th {
+        border-color: #304251;
+    }
+    table.capped-list tr:nth-child(even) {
+        background-color: #243447;
+    }
+    /* Repo Graph | Code Frequency */
+    .code-frequency .addition {
+        fill: #52bd58;
+    }
+    .code-frequency .deletion {
+        fill: #dc3c3c;
+    }
+    .cadd {
+        font-weight: bold;
+        color: #52bd58;
+    }
+    .cdel {
+        font-weight: bold;
+        color: #dc3c3c;
+    }
+    .graphs .dir {
+        color: #9e9e9e;
+    }
+    /* Repo Settings Tab */
+    .menu {
+        margin-bottom: 15px;
+        list-style: none;
+        background-color: #1a2632;
+        border: 1px solid #304251;
+        border-radius: 3px;
+    }
+    .menu-item {
+        text-shadow: none;
+        border-bottom: 1px solid #304251;
+    }
+    .menu-item:hover {
+        background-color: #151f29;
+    }
+    .menu-item.selected {
+        color: #fff;
+        background-color: #151f29;
+    }
+    .form-group .form-control {
+        background-color: #151f29;
+    }
+    hr,
+    .rule {
+        border-bottom: 1px solid #304251;
+    }
+    .boxed-group.dangerzone>h3 {
+        text-shadow: none;
+        border-color: #df3e3e;
+    }
+    .Box {
+        background-color: #1a2632;
+        border: 1px solid #1a2632;
+    }
+    .btn:disabled,
+    .btn.disabled {
+        color: white;
+        background-color: #1a2632;
+        background-image: none;
+        border-color: rgb(42, 58, 72);
+        box-shadow: none;
+    }
+    .integrations-callout-standalone .integration-settings-callout {
+        border-color: #304251;
+    }
+    /* Profile */
+    .border-top {
+        border-color: #304251 !important;
+    }
+    .profilecols .filter-bar {
+        background-color: #1a2632;
+    }
+    .pinned-repo-list-item {
+        border-color: #304251;
+    }
+    .pinned-repo-filters {
+        border-color: #304251;
+    }
+    .user-profile-nav {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .border-gray-dark {
+        border-color: #304251 !important;
+    }
+    .underline-nav-item.selected {
+        color: #fff;
+    }
+    .user-profile-sticky-bar::after {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .underline-nav-item:hover {
+        color: #607d8b;
+    }
+    .profile-timeline-card-wrapper {
+        border: 0;
+    }
+    .profile-timeline.discussion-timeline::before {
+        left: 11px;
+        background-color: #304251;
+    }
+    .profile-timeline.discussion-timeline .profile-timeline-month-heading::after {
+        background-color: #304251;
+    }
+    .profile-rollup-wrapper+.profile-rollup-wrapper {
+        border-color: #304251;
+    }
+    /* Profile | Contribution */
+    #contributions-calendar rect[fill="#eeeeee"] {
+        fill: #151f29;
+    }
+    /* Profile | Repo Tab */
+    .profilecols .filter-bar .filter-selected {
+        color: #8485ce;
+    }
+    /* Notification */
+    .list-group-item.navigation-focus {
+        background-color: #151f29;
+    }
+    .list-group-item-link {
+        color: #fdfdfd;
+    }
+    .boxed-group-list>li {
+        border-color: #304251;
+    }
+    .flash {
+        color: white;
+        background-color: #364952;
+        border-color: #4c85a0;
+    }
+    .notifications-list .notifications .list-group-item:not(.confirmation):first-child {
+        border-top: 0px solid #304251;
+    }
+    .notifications-list .notifications .list-group-item:not(.confirmation) {
+        border-top: 1px solid #304251;
+    }
+    /* Organisation */
+    .org-name {
+        color: #fff;
+    }
+    .orghead {
+        background-color: #151f29;
+        border-color: #304251;
+    }
+    .simple-box {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .org-module-link {
+        color: #00aba5;
+    }
+    .member-username {
+        color: #00aba5;
+    }
+    .org-link {
+        color: #00aba5;
+    }
+    .subnav-bordered {
+        border-color: #304251;
+    }
+    .org-module-title {
+        border-color: #304251;
+    }
+    .member-row {
+        border-color: #304251;
+    }
+    .pagehead-tabs-item.selected {
+        color: #fff;
+        background-color: #1a2632;
+        border-color: #d26911 #304251 transparent;
+    }
+    /* Create Organisation */
+    .setup-header {
+        text-shadow: none;
+    }
+    .steps {
+        border-color: #304251;
+    }
+    .steps li {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    .steps li.current {
+        color: #9e9e9e;
+        background-color: #243447;
+    }
+    .setup-info-module {
+        background-color: #1a2632;
+        border-color: #304251;
+        box-shadow: none;
+    }
+    .setup-info-module h2 {
+        border-color: #304251;
+    }
+    .plan-choice.open,
+    .plan-choice.selected {
+        background-color: #1a2632;
+    }
+    .plan-choice {
+        background-color: #1a2632;
+        border-color: #304251;
+    }
+    /* Personal Settings (Global) */
+    .menu-heading {
+        color: #fff;
+        background-color: #243447;
+        border-color: #304251;
+    }
+    .listgroup {
+        border-color: #304251;
+    }
+    .listgroup-item+.listgroup-item {
+        border-color: #304251;
+    }
+    .oauth-border {
+        border-color: #304251;
+    }
+    .saved-reply-form {
+        border-color: #304251;
+    }
+    .user-key-badge {
+        border-color: #304251;
+    }
+    dl.new-email-form {
+        border-color: #304251;
+    }
+    .Subhead {
+        border-color: #304251;
+    }
+    /* Settings | Security */
+    .session-device.session-current,
+    .session-device {
+        background-color: #1a2632;
+    }
+    .mute,
+    .text-gray-dark {
+        color: #aeaeae !important;
+    }
+    .boxed-group-list>li:first-child {
+        border-color: #304251;
+    }
+    .boxed-group-inner .help {
+        border-color: #304251;
+    }
+    .auth-form-header {
+        background-color: #243447;
+        border-color: #304251;
+    }
+    /* Settings | Billing */
+    .billing-section {
+        border-color: #304251;
+    }
+    .billing-section .section-content {
+        color: #9e9e9e;
+    }
+    .radio-label {
+        color: #666;
+    }
+    /* Modal */
+    .facebox-popup {
+        background-color: #1a2632;
+        border: 1px solid #304251;
+    }
+    .facebox-alert {
+        color: #a9a495;
+        background-color: #35342c;
+        border-color: #6b5c20;
+    }
+    .facebox-header {
+        border-color: #304251;
+    }
+    .facebox-footer {
+        margin: 0 -15px -15;
+        background: #243447;
+    }
+    .facebox-footer {
+        background: #243447;
+        border-color: #304251;
+    }
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #243447;
+        border-radius: 0;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #C4C4C4;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: #1a2632;
+    }
+    /* Search Results */
+    .repo-list-item {
+        border-color: #304251;
+    }
+    .codesearch-results .repo-list-name em,
+    .codesearch-results .repo-list-description em {
+        background-color: #243447;
+    }
+    .participation-graph rect {
+        fill: #243447;
+    }
+    .code-list .file-box {
+        border-color: #304251;
+    }
+    .code-list .code-list-item+.code-list-item {
+        border-color: #304251;
+    }
+    .code-list .language {
+        color: #9e9e9e;
+    }
+    .codesearch-aside .menu .octicon {
+        color: #8899a6;
+    }
+    .codesearch-aside .filter-list {
+        border-color: #304251;
+    }
+    .codesearch-aside .filter-list li span.bar {
+        background: #243447;
+    }
+    .filter-item:hover {
+        background-color: #243447;
+    }
+    /* Helper */
+    .timeline-commits .hidden-text-expander .ellipsis-expander {
+        color: #8899a6;
+        background: #243447;
+    }
+    .hidden-text-expander a,
+    .ellipsis-expander {
+        color: #8899a6;
+        background: #243447;
+    }
+    /* Experimental | Enchancement */
+    /* Blob Minus */
+    .blob-num-deletion {
+        background-color: #3b2343;
+    }
+    .blob-code-deletion {
+        background-color: #2c1a32;
+        color: #ef9a9a;
+    }
+    /* Blob Plus */
+    .blob-num-addition {
+        background-color: #a5d6a7;
+    }
+    .blob-code-addition {
+        background-color: #1a323c;
+    }
+    /* End of Experimental */
+    /* GitHub Gists */
+    .header-logo-wordmark {
+        color: #fff;
+    }
+    .gist-snippet-meta .description {
+        color: #6d6d72;
+    }
+    /* Rework Buttons | Icons */
+    .ajax-pagination-form .ajax-pagination-btn {
+        color: #9e9e9e;
+        background: #243447;
+        border-color: #304251;
+    }
+    .ajax-pagination-form .ajax-pagination-btn:hover {
+        background-color: #151f29;
+    }
+    .btn-outline:disabled,
+    .btn-outline:disabled:hover,
+    .btn-outline.disabled,
+    .btn-outline.disabled:hover {
+        border-color: #304251;
+    }
+    .btn-octicon {
+        color: #8899a6;
+    }
+    .toolbar-item {
+        color: #8899a6;
+    }
+    .toolbar-item .menu-target {
+        color: #8899a6;
+    }
+    .timeline-comment-actions {
+        color: #8899a6;
+    }
+    .discussion-sidebar-toggle .octicon {
+        color: #8899a6;
+    }
+    /* Github Pricing */
+    .shade-gradient {
+        background-image: none;
+    }
+    .display-heading-1,
+    .display-heading-2,
+    .display-heading-3,
+    .display-heading-4 {
+        color: #fff;
+    }
+    .bg-white {
+        background-color: #1a2632 !important;
+    }
+    .pricing-card {
+        background-color: #1a2632;
+        border-color: #304251;
+        box-shadow: none;
+    }
+    .pricing-card-vertical .pricing-card-name {
+        border-color: #304251;
+    }
+    .pricing-card-vertical .pricing-card-cta {
+        border-color: #304251;
+    }
+    /* GitHub Explore */
+    .sort-bar {
+        border-color: #304251;
+    }
+    .pagehead-nav-item {
+        color: #00aba5;
+    }
+    .pagehead-nav-item:hover {
+        color: #8485ce;
+    }
+    .pagehead-nav-item.selected {
+        color: #8485ce;
+        border-color: #d28e5d;
+    }
+    .pagehead.explore-head {
+        border-bottom-color: #304251;
+    }
+    .exploregrid-item-title {
+        color: #fff;
+    }
+    .exploregrid-item {
+        color: #969ab0;
+        border-color: #304251;
+        box-shadow: none;
+    }
+    .thread-subscription-status {
+        background-color: #1a2632;
+        border: 1px solid #304251;
+    }
+    .explore-section {
+        border-color: #304251;
+    }
+    .explore-section:nth-child(even) {
+        background: #243447;
+    }
+    .explore-collection h2 {
+        color: #fff;
+    }
+    .repo-collection>ul {
+        background: #151f29;
+        border-color: #304251;
+    }
+    .showcase-page-header {
+        border-color: #304251;
+    }
+    .showcase-page-repo-list {
+        border-color: #304251;
+    }
+    .showcase-page-pattern::after {
+        background: none #1a2632;
+    }
+    .intgrs-lstng-item {
+        border-color: #304251;
+    }
+    /* GitHub Blog */
+    .blog-title {
+        color: #fff;
+    }
+    /* Octotree Addon */
+    .octotree_github_sidebar {
+        background-color: #1a2632;
+        color: #fff;
+    }
+    .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
+        background-color: #1a2632;
+        border-bottom: 1px solid #304251;
+        background-image: none;
+    }
+    .octotree_views .octotree_view .octotree_view_header {
+        text-shadow: none;
+    }
+    .octotree_github_sidebar input,
+    .octotree_github_sidebar textarea {
+        background-color: #151f29;
+        border: 1px solid #304251;
+        padding: 2px;
+        color: #fff;
+    }
+    .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
+        background-color: #243447;
+    }
+    .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
+        background-color: #243447;
+    }
+    .octotree_sidebar {
+        border-color: #304251;
+    }
+    .octotree_github_sidebar a.octotree_toggle>span::after,
+    .octotree_github_sidebar a.octotree_opts {
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
+    .markdown-body .task-list-item.hovered {
+        background: #424a7e !important;
+    }
+    .discussion-item .renamed-was,
+    .discussion-item .renamed-is {
+        color: #607d8b;
+    }
+    /* End */
+    /* Fix new additions to github. */
+    .topic-tag {
+        background-color: #304251;
+    }
+    .simple-box-footer {
+        background-color: #304251;
+        border-top: #304251;
+    }
+    .pagehead-tabs-item:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    .pagehead-tabs-item .counter {
+        color: #fff;
+        opacity: .85;
+    }
+    .reaction-summary-item {
+        background-color: #1a2632 !important;
+    }
+    /* calender */
+    .calendar-graph rect[fill="#ebedf0"],
+    .calendar-graph rect[fill="#c6e48b"],
+    .calendar-graph rect[fill="#7bc96f"],
+    .calendar-graph rect[fill="#239a3b"],
+    .calendar-graph rect[fill="#196127"],
+    .heat {
+        background-color: #4183C4 !important;
+        fill: #4183C4 !important;
+        opacity: .15;
+    }
+    .contrib-legend {
+        display: none !important;
+    }
+    .calendar-graph .days-selected rect.day.active {
+        stroke: #ddd !important;
+    }
+    .calendar-graph rect.day:hover {
+        stroke: #fff !important;
+    }
+    /* reg colors */
+    .calendar-graph rect[fill="#c6e48b"] {
+        opacity: .3;
+    }
+    .calendar-graph rect[fill="#7bc96f"] {
+        opacity: .5;
+    }
+    .calendar-graph rect[fill="#239a3b"] {
+        opacity: .7;
+    }
+    .calendar-graph rect[fill="#196127"] {
+        opacity: 1;
+    }
+    /* user fix */
+    .underline-nav-item {
+        color: #6a737d;
+    }
+    .underline-nav-item .counter {
+        color: #fff;
+        opacity: .65;
+    }
+    .underline-nav-item:hover {
+        color: #fff;
+    }
+    .notification-indicator .mail-status {
+        background-color: #00aba5 !important;
+        background-image: none !important;
+    }
+    .vcard-username {
+        color: #fff;
+        opacity: .65;
+    }
+    /* User Circled Images */
+    .vcard-avatar img {
+        border-radius: 100% !important;
+        border: 3px solid #304251 !important;
+    }
+    /* settings user fix */
+    .Box {
+        background: none !important;
+    }
+    .Box .Box-row .listgroup-item-body {
+        color: #607d8b !important;
+    }
+    .Box .Box-row .listgroup-item-title {
+        opacity: .85;
+    }
+    /* feed fix, user & owner color */
+    .simple .title a:first-child,
+    .body .title a:first-child,
+    .public .author a,
+    .owner {
+        color: #00aba5 !important;
+    }
+    .member-name {
+        color: #FFF;
+        opacity: .75;
+    }
+    .member-name:hover {
+        opacity: 1;
+    }
+    /* org fix */
+    .unstyled-members-count,
+    .js-repositories-count {
+        color: #FFF;
+    }
+    .js-stat-label {}
+    .note-emphasis {
+        color: #FFF !important;
+    }
+    .team-actions,
+    .team-info-card,
+    .stats-group-stat {
+        border-color: #304251 !important;
+    }
+    /* blog */
+    .blog-post-title a {
+        color: #FFF !important;
+        opacity: .85;
+    }
+    .blog-post-body h2 {
+        border-color: #304251 !important;
+    }
+    .blog-post-body h2,
+    .blog-post-body h3 {
+        color: #FFF;
+    }
+    .blog-post-body ul,
+    .blog-post-body ol {
+        color: #607d8b;
+    }
+    .pagination,
+    .pagination a,
+    .pagination span {
+        border-color: #304251 !important;
+        background-color: #1a2632 !important;
+    }
+    .pagination a,
+    .pagination .next_page,
+    .pagination .previous_page {
+        color: #FFF;
+    }
+    .meta-item:nth-child(2) a {
+        color: #00aba5 !important;
+    }
+    .site-footer-marketing-col ul li a {
+        color: #0366d6 !important;
+    }
+    /* fix #39 */
+    .code-list .divider .blob-num,
+    .code-list .divider .blob-code {
+        background-color: #151f29;
+    }
+    /* codemirror vs ace fix */
+    .CodeMirror,
+    .CodeMirror-lines,
+    .CodeMirror-gutters {
+        background-color: #1a2632 !important;
+    }
+    /* editor: line nums */
+    .CodeMirror-linenumber {
+        color: #5e6b77 !important;
+        border-color: #304251;
+    }
+    /* editor: syntax */
+    .CodeMirror-line span {
+        color: #6d6d72;
+    }
+    .cm-string {
+        color: #4078c0 !important;
+    }
+    .cm-keyword {
+        color: #b73999 !important;
+    }
+    .cm-property,
+    .cm-atom,
+    .cm-number,
+    .cm-meta {
+        color: #0086b3 !important;
+    }
+    .cm-qualifier,
+    .cm-variable-3 {
+        color: #795da3 !important;
+    }
+    .cm-tag {
+        color: #63a35c !important;
+    }
+}
