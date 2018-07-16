@@ -1,4 +1,4 @@
-/*
+/**
     * GitHub Dark v2.6.1
     * Copyright 2016 Quan You.
     * Mods by Lance Jordan
@@ -136,8 +136,8 @@ h4 {
 }
 
 /*.scoped-search .form-control .header-search-scope {
-    background-color: var(--body-color);
-    border-color: var(--border-color);
+background-color: var(--body-color);
+border-color: var(--border-color);
 }*/
 
 .form-control,
@@ -246,8 +246,8 @@ button.dropdown-item.dropdown-signout {
     background: #babdcb;
 }
 
-.boxed-group .heading, 
-.Box, 
+.boxed-group .heading,
+.Box,
 .Box-header {
     color: var(--primary-text-color);
     background-color: var(--accent-color);
@@ -627,7 +627,7 @@ span.d-block {
 }
 
 .ace_editor .ace_gutter-active-line {
-    background-color: var(--accent-color);
+    background-color: var(--code-blob-color);
 }
 
 .ace_editor .ace_marker-layer .ace_active-line {
@@ -1498,7 +1498,7 @@ circle.day {
 /* Repo Graph | Traffic */
 
 table.capped-list td {
-;
+    ;
     border-color: var(--border-color);
 }
 
@@ -1613,11 +1613,15 @@ hr,
     border-color: var(--border-color);
 }
 
-.user-profile-nav .UnderlineNav-item {
+.UnderlineNav-item {
     color: var(--primary-text-color);
 }
 
-.user-profile-nav .UnderlineNav-item:hover {
+.UnderlineNav-item.selected {
+    color: var(--primary-text-color);
+}
+
+.UnderlineNav-item:hover {
     color: var(--secondary-text-color);
 }
 
@@ -1980,6 +1984,11 @@ dl.new-email-form {
 
 .blob-code-addition {
     background-color: var(--body-color);
+}
+
+.blob-expanded .blob-num,
+.blob-expanded .blob-code {
+    background-color: var(--accent-color);
 }
 
 /* End of Experimental */
