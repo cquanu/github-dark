@@ -1,9 +1,9 @@
 /*
- * GitHub Dark v2.6.1
- * Copyright 2016 Quan You.
- * Mods by Lance Jordan
- * GitHub Project (https://cquanu.github.io/github-dark/)
- * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
+    * GitHub Dark v2.6.1
+    * Copyright 2016 Quan You.
+    * Mods by Lance Jordan
+    * GitHub Project (https://cquanu.github.io/github-dark/)
+    * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
 
 
@@ -1027,7 +1027,7 @@ timeline-comment::before {
 }
 
 .discussion-item .renamed-was, .discussion-item .renamed-is {
-	color: #ccc;
+    color: #ccc;
 }
 
 .suggester {
@@ -1092,7 +1092,7 @@ timeline-comment::before {
 }
 
 .merge-branch-heading {
-  color: #fff;
+    color: #fff;
 }
 
 .branch-action-state-merged .branch-action-body {
@@ -2201,8 +2201,9 @@ dl.new-email-form {
 }
 
 .markdown-body .task-list-item.hovered {
-  background: #424a7e !important;
+    background: #424a7e !important;
 }
+
 .discussion-item .renamed-was, .discussion-item .renamed-is {
     color: #607d8b;
 }
@@ -2297,7 +2298,7 @@ dl.new-email-form {
 }
 
 .Box .Box-row .listgroup-item-body {
-	color: #607d8b !important;
+    color: #607d8b !important;
 }
 
 .Box .Box-row .listgroup-item-title {
@@ -2313,30 +2314,30 @@ dl.new-email-form {
 }
 
 .member-name {
- 	color: #FFF;
+    color: #FFF;
     opacity: .75;
 }
 .member-name:hover{
- 	opacity: 1;
+    opacity: 1;
 }
 
 /* org fix */
 .unstyled-members-count,
 .js-repositories-count{
-	color: #FFF;
+    color: #FFF;
 }
 
 .js-stat-label {
 }
 
 .note-emphasis {
-	color: #FFF !important;
+    color: #FFF !important;
 }
 
 .team-actions,
 .team-info-card,
 .stats-group-stat {
- 	border-color: #304251 !important;
+    border-color: #304251 !important;
 }
 
 /* blog */
@@ -2346,7 +2347,7 @@ dl.new-email-form {
 }
 
 .blog-post-body h2 {
-	border-color: #304251 !important;
+    border-color: #304251 !important;
 }
 
 .blog-post-body h2,
@@ -2356,20 +2357,20 @@ dl.new-email-form {
 
 .blog-post-body ul,
 .blog-post-body ol {
-	color: #607d8b;
+    color: #607d8b;
 }
 
 .pagination,
 .pagination a,
 .pagination span {
-	border-color: #304251 !important;
+    border-color: #304251 !important;
     background-color: #1a2632 !important;
 }
 
 .pagination a,
 .pagination .next_page,
 .pagination .previous_page{
-	color: #FFF;
+    color: #FFF;
 }
 
 .meta-item:nth-child(2) a {
@@ -2377,12 +2378,12 @@ dl.new-email-form {
 }
 
 .site-footer-marketing-col ul li a {
-	color: #0366d6 !important;
+    color: #0366d6 !important;
 }
 
 /* fix #39 */
 .code-list .divider .blob-num, .code-list .divider .blob-code{
-  background-color:#151f29;
+    background-color:#151f29;
 }
 
 /* codemirror vs ace fix */
@@ -2400,14 +2401,14 @@ dl.new-email-form {
 
 /* editor: syntax */
 .CodeMirror-line span {
-	color: #6d6d72;
+    color: #6d6d72;
 }
 .cm-string {
-	color: #4078c0 !important;
+    color: #4078c0 !important;
 }
 
 .cm-keyword {
- 	color: #b73999 !important;
+    color: #b73999 !important;
 }
 
 .cm-property,
