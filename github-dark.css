@@ -241,7 +241,9 @@ button.dropdown-item.dropdown-signout {
 }
 
 .boxed-group>h3,
-.boxed-group .heading {
+.boxed-group .heading, 
+.Box, 
+.Box-header {
     color: #fff;
     background-color: #243447;
     border-color: #304251;
