@@ -2445,3 +2445,10 @@ dl.new-email-form {
 .cm-tag {
     color: #63a35c !important;
 }
+
+/** Marketplace **/
+
+.MarketplaceSideNav {
+    background-color: var(--body-color);
+    border-right: 1px solid var(--accent-color);
+}
