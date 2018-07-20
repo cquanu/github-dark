@@ -1,27 +1,39 @@
-/*
- * GitHub Dark v2.6.1
- * Copyright 2016 Quan You.
- * Mods by Lance Jordan
- * GitHub Project (https://cquanu.github.io/github-dark/)
- * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
+/**
+    * GitHub Dark v2.6.1
+    * Copyright 2016 Quan You.
+    * Mods by Lance Jordan
+    * GitHub Project (https://cquanu.github.io/github-dark/)
+    * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
 
+/* Colors */
+
+:root {
+    --body-color: #1a2632;
+    --accent-color: #243447;
+    --depth-color: #151f29;
+    --border-color: #304251;
+    --link-color: #03A9F4;
+    --icon-color: #8899a6;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #607d8b;
+    --code-blob-color: #537698;
+}
 
 /* HTML Global */
 
 body {
-    background-color: #1a2632;
-    color: #fff;
+    background-color: var(--body-color);
+    color: var(--primary-text-color);
 }
 
 p {
-    color: #607d8b !important;
+    color: var(--secondary-text-color) !important;
 }
 
 h4 {
-    color: #fff;
+    color: var(--primary-text-color);
 }
-
 
 /* Class Global */
 
@@ -29,42 +41,41 @@ h4 {
     color: #929292;
 }
 
-
 /* Main Site and New User */
 
 .Header {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .site-header-nav .nav-item {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .jumbotron-home {
     background-image: none;
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .features-list .list-divider,
 .setup-form .tos-info,
 .setup-form .setup-organization-next {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .radio-label {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .tag-input-tag {
-    background: #243447;
+    background: var(--accent-color);
 }
 
 .tag-input-tag .remove {
-    background: #1a2632;
+    background: var(--body-color);
 }
 
 .home-hero-signup .form-control-lg {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .shade-gray {
@@ -72,71 +83,68 @@ h4 {
 }
 
 .tile-block {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .tile-bordered:not(:last-child) {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Main Site Login */
 
 .session-authentication {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .session-authentication .header-logo {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .session-authentication .auth-form-body {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .auth-form-body {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .session-authentication .create-account-callout {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .session-authentication .auth-form-header {
-    color: #fff;
+    color: var(--primary-text-color);
 }
-
 
 /* Site Wide Global */
 
 .header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .header-logo-invertocat {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .header-search-scope {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .header-nav-link {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
-
 /*.scoped-search .form-control .header-search-scope {
-    background-color: #1a2632;
-    border-color: #304251;
+background-color: var(--body-color);
+border-color: var(--border-color);
 }*/
 
 .form-control,
 .form-select {
-    color: #fff;
-    background-color: #151f29;
-    border-color: #304251;
+    color: var(--primary-text-color);
+    background-color: var(--depth-color);
+    border-color: var(--border-color);
 }
 
 .form-control.focus,
@@ -147,14 +155,14 @@ h4 {
 }
 
 .form-group .form-control:focus {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .btn {
-    color: #fff;
-    background-color: #1a2632;
+    color: var(--primary-text-color);
+    background-color: var(--body-color);
     background-image: none;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .btn:hover,
@@ -162,21 +170,21 @@ h4 {
 .btn.zeroclipboard-is-hover,
 .btn.zeroclipboard-is-active {
     text-decoration: none;
-    background-color: #151f29;
+    background-color: var(--depth-color);
     background-image: none;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .btn:active,
 .btn.selected,
 .btn.zeroclipboard-is-active {
-    background-color: #1a2632;
+    background-color: var(--body-color);
     background-image: none;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .btn-primary {
-    color: #fff;
+    color: var(--primary-text-color);
     background-color: #57BB5C;
     background-image: none;
     border-color: #57BB5C;
@@ -187,17 +195,17 @@ h4 {
 }
 
 .site-footer {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .dropdown-menu {
-    background-color: #1a2632;
-    border: 1px solid #304251;
+    background-color: var(--body-color);
+    border: 1px solid var(--border-color);
     box-shadow: none;
 }
 
 .dropdown-divider {
-    background-color: #304251;
+    background-color: var(--border-color);
 }
 
 .dropdown-item {
@@ -205,34 +213,32 @@ h4 {
 }
 
 .dropdown-item:hover {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 button.dropdown-item.dropdown-signout {
     color: #df3e3e;
 }
 
-
 /* Site Related */
 
 .setup-header {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Home */
 
 .news .alert {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .news .alert .octicon {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .news .alert .branch-link,
 .news .alert .pull-info {
-    color: #151f29;
+    color: var(--depth-color);
     background: #627790;
 }
 
@@ -241,27 +247,29 @@ button.dropdown-item.dropdown-signout {
 }
 
 .boxed-group>h3,
-.boxed-group .heading {
-    color: #fff;
-    background-color: #243447;
-    border-color: #304251;
+.boxed-group .heading,
+.Box,
+.Box-header {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .boxed-group-inner {
-    background: #1a2632;
-    border: 1px solid #304251;
+    background: var(--body-color);
+    border: 1px solid var(--border-color);
 }
 
 .mini-repo-list-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .mini-repo-list-item .repo-icon {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .private .mini-repo-list-item {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .private .mini-repo-list-item .repo-icon {
@@ -269,14 +277,14 @@ button.dropdown-item.dropdown-signout {
 }
 
 .filter-bar {
-    background-color: #1a2632;
-    border-bottom: 1px solid #304251;
+    background-color: var(--body-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .boxed-group .counter {
-    color: #fff;
-    background-color: #1a2632;
-    border: 1px #304251 solid;
+    color: var(--primary-text-color);
+    background-color: var(--body-color);
+    border: 1px var(--border-color) solid;
 }
 
 .subscribe-feed {
@@ -284,11 +292,11 @@ button.dropdown-item.dropdown-signout {
 }
 
 .protip-callout {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .octofication .broadcast-icon-mask {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .link-gray-dark {
@@ -297,40 +305,38 @@ button.dropdown-item.dropdown-signout {
 
 .more-repos {
     text-align: center;
-    background-color: #243447;
+    background-color: var(--accent-color);
     box-shadow: none;
-    border-top: 1px solid #304251;
+    border-top: 1px solid var(--border-color);
 }
-
 
 /* New Repo */
 
 .outline-box-highlighted {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .outline-box {
-    border: solid 1px #304251;
+    border: solid 1px var(--border-color);
 }
 
 .copyable-terminal {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .reponame-suggestion {
     color: #4caf50;
 }
 
-
 /* Repo Page (Main) */
 
 .repohead.experiment-repo-nav {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .pagehead {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .repository-meta {
@@ -338,9 +344,9 @@ button.dropdown-item.dropdown-signout {
 }
 
 .social-count {
-    color: #607d8b;
-    background-color: #151f29;
-    border: 1px solid #304251;
+    color: var(--secondary-text-color);
+    background-color: var(--depth-color);
+    border: 1px solid var(--border-color);
     border-left: 0;
 }
 
@@ -355,12 +361,12 @@ button.dropdown-item.dropdown-signout {
 
 .reponav-item:hover,
 .reponav-item:focus {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .counter {
-    background-color: #151f29;
-    border: 1px #304251 solid;
+    background-color: var(--depth-color);
+    border: 1px var(--border-color) solid;
 }
 
 .reponav-item .counter {
@@ -368,21 +374,21 @@ button.dropdown-item.dropdown-signout {
 }
 
 .reponav-item.selected {
-    color: #fff;
-    background-color: #1a2632;
-    border-color: #d28e5d #304251 transparent;
+    color: var(--primary-text-color);
+    background-color: var(--body-color);
+    border-color: #d28e5d var(--border-color) transparent;
 }
 
 .btn.selected:hover {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .overall-summary {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .text-emphasized {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .numbers-summary a,
@@ -391,31 +397,31 @@ button.dropdown-item.dropdown-signout {
 }
 
 .repository-lang-stats-graph {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .repository-lang-stats ol.repository-lang-stats-numbers li .language-color {
-    border: 1px #304251 solid;
+    border: 1px var(--border-color) solid;
 }
 
 .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 table.files {
-    background: #1a2632;
+    background: var(--body-color);
 }
 
 table.files tr.navigation-focus td {
-    background: #151f29;
+    background: var(--depth-color);
 }
 
 table.files td {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 table.files td.icon {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .warning {
@@ -426,7 +432,7 @@ table.files td.icon {
 }
 
 .file-wrap {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .commit-author-section {
@@ -435,7 +441,7 @@ table.files td.icon {
 
 .commit-tease {
     color: #8485ce;
-    background-color: #243447;
+    background-color: var(--accent-color);
     border-color: #3e5570;
 }
 
@@ -448,7 +454,7 @@ table.files td.icon {
 }
 
 .commit-tease-contributors {
-    background-color: #151f29;
+    background-color: var(--depth-color);
     border-color: #3e5570;
 }
 
@@ -457,13 +463,13 @@ table.files td.icon {
 }
 
 .branch-infobar {
-    background-color: #1a2632;
+    background-color: var(--body-color);
     border-color: #3e5570;
 }
 
 .full-commit {
-    background: #1a2632;
-    border: 1px solid #304251;
+    background: var(--body-color);
+    border: 1px solid var(--border-color);
 }
 
 .full-commit p.commit-title {
@@ -471,12 +477,12 @@ table.files td.icon {
 }
 
 .full-commit .commit-meta {
-    background: #243447;
-    border-color: #304251;
+    background: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .full-commit .sha-block {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .full-commit .sha-block>.sha {
@@ -485,23 +491,23 @@ table.files td.icon {
 
 .full-commit .btn-outline,
 .full-commit .btn-outline:disabled {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .commits-list-item.navigation-focus {
-    background: #151f29;
+    background: var(--depth-color);
 }
 
 .file-navigation .get-repo-btn {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .file-navigation .get-repo-btn:first-child {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .signed-commit-badge {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .signed-commit-signer-name .signer {
@@ -511,18 +517,17 @@ table.files td.icon {
 }
 
 .flex-table-item-primary {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 span.d-block {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .signed-commit-header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
-
 
 /* Repo Blame */
 
@@ -533,38 +538,37 @@ span.d-block {
 
 .blame-commit,
 .blame-commit+.blame-line {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .blame-blob-num {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .muted-link {
     color: #00aba5 !important;
 }
 
-
 /* README Markdown Live */
 
 .readme .markdown-body,
 .readme .plain {
-    background-color: #151f29;
-    border-color: #304251;
+    background-color: var(--depth-color);
+    border-color: var(--border-color);
 }
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-    background-color: #1a2632;
-    border: 1px #304251 solid;
+    background-color: var(--body-color);
+    border: 1px var(--border-color) solid;
 }
 
 .markdown-body h1 {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .markdown-body img {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .markdown-body h1 .octicon-link,
@@ -573,20 +577,20 @@ span.d-block {
 .markdown-body h4 .octicon-link,
 .markdown-body h5 .octicon-link,
 .markdown-body h6 .octicon-link {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .markdown-body table tr {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .markdown-body table th,
 .markdown-body table td {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .markdown-body table tr:nth-child(2n) {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .markdown-body pre code,
@@ -596,13 +600,13 @@ span.d-block {
 
 .markdown-body code,
 .markdown-body tt {
-    color: #151f29;
+    color: var(--depth-color);
     background-color: #627790;
 }
 
 .blob-num {
     color: #5e6b77;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .blob-code-inner {
@@ -611,26 +615,25 @@ span.d-block {
 
 .blob-code-hunk,
 .blob-code-expandable {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .blob-num-hunk,
 .blob-num-expandable {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .blob-num-expandable {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .ace_editor .ace_gutter-active-line {
-    background-color: #243447;
+    background-color: var(--code-blob-color);
 }
 
 .ace_editor .ace_marker-layer .ace_active-line {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
-
 
 /* Code syntax Highlighting */
 
@@ -677,31 +680,29 @@ span.d-block {
     color: #4670d8;
 }
 
-
 /* Markdown Standalone */
 
 .markdown-body h2 {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .markdown-body hr {
-    background-color: #304251;
+    background-color: var(--border-color);
 }
 
 .markdown-body blockquote {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Repo Code Tab Live | Markdown */
 
 .file {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .file-header {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .breadcrumb strong.final-path {
@@ -709,30 +710,29 @@ span.d-block {
 }
 
 .ace_gutter {
-    background: #1a2632;
-    border-color: #304251;
+    background: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .ace-github-light {
     color: #9e9e9e;
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .file-commit-form .commit-form {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .commit-sha {
     background-color: inherit;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Repo | Issues Tab */
 
 .table-list-header {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .Box-body-row--highlight .Box-row-link {
@@ -740,32 +740,32 @@ span.d-block {
 }
 
 .Box-body-row {
-    border-top: 1px solid #304251;
+    border-top: 1px solid var(--border-color);
 }
 
 .Box-body-row--highlight.navigation-focus,
 .Box-body-row--highlight:hover {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .issues-listing .table-list-issues .navigation-focus {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .table-list {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .table-list-cell {
-    border-top-color: #304251;
+    border-top-color: var(--border-color);
 }
 
 .table-list-bordered .table-list-cell:first-child {
-    border-left-color: #304251;
+    border-left-color: var(--border-color);
 }
 
 .table-list-bordered .table-list-cell:last-child {
-    border-right-color: #304251;
+    border-right-color: var(--border-color);
 }
 
 .table-list-header-toggle .btn-link {
@@ -773,12 +773,12 @@ span.d-block {
 }
 
 .table-list-header-toggle .btn-link:hover {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .table-list-header-toggle .btn-link.selected,
 .table-list-header-toggle .btn-link.selected:hover {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .issue-title-link {
@@ -794,20 +794,19 @@ span.d-block {
 }
 
 .Box-body {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Dropdown Menu */
 
 .select-menu-modal {
-    border-color: #304251;
+    border-color: var(--border-color);
     box-shadow: none;
 }
 
 .select-menu-header {
-    background: #243447;
-    border-color: #304251;
+    background: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .select-menu-header .select-menu-title {
@@ -816,55 +815,53 @@ span.d-block {
 }
 
 .select-menu-header {
-    background: #243447;
-    border-bottom: 1px solid #304251;
+    background: var(--accent-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .select-menu-item {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .select-menu-item.selected {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .select-menu-filters {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .select-menu-text-filter:first-child:last-child {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .select-menu-text-filter input {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Repo | Pull Request Tab */
 
 .border-left,
 .border-right,
 .border-bottom {
-    border-color: #304251 !important;
+    border-color: var(--border-color) !important;
 }
 
 .pr-toolbar.is-stuck::after {
-    border-color: #304251;
+    border-color: var(--border-color);
     box-shadow: none;
 }
-
 
 /* Repo Issues & Pull Request Convo */
 
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .gh-header-meta {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .gh-header-meta .author {
@@ -872,25 +869,25 @@ span.d-block {
 }
 
 .commit-ref {
-    color: #151f29;
+    color: var(--depth-color);
     background-color: #627790;
 }
 
 .commit-ref .user {
-    color: #151f29;
+    color: var(--depth-color);
 }
 
 .tabnav-tab.selected {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .tabnav-pr .tabnav-tab.selected {
-    color: #fff;
-    border-color: #304251;
+    color: var(--primary-text-color);
+    border-color: var(--border-color);
 }
 
 .tabnav-pr {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .timeline-comment-wrapper {
@@ -898,8 +895,8 @@ span.d-block {
 }
 
 .timeline-comment-header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .timeline-comment-header .author {
@@ -907,52 +904,52 @@ span.d-block {
 }
 
 .timeline-comment,
-.timeline-comment .Box  {
-    background-color: #1a2632;
-    border-color: #304251;
+.timeline-comment .Box {
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .timeline-comment-wrapper>.timeline-comment::before,
 .timeline-new-comment .timeline-comment::before {
-    border-right-color: #304251;
+    border-right-color: var(--border-color);
 }
 
 timeline-comment::before {
-    border-right-color: #243447 !important;
+    border-right-color: var(--accent-color) !important;
 }
 
 .timeline-comment::after {
-    border-right-color: #243447 !important;
+    border-right-color: var(--accent-color) !important;
 }
 
 .timeline-comment.current-user .timeline-comment-header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .timeline-comment.current-user {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .timeline-comment.current-user .timeline-comment-label {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .timeline-comment-wrapper .timeline-comment.current-user::before {
     border-width: 8px;
-    border-right-color: #304251;
+    border-right-color: var(--border-color);
 }
 
 .timeline-comment-label {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .comment-reactions.has-reactions {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .reaction-summary-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .timeline-commits .commit-message>code a {
@@ -961,11 +958,11 @@ timeline-comment::before {
 
 .discussion-timeline::before {
     width: 1px;
-    background-color: #304251;
+    background-color: var(--border-color);
 }
 
 .discussion-timeline-actions {
-    background-color: #1a2632;
+    background-color: var(--body-color);
     border: 0;
 }
 
@@ -978,99 +975,100 @@ timeline-comment::before {
 }
 
 .discussion-item+.discussion-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .discussion-sidebar-item+.discussion-sidebar-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .discussion-item-icon {
-    color: #8899a6;
-    background-color: #243447;
-    border-color: #304251;
+    color: var(--icon-color);
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .discussion-item+.discussion-item-review {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .discussion-item-review .file-header {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .discussion-item-review+.discussion-item {
-    border-top: 1px solid #304251;
+    border-top: 1px solid var(--border-color);
 }
 
 .discussion-item-review .blob-wrapper {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .review-comment-contents::after,
 .review-comment.is-comment-editing::after {
-    background-color: #304251;
+    background-color: var(--border-color);
 }
 
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
-    background: #243447;
+    background: var(--accent-color);
 }
 
 .new-discussion-timeline .previewable-comment-form .comment-body {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .new-discussion-timeline .closed-banner {
-    background: #304251;
-    border-bottom: 18px solid #1a2632;
+    background: var(--border-color);
+    border-bottom: 18px solid var(--body-color);
 }
 
-.discussion-item .renamed-was, .discussion-item .renamed-is {
-	color: #ccc;
+.discussion-item .renamed-was,
+.discussion-item .renamed-is {
+    color: #ccc;
 }
 
 .suggester {
-    background: #243447;
-    border-color: #304251;
+    background: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .suggester li {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .tabnav {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .tabnav-tab.selected {
-    color: #fff;
-    border-color: #304251;
+    color: var(--primary-text-color);
+    border-color: var(--border-color);
 }
 
 .previewable-comment-form textarea {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .input-contrast:focus {
-    background: #151f29;
+    background: var(--depth-color);
 }
 
 .upload-enabled textarea {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .drag-and-drop {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .commit-icon .octicon {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .issues-listing .table-list-issues .navigation-focus {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .branch-action-state-clean .branch-action-body::after {
@@ -1082,17 +1080,17 @@ timeline-comment::before {
 }
 
 .branch-action-body {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .branch-action-body .merge-message,
 .branch-action-body .merge-branch-form {
-    background-color: #243447;
-    border-top: solid 1px #304251;
+    background-color: var(--accent-color);
+    border-top: solid 1px var(--border-color);
 }
 
 .merge-branch-heading {
-  color: #fff;
+    color: var(--primary-text-color);
 }
 
 .branch-action-state-merged .branch-action-body {
@@ -1100,61 +1098,59 @@ timeline-comment::before {
 }
 
 .merge-status-list {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .merge-status-item {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .branch-group-heading {
-    background: #243447;
-    border-color: #304251;
+    background: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .branch-action-item+.branch-action-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .status-heading {
-    color: #607d8b;
+    color: var(--secondary-text-color);
 }
-
 
 /* Site | Issue Tab */
 
 .Box-row--focus-gray.navigation-focus {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .Box-row:first-of-type {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .Box-row {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 a.Box-row-link.h4.js-navigation-open {
     color: #4078c0;
 }
 
-
 /* Code Tab | Branches */
 
 .branch-summary,
 .branch-group-heading+.branch-summary,
 .branch-summary {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .branch-a-b-count .meter {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .branch-a-b-count .count-half:last-child {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .count-value.count-behind {
@@ -1166,118 +1162,116 @@ a.Box-row-link.h4.js-navigation-open {
 }
 
 a.branch-name {
-    color: #151f29;
+    color: var(--depth-color);
     background-color: #627790;
 }
 
 .table-of-contents li+li {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .commit-desc+.commit-branches {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* File Changed | Compare | Reviews */
 
 .diffbar {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .diff-table tr:not(:last-child) .line-comments {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .pr-toolbar {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .range-editor {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .compare-pr-placeholder {
-    background-color: #1a2632;
+    background-color: var(--body-color);
     border-color: #cea61b;
 }
 
 ul.comparison-list {
-    background: #1a2632;
-    border-color: #304251;
+    background: var(--body-color);
+    border-color: var(--border-color);
 }
 
 ul.comparison-list>li.title {
     color: #9e9e9e;
-    background: #243447;
+    background: var(--accent-color);
 }
 
 ul.comparison-list>li {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .file-diff-split .empty-cell {
-    background-color: #1a2632;
-    border-right-color: #304251;
+    background-color: var(--body-color);
+    border-right-color: var(--border-color);
 }
 
 .feature-callout-octicon {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .feature-callout {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .review-thread {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .review-thread-reply {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .review-thread-reply .inline-comment-form {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .review-comment .reaction-summary-item:not(.add-reaction-btn) {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .last-review-thread {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .inline-comment-form {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Release & Tags */
 
 .release-timeline {
-    border-color: #304251;
+    border-color: var(--border-color);
     border-width: 1px;
 }
 
 .release-body {
-    border-color: #304251;
+    border-color: var(--border-color);
     border-width: 1px;
 }
 
 .releases-tag-list {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .releases-tag-list tr {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .release-show {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .tabnav-extra {
@@ -1290,80 +1284,89 @@ ul.comparison-list>li {
 }
 
 .release-downloads {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .release-downloads li {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Commits Tab */
 
 .commit-group-title .octicon-git-commit {
     margin-right: 17px;
-    color: #304251;
-    background: #1a2632;
+    color: var(--border-color);
+    background: var(--body-color);
 }
 
 .commits-listing::before {
-    background-color: #304251;
+    background-color: var(--border-color);
 }
-
 
 /* Nav */
 
 .subnav-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .subnav-item:hover,
 .subnav-item:focus {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
+.Box>#jump-to-results>.navigation-item>.jump-to-suggestions-path {
+    color: var(--primary-text-color);
+}
+
+.Box>#jump-to-results>.navigation-item>.jump-to-suggestions-path:hover {
+    color: var(--secondary-text-color);
+}
+
+.Box .jump-to-suggestions-results-container [aria-selected="true"] .jump-to-suggestions-path,
+.jump-to-suggestions-results-container .navigation-focus .jump-to-suggestions-path {
+    background-color: var(--depth-color);
+}
 
 /* Repo Wiki Tab */
 
 .blankslate {
-    background-color: #151f29;
-    border-color: #304251;
+    background-color: var(--depth-color);
+    border-color: var(--border-color);
     box-shadow: none;
 }
 
 .wiki-wrapper .wiki-auxiliary-content {
-    background: #243447;
+    background: var(--accent-color);
 }
 
 .wiki-rightbar .boxed-group.collapsed>h3 {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .wiki-wrapper .wiki-auxiliary-content-no-bg {
-    background: #1a2632;
+    background: var(--body-color);
 }
 
 .wiki-wrapper .wiki-custom-sidebar {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Repo Project Tab */
 
 .border {
-    border-color: #304251 !important;
+    border-color: var(--border-color) !important;
 }
 
 .bg-gray {
-    background-color: #1a2632 !important;
+    background-color: var(--body-color) !important;
 }
 
 .project-header {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .project-columns {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .project-column {
@@ -1371,11 +1374,11 @@ ul.comparison-list>li {
 }
 
 .bg-white {
-    background-color: #243447 !important;
+    background-color: var(--accent-color) !important;
 }
 
 .bg-gray-light {
-    background-color: #1a2632 !important;
+    background-color: var(--body-color) !important;
 }
 
 .js-project-column-cards {
@@ -1389,27 +1392,27 @@ ul.comparison-list>li {
 /* Repo Pulse Tab */
 
 .pulse-graph:first-child {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .pulse-graph {
-    border-bottom-color: #304251;
+    border-bottom-color: var(--border-color);
 }
 
 .conversation-list-heading .inner {
-    background: #1a2632;
+    background: var(--body-color);
 }
 
 .conversation-list-heading {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .simple-conversation-list>li {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .summary-stats li {
-    border-left-color: #304251;
+    border-left-color: var(--border-color);
 }
 
 .summary-stats li .num {
@@ -1417,7 +1420,7 @@ ul.comparison-list>li {
 }
 
 .summary-stats li a:hover {
-    background: #151f29;
+    background: var(--depth-color);
 }
 
 .diffstat-summary strong {
@@ -1425,7 +1428,7 @@ ul.comparison-list>li {
 }
 
 .axis line {
-    stroke: #304251;
+    stroke: var(--border-color);
 }
 
 .subhead {
@@ -1433,28 +1436,27 @@ ul.comparison-list>li {
 }
 
 .Box {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .Box-header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
-
 
 /* Repo Graph | Contributors */
 
 .tint-box {
-    background: #1a2632;
+    background: var(--body-color);
 }
 
 .capped-card {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .capped-card-content {
-    background: #1a2632;
+    background: var(--body-color);
 }
 
 .graphs .area {
@@ -1462,14 +1464,13 @@ ul.comparison-list>li {
 }
 
 .capped-card h3 {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Repo Graph | Punch Card */
 
 .day-name {
-    fill: #8899a6;
+    fill: var(--icon-color);
 }
 
 circle.day {
@@ -1483,34 +1484,32 @@ circle.day {
 }
 
 line.axis {
-    stroke: #304251;
+    stroke: var(--border-color);
 }
 
 line.axis.even {
-    stroke: #304251;
+    stroke: var(--border-color);
 }
 
 :not(img) text,
 circle.day {
-    fill: #8899a6;
+    fill: var(--icon-color);
 }
-
 
 /* Repo Graph | Traffic */
 
 table.capped-list td {
     ;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 table.capped-list th {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 table.capped-list tr:nth-child(even) {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
-
 
 /* Repo Graph | Code Frequency */
 
@@ -1536,38 +1535,37 @@ table.capped-list tr:nth-child(even) {
     color: #9e9e9e;
 }
 
-
 /* Repo Settings Tab */
 
 .menu {
     margin-bottom: 15px;
     list-style: none;
-    background-color: #1a2632;
-    border: 1px solid #304251;
+    background-color: var(--body-color);
+    border: 1px solid var(--border-color);
     border-radius: 3px;
 }
 
 .menu-item {
     text-shadow: none;
-    border-bottom: 1px solid #304251;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .menu-item:hover {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .menu-item.selected {
-    color: #fff;
-    background-color: #151f29;
+    color: var(--primary-text-color);
+    background-color: var(--depth-color);
 }
 
 .form-group .form-control {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 hr,
 .rule {
-    border-bottom: 1px solid #304251;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .boxed-group.dangerzone>h3 {
@@ -1576,61 +1574,73 @@ hr,
 }
 
 .Box {
-    background-color: #1a2632;
-    border: 1px solid #1a2632;
+    background-color: var(--body-color);
+    border: 1px solid var(--body-color);
 }
 
-.btn:disabled, .btn.disabled {
+.btn:disabled,
+.btn.disabled {
     color: white;
-    background-color: #1a2632;
+    background-color: var(--body-color);
     background-image: none;
     border-color: rgb(42, 58, 72);
     box-shadow: none;
 }
 
 .integrations-callout-standalone .integration-settings-callout {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Profile */
 
 .border-top {
-    border-color: #304251 !important;
+    border-color: var(--border-color) !important;
 }
 
 .profilecols .filter-bar {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .pinned-repo-list-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .pinned-repo-filters {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .user-profile-nav {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
+}
+
+.UnderlineNav-item {
+    color: var(--primary-text-color);
+}
+
+.UnderlineNav-item.selected {
+    color: var(--primary-text-color);
+}
+
+.UnderlineNav-item:hover {
+    color: var(--secondary-text-color);
 }
 
 .border-gray-dark {
-    border-color: #304251 !important;
+    border-color: var(--border-color) !important;
 }
 
 .underline-nav-item.selected {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .user-profile-sticky-bar::after {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .underline-nav-item:hover {
-    color: #607d8b;
+    color: var(--secondary-text-color);
 }
 
 .profile-timeline-card-wrapper {
@@ -1639,24 +1649,22 @@ hr,
 
 .profile-timeline.discussion-timeline::before {
     left: 11px;
-    background-color: #304251;
+    background-color: var(--border-color);
 }
 
 .profile-timeline.discussion-timeline .profile-timeline-month-heading::after {
-    background-color: #304251;
+    background-color: var(--border-color);
 }
 
 .profile-rollup-wrapper+.profile-rollup-wrapper {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Profile | Contribution */
 
 #contributions-calendar rect[fill="#eeeeee"] {
-    fill: #151f29;
+    fill: var(--depth-color);
 }
-
 
 /* Profile | Repo Tab */
 
@@ -1664,11 +1672,10 @@ hr,
     color: #8485ce;
 }
 
-
 /* Notification */
 
 .list-group-item.navigation-focus {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .list-group-item-link {
@@ -1676,7 +1683,7 @@ hr,
 }
 
 .boxed-group-list>li {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .flash {
@@ -1686,28 +1693,27 @@ hr,
 }
 
 .notifications-list .notifications .list-group-item:not(.confirmation):first-child {
-    border-top: 0px solid #304251;
+    border-top: 0px solid var(--border-color);
 }
 
 .notifications-list .notifications .list-group-item:not(.confirmation) {
-    border-top: 1px solid #304251;
+    border-top: 1px solid var(--border-color);
 }
-
 
 /* Organisation */
 
 .org-name {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .orghead {
-    background-color: #151f29;
-    border-color: #304251;
+    background-color: var(--depth-color);
+    border-color: var(--border-color);
 }
 
 .simple-box {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .org-module-link {
@@ -1723,23 +1729,22 @@ hr,
 }
 
 .subnav-bordered {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .org-module-title {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .member-row {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .pagehead-tabs-item.selected {
-    color: #fff;
-    background-color: #1a2632;
-    border-color: #d26911 #304251 transparent;
+    color: var(--primary-text-color);
+    background-color: var(--body-color);
+    border-color: #d26911 var(--border-color) transparent;
 }
-
 
 /* Create Organisation */
 
@@ -1748,82 +1753,80 @@ hr,
 }
 
 .steps {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .steps li {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
 
 .steps li.current {
     color: #9e9e9e;
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .setup-info-module {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
     box-shadow: none;
 }
 
 .setup-info-module h2 {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .plan-choice.open,
 .plan-choice.selected {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
 
 .plan-choice {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
 }
-
 
 /* Personal Settings (Global) */
 
 .menu-heading {
-    color: #fff;
-    background-color: #243447;
-    border-color: #304251;
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .listgroup {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .listgroup-item+.listgroup-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .oauth-border {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .saved-reply-form {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .user-key-badge {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 dl.new-email-form {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .Subhead {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* Settings | Security */
 
-li.session-device.session-current,
-li.session-device {
-    background-color: #1a2632;
+.session-device.session-current,
+.session-device {
+    background-color: var(--body-color);
 }
 
 .mute,
@@ -1832,23 +1835,22 @@ li.session-device {
 }
 
 .boxed-group-list>li:first-child {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .boxed-group-inner .help {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .auth-form-header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: var(--accent-color);
+    border-color: var(--border-color);
 }
-
 
 /* Settings | Billing */
 
 .billing-section {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .billing-section .section-content {
@@ -1859,12 +1861,11 @@ li.session-device {
     color: #666;
 }
 
-
 /* Modal */
 
 .facebox-popup {
-    background-color: #1a2632;
-    border: 1px solid #304251;
+    background-color: var(--body-color);
+    border: 1px solid var(--border-color);
 }
 
 .facebox-alert {
@@ -1874,19 +1875,18 @@ li.session-device {
 }
 
 .facebox-header {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .facebox-footer {
     margin: 0 -15px -15;
-    background: #243447;
+    background: var(--accent-color);
 }
 
 .facebox-footer {
-    background: #243447;
-    border-color: #304251;
+    background: var(--accent-color);
+    border-color: var(--border-color);
 }
-
 
 /* Scrollbar */
 
@@ -1895,7 +1895,7 @@ li.session-device {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #243447;
+    background-color: var(--accent-color);
     border-radius: 0;
 }
 
@@ -1904,31 +1904,30 @@ li.session-device {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #1a2632;
+    background-color: var(--body-color);
 }
-
 
 /* Search Results */
 
 .repo-list-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .codesearch-results .repo-list-name em,
 .codesearch-results .repo-list-description em {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .participation-graph rect {
-    fill: #243447;
+    fill: var(--accent-color);
 }
 
 .code-list .file-box {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .code-list .code-list-item+.code-list-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .code-list .language {
@@ -1936,38 +1935,35 @@ li.session-device {
 }
 
 .codesearch-aside .menu .octicon {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .codesearch-aside .filter-list {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .codesearch-aside .filter-list li span.bar {
-    background: #243447;
+    background: var(--accent-color);
 }
 
 .filter-item:hover {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
-
 
 /* Helper */
 
 .timeline-commits .hidden-text-expander .ellipsis-expander {
-    color: #8899a6;
-    background: #243447;
+    color: var(--icon-color);
+    background: var(--accent-color);
 }
 
 .hidden-text-expander a,
 .ellipsis-expander {
-    color: #8899a6;
-    background: #243447;
+    color: var(--icon-color);
+    background: var(--accent-color);
 }
 
-
 /* Experimental | Enchancement */
-
 
 /* Blob Minus */
 
@@ -1976,10 +1972,10 @@ li.session-device {
 }
 
 .blob-code-deletion {
-    background-color: #2c1a32;
+    background-color: var(--body-color);
+    text-decoration: line-through;
     color: #ef9a9a;
 }
-
 
 /* Blob Plus */
 
@@ -1988,63 +1984,64 @@ li.session-device {
 }
 
 .blob-code-addition {
-    background-color: #1a323c;
+    background-color: var(--body-color);
 }
 
+.blob-expanded .blob-num,
+.blob-expanded .blob-code {
+    background-color: var(--accent-color);
+}
 
 /* End of Experimental */
-
 
 /* GitHub Gists */
 
 .header-logo-wordmark {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .gist-snippet-meta .description {
     color: #6d6d72;
 }
 
-
 /* Rework Buttons | Icons */
 
 .ajax-pagination-form .ajax-pagination-btn {
     color: #9e9e9e;
-    background: #243447;
-    border-color: #304251;
+    background: var(--accent-color);
+    border-color: var(--border-color);
 }
 
 .ajax-pagination-form .ajax-pagination-btn:hover {
-    background-color: #151f29;
+    background-color: var(--depth-color);
 }
 
 .btn-outline:disabled,
 .btn-outline:disabled:hover,
 .btn-outline.disabled,
 .btn-outline.disabled:hover {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .btn-octicon {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .toolbar-item {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .toolbar-item .menu-target {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .timeline-comment-actions {
-    color: #8899a6;
+    color: var(--icon-color);
 }
 
 .discussion-sidebar-toggle .octicon {
-    color: #8899a6;
+    color: var(--icon-color);
 }
-
 
 /* Github Pricing */
 
@@ -2056,32 +2053,31 @@ li.session-device {
 .display-heading-2,
 .display-heading-3,
 .display-heading-4 {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .bg-white {
-    background-color: #1a2632 !important;
+    background-color: var(--body-color) !important;
 }
 
 .pricing-card {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
     box-shadow: none;
 }
 
 .pricing-card-vertical .pricing-card-name {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .pricing-card-vertical .pricing-card-cta {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* GitHub Explore */
 
 .sort-bar {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .pagehead-nav-item {
@@ -2098,75 +2094,73 @@ li.session-device {
 }
 
 .pagehead.explore-head {
-    border-bottom-color: #304251;
+    border-bottom-color: var(--border-color);
 }
 
 .exploregrid-item-title {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .exploregrid-item {
     color: #969ab0;
-    border-color: #304251;
+    border-color: var(--border-color);
     box-shadow: none;
 }
 
 .thread-subscription-status {
-    background-color: #1a2632;
-    border: 1px solid #304251;
+    background-color: var(--body-color);
+    border: 1px solid var(--border-color);
 }
 
 .explore-section {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .explore-section:nth-child(even) {
-    background: #243447;
+    background: var(--accent-color);
 }
 
 .explore-collection h2 {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .repo-collection>ul {
-    background: #151f29;
-    border-color: #304251;
+    background: var(--depth-color);
+    border-color: var(--border-color);
 }
 
 .showcase-page-header {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .showcase-page-repo-list {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 .showcase-page-pattern::after {
-    background: none #1a2632;
+    background: none var(--body-color);
 }
 
 .intgrs-lstng-item {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
-
 
 /* GitHub Blog */
 
 .blog-title {
-    color: #fff;
+    color: var(--primary-text-color);
 }
-
 
 /* Octotree Addon */
 
 .octotree_github_sidebar {
-    background-color: #1a2632;
-    color: #fff;
+    background-color: var(--body-color);
+    color: var(--primary-text-color);
 }
 
 .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
-    background-color: #1a2632;
-    border-bottom: 1px solid #304251;
+    background-color: var(--body-color);
+    border-bottom: 1px solid var(--border-color);
     background-image: none;
 }
 
@@ -2176,34 +2170,36 @@ li.session-device {
 
 .octotree_github_sidebar input,
 .octotree_github_sidebar textarea {
-    background-color: #151f29;
-    border: 1px solid #304251;
+    background-color: var(--depth-color);
+    border: 1px solid var(--border-color);
     padding: 2px;
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
 .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
-    background-color: #243447;
+    background-color: var(--accent-color);
 }
 
 .octotree_sidebar {
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
-.octotree_github_sidebar a.octotree_toggle > span::after,
+.octotree_github_sidebar a.octotree_toggle>span::after,
 .octotree_github_sidebar a.octotree_opts {
     -webkit-filter: invert(1);
     filter: invert(1);
 }
 
 .markdown-body .task-list-item.hovered {
-  background: #424a7e !important;
+    background: #424a7e !important;
+}
 
-.discussion-item .renamed-was, .discussion-item .renamed-is {
+.discussion-item .renamed-was,
+.discussion-item .renamed-is {
     color: #607d8b;
 }
 
@@ -2212,23 +2208,28 @@ li.session-device {
 /* Fix new additions to github. */
 
 .topic-tag {
-    background-color: #304251;
+    background-color: var(--border-color);
 }
+
 .simple-box-footer {
-    background-color: #304251;
-    border-top: #304251;
+    background-color: var(--border-color);
+    border-top: var(--border-color);
 }
+
 .pagehead-tabs-item:hover {
-    color: #fff;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
+
 .pagehead-tabs-item .counter {
-    color: #fff;
+    color: var(--primary-text-color);
     opacity: .85;
 }
+
 .reaction-summary-item {
-    background-color: #1a2632 !important;
+    background-color: var(--body-color) !important;
 }
+
 /* calender */
 
 .calendar-graph rect[fill="#ebedf0"],
@@ -2241,63 +2242,73 @@ li.session-device {
     fill: #4183C4 !important;
     opacity: .15;
 }
+
 .contrib-legend {
     display: none !important;
 }
+
 .calendar-graph .days-selected rect.day.active {
     stroke: #ddd !important;
 }
+
 .calendar-graph rect.day:hover {
     stroke: #fff !important;
 }
+
 /* reg colors */
 
 .calendar-graph rect[fill="#c6e48b"] {
     opacity: .3;
 }
+
 .calendar-graph rect[fill="#7bc96f"] {
     opacity: .5;
 }
+
 .calendar-graph rect[fill="#239a3b"] {
     opacity: .7;
 }
+
 .calendar-graph rect[fill="#196127"] {
     opacity: 1;
 }
+
 /* user fix */
 
 .underline-nav-item {
     color: #6a737d;
 }
+
 .underline-nav-item .counter {
-    color: #fff;
+    color: var(--primary-text-color);
     opacity: .65;
 }
+
 .underline-nav-item:hover {
-    color: #fff;
+    color: var(--primary-text-color);
 }
+
 .notification-indicator .mail-status {
     background-color: #00aba5 !important;
     background-image: none !important;
 }
+
 .vcard-username {
-    color: #fff;
+    color: var(--primary-text-color);
     opacity: .65;
 }
 
 /* User Circled Images */
+
 .vcard-avatar img {
     border-radius: 100% !important;
-    border: 3px solid #304251 !important;
+    border: 3px solid var(--border-color) !important;
 }
 
 /* settings user fix */
-.Box {
-    background: none !important;
-}
 
 .Box .Box-row .listgroup-item-body {
-	color: #607d8b !important;
+    color: var(--secondary-text-color) !important;
 }
 
 .Box .Box-row .listgroup-item-title {
@@ -2305,6 +2316,7 @@ li.session-device {
 }
 
 /* feed fix, user & owner color */
+
 .simple .title a:first-child,
 .body .title a:first-child,
 .public .author a,
@@ -2313,40 +2325,42 @@ li.session-device {
 }
 
 .member-name {
- 	color: #FFF;
+    color: #FFF;
     opacity: .75;
 }
-.member-name:hover{
- 	opacity: 1;
+
+.member-name:hover {
+    opacity: 1;
 }
 
 /* org fix */
+
 .unstyled-members-count,
-.js-repositories-count{
-	color: #FFF;
+.js-repositories-count {
+    color: #FFF;
 }
 
-.js-stat-label {
-}
+.js-stat-label {}
 
 .note-emphasis {
-	color: #FFF !important;
+    color: #FFF !important;
 }
 
 .team-actions,
 .team-info-card,
 .stats-group-stat {
- 	border-color: #304251 !important;
+    border-color: var(--border-color) !important;
 }
 
 /* blog */
+
 .blog-post-title a {
     color: #FFF !important;
     opacity: .85;
 }
 
 .blog-post-body h2 {
-	border-color: #304251 !important;
+    border-color: var(--border-color) !important;
 }
 
 .blog-post-body h2,
@@ -2356,20 +2370,20 @@ li.session-device {
 
 .blog-post-body ul,
 .blog-post-body ol {
-	color: #607d8b;
+    color: var(--secondary-text-color);
 }
 
 .pagination,
 .pagination a,
 .pagination span {
-	border-color: #304251 !important;
-    background-color: #1a2632 !important;
+    border-color: var(--border-color) !important;
+    background-color: var(--body-color) !important;
 }
 
 .pagination a,
 .pagination .next_page,
-.pagination .previous_page{
-	color: #FFF;
+.pagination .previous_page {
+    color: #FFF;
 }
 
 .meta-item:nth-child(2) a {
@@ -2377,37 +2391,43 @@ li.session-device {
 }
 
 .site-footer-marketing-col ul li a {
-	color: #0366d6 !important;
+    color: #0366d6 !important;
 }
 
 /* fix #39 */
-.code-list .divider .blob-num, .code-list .divider .blob-code{
-  background-color:#151f29;
+
+.code-list .divider .blob-num,
+.code-list .divider .blob-code {
+    background-color: var(--depth-color);
 }
 
 /* codemirror vs ace fix */
+
 .CodeMirror,
 .CodeMirror-lines,
 .CodeMirror-gutters {
-    background-color: #1a2632 !important;
+    background-color: var(--body-color) !important;
 }
 
 /* editor: line nums */
+
 .CodeMirror-linenumber {
     color: #5e6b77 !important;
-    border-color: #304251;
+    border-color: var(--border-color);
 }
 
 /* editor: syntax */
+
 .CodeMirror-line span {
-	color: #6d6d72;
+    color: #6d6d72;
 }
+
 .cm-string {
-	color: #4078c0 !important;
+    color: #4078c0 !important;
 }
 
 .cm-keyword {
- 	color: #b73999 !important;
+    color: #b73999 !important;
 }
 
 .cm-property,
@@ -2416,13 +2436,24 @@ li.session-device {
 .cm-meta {
     color: #0086b3 !important;
 }
+
 .cm-qualifier,
 .cm-variable-3 {
     color: #795da3 !important;
 }
+
 .cm-tag {
     color: #63a35c !important;
 }
-.cm-variable-3 {
- 	color:
+
+/** Marketplace **/
+
+.MarketplaceSideNav {
+    background-color: var(--body-color);
+    border-right: 1px solid var(--accent-color);
+}
+
+div.application-main>div.border-bottom,
+div.application-main div.container-xl>div.position-relative div[style] {
+    background: var(--body-color) !important;
 }
