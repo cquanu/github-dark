@@ -1351,6 +1351,10 @@ ul.comparison-list>li {
     border-color: var(--border-color);
 }
 
+.boxed-group-table td {
+    border-color: var(--border-color);
+}
+
 /* Repo Project Tab */
 
 .border {
