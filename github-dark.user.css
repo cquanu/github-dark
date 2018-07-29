@@ -537,6 +537,20 @@
         background-color: var(--accent-color);
         border-color: var(--border-color);
     }
+    
+    /* Repo find file */
+    
+    .tree-finder .tree-browser,
+    .tree-browser td {
+        border-color: var(--border-color) !important;
+    }
+    .tree-browser td {
+        background: var(--background-color);
+    }
+    .tree-browser tr[aria-selected="true"] td,
+    .tree-browser tr.navigation-focus td {
+        background: var(--depth-color);
+    }
 
     /* Repo Blame */
 
@@ -1357,6 +1371,10 @@
     }
 
     .wiki-wrapper .wiki-custom-sidebar {
+        border-color: var(--border-color);
+    }
+    
+    .boxed-group-table td {
         border-color: var(--border-color);
     }
 
