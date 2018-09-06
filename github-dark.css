@@ -2149,6 +2149,11 @@ dl.new-email-form {
     border-color: var(--border-color);
 }
 
+div.application-main > div.border-bottom,
+div.application-main div.container-xl > div.position-relative div[style] {
+    background: var(--body-color) !important;
+}
+
 /* GitHub Blog */
 
 .blog-title {
@@ -2455,9 +2460,4 @@ dl.new-email-form {
 .MarketplaceSideNav {
     background-color: var(--body-color);
     border-right: 1px solid var(--accent-color);
-}
-
-div.application-main>div.border-bottom,
-div.application-main div.container-xl>div.position-relative div[style] {
-    background: var(--body-color) !important;
 }

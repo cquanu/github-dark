@@ -1,20 +1,12 @@
 /* ==UserStyle==
-@name           GitHub Dark v2.6.1
+@name           GitHub Dark v2.6.2
 @namespace      github.com/cquanu/github-dark
-@version        2.6.1
+@version        2.6.2
 @description    GitHub Dark 2.0
-@author         Quan You, Tyler Thrailkill
+@author         Quan You, Tyler Thrailkill, Lance Jordan, Lexa Hall, Jared Allard, seanysean
+@license        MIT
 ==/UserStyle== */
-
 @-moz-document domain("github.com") {
-    /**
-        * GitHub Dark v2.6.1
-        * Copyright 2016 Quan You.
-        * Mods by Lance Jordan
-        * GitHub Project (https://cquanu.github.io/github-dark/)
-        * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
-    */
-
     /* Colors */
 
     :root {
@@ -147,7 +139,7 @@
     /*.scoped-search .form-control .header-search-scope {
     background-color: var(--body-color);
     border-color: var(--border-color);
-}*/
+    }*/
 
     .form-control,
     .form-select {
@@ -1360,6 +1352,10 @@
         border-color: var(--border-color);
     }
 
+    .boxed-group-table td {
+        border-color: var(--border-color);
+    }
+
     /* Repo Project Tab */
 
     .border {
@@ -2154,6 +2150,11 @@
         border-color: var(--border-color);
     }
 
+    div.application-main > div.border-bottom,
+    div.application-main div.container-xl > div.position-relative div[style] {
+        background: var(--body-color) !important;
+    }
+
     /* GitHub Blog */
 
     .blog-title {
@@ -2456,14 +2457,9 @@
     }
 
     /** Marketplace **/
-    
+
     .MarketplaceSideNav {
         background-color: var(--body-color);
         border-right: 1px solid var(--accent-color);
-    }
-  
-    div.application-main > div.border-bottom,
-    div.application-main div.container-xl > div.position-relative div[style] {
-        background: var(--body-color) !important;
     }
 }
