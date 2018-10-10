@@ -252,7 +252,7 @@ button.dropdown-item.dropdown-signout {
 .Box-header {
     color: var(--primary-text-color);
     background-color: var(--accent-color);
-    border-color: var(--border-color);
+    border: 1px var(--border-color) solid;
 }
 
 .boxed-group-inner {
