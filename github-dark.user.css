@@ -1613,7 +1613,17 @@
     .integrations-callout-standalone .integration-settings-callout {
         border-color: var(--border-color);
     }
+    
+    /* Repo Settings | Collaborators */
 
+    .access-form-wrapper {
+        background-color: var(--depth-color);
+        border-color: var(--border-color);
+    }
+    .autocomplete-results {
+        background-color: var(--depth-color);
+    }
+    
     /* Profile */
 
     .border-top {
