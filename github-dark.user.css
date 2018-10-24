@@ -1598,7 +1598,7 @@
 
     .Box {
         background-color: var(--body-color);
-        border: 1px solid var(--body-color);
+        border: 1px solid var(--border-color);
     }
 
     .btn:disabled,
