@@ -136,9 +136,9 @@ h4 {
 }
 
 /*.scoped-search .form-control .header-search-scope {
-background-color: var(--body-color);
-border-color: var(--border-color);
-}*/
+    background-color: var(--body-color);
+    border-color: var(--border-color);
+    }*/
 
 .form-control,
 .form-select {
@@ -202,6 +202,11 @@ border-color: var(--border-color);
     background-color: var(--body-color);
     border: 1px solid var(--border-color);
     box-shadow: none;
+    color: var(--primary-text-color);
+}
+
+.header-nav-current-user .user-profile-link {
+    color: var(--primary-text-color);
 }
 
 .dropdown-divider {
@@ -252,7 +257,7 @@ button.dropdown-item.dropdown-signout {
 .Box-header {
     color: var(--primary-text-color);
     background-color: var(--accent-color);
-    border: 1px var(--border-color) solid;
+    border: 1px solid var(--border-color);
 }
 
 .boxed-group-inner {
@@ -535,9 +540,11 @@ span.d-block {
 .tree-browser td {
     border-color: var(--border-color) !important;
 }
+
 .tree-browser td {
     background: var(--background-color);
 }
+
 .tree-browser tr[aria-selected="true"] td,
 .tree-browser tr.navigation-focus td {
     background: var(--depth-color);
@@ -1369,6 +1376,10 @@ ul.comparison-list>li {
     border-color: var(--border-color);
 }
 
+.boxed-group-table td {
+    border-color: var(--border-color);
+}
+
 /* Repo Project Tab */
 
 .border {
@@ -1615,6 +1626,7 @@ hr,
     background-color: var(--depth-color);
     border-color: var(--border-color);
 }
+
 .autocomplete-results {
     background-color: var(--depth-color);
 }
@@ -2173,8 +2185,8 @@ dl.new-email-form {
     border-color: var(--border-color);
 }
 
-div.application-main > div.border-bottom,
-div.application-main div.container-xl > div.position-relative div[style] {
+div.application-main>div.border-bottom,
+div.application-main div.container-xl>div.position-relative div[style] {
     background: var(--body-color) !important;
 }
 
@@ -2484,4 +2496,9 @@ div.application-main div.container-xl > div.position-relative div[style] {
 .MarketplaceSideNav {
     background-color: var(--body-color);
     border-right: 1px solid var(--accent-color);
+}
+
+div.application-main>div.border-bottom,
+div.application-main div.container-xl>div.position-relative div[style] {
+    background: var(--body-color) !important;
 }

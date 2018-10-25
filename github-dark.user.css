@@ -203,6 +203,11 @@
         background-color: var(--body-color);
         border: 1px solid var(--border-color);
         box-shadow: none;
+        color: var(--primary-text-color);
+    }
+
+    .header-nav-current-user .user-profile-link {
+        color: var(--primary-text-color);
     }
 
     .dropdown-divider {
