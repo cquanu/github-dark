@@ -2084,6 +2084,10 @@ dl.new-email-form {
     color: var(--icon-color);
 }
 
+h1, h1 span, h2, h2 span {
+    color: var(--secondary-text-color);
+}
+
 /* Github Pricing */
 
 .shade-gradient {
