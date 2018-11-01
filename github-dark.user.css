@@ -1900,6 +1900,14 @@
         color: #666;
     }
 
+    .boxed-group-table th {
+        background-color: var(--accent-color);
+    }
+
+    .payment-history .refunded, .payment-history .failed {
+        background-color: var(--accent-color);
+    }
+    
     /* Modal */
 
     .facebox-popup {
