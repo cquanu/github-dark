@@ -1650,6 +1650,7 @@
     .user-profile-nav {
         background-color: var(--accent-color);
         border-color: var(--border-color);
+        border-radius: 5px 5px 0px 0px;
     }
 
     .UnderlineNav-item {

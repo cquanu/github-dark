@@ -136,9 +136,9 @@ h4 {
 }
 
 /*.scoped-search .form-control .header-search-scope {
-    background-color: var(--body-color);
-    border-color: var(--border-color);
-    }*/
+background-color: var(--body-color);
+border-color: var(--border-color);
+}*/
 
 .form-control,
 .form-select {
@@ -1652,6 +1652,7 @@ hr,
 .user-profile-nav {
     background-color: var(--accent-color);
     border-color: var(--border-color);
+    border-radius: 5px 5px 0px 0px;
 }
 
 .UnderlineNav-item {
@@ -2185,8 +2186,8 @@ dl.new-email-form {
     border-color: var(--border-color);
 }
 
-div.application-main>div.border-bottom,
-div.application-main div.container-xl>div.position-relative div[style] {
+div.application-main > div.border-bottom,
+div.application-main div.container-xl > div.position-relative div[style] {
     background: var(--body-color) !important;
 }
 
@@ -2498,7 +2499,7 @@ div.application-main div.container-xl>div.position-relative div[style] {
     border-right: 1px solid var(--accent-color);
 }
 
-div.application-main>div.border-bottom,
-div.application-main div.container-xl>div.position-relative div[style] {
+div.application-main > div.border-bottom,
+div.application-main div.container-xl > div.position-relative div[style] {
     background: var(--body-color) !important;
 }
