@@ -1888,6 +1888,10 @@ dl.new-email-form {
     border-color: var(--border-color);
 }
 
+.Box-row--gray {
+    background-color: var(--accent-color);
+}
+
 /* Settings | Billing */
 
 .billing-section {
