@@ -2088,6 +2088,10 @@ h1, h1 span, h2, h2 span {
     color: var(--secondary-text-color);
 }
 
+div.search-form.big button, div.search-form.big input {
+    background-color: var(--accent-color);
+}
+
 /* Github Pricing */
 
 .shade-gradient {
