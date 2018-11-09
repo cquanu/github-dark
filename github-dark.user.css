@@ -184,7 +184,8 @@
 
     .btn:active,
     .btn.selected,
-    .btn.zeroclipboard-is-active {
+    .btn.zeroclipboard-is-active,
+    [open] > .btn {
         background-color: var(--body-color);
         background-image: none;
         border-color: var(--border-color);
