@@ -868,6 +868,11 @@ span.d-block {
     border-color: var(--border-color);
 }
 
+.select-menu-item[aria-checked="true"] .select-menu-item-heading,
+.select-menu-item[aria-checked="true"] svg {
+    color: var(--primary-text-color) !important;
+}
+
 /* Repo | Pull Request Tab */
 
 .border-left,
