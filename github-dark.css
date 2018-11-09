@@ -90,6 +90,12 @@ h4 {
     border-color: var(--border-color);
 }
 
+.js-notice {
+    background-image: none;
+    background-color: var(--body-color);
+    border-color: var(--border-color);
+}
+
 /* Main Site Login */
 
 .session-authentication {
