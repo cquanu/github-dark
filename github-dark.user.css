@@ -887,6 +887,9 @@
 
     /* Repo Issues & Pull Request Convo */
 
+    .gh-header {
+        background-color: var(--body-color)
+    }
     .gh-header-edit .edit-issue-title,
     .gh-header-edit .edit-issue-title:focus {
         background-color: var(--depth-color);
