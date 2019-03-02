@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           GitHub Dark v2.6.2
+@name           GitHub Dark v2.6.3
 @namespace      github.com/cquanu/github-dark
-@version        2.6.2
+@version        2.6.3
 @description    GitHub Dark 2.0
 @author         Quan You, Tyler Thrailkill, Lance Jordan, Lexa Hall, Jared Allard, seanysean
 @license        MIT
@@ -1926,7 +1926,12 @@
     .payment-history .refunded, .payment-history .failed {
         background-color: var(--accent-color);
     }
-    
+
+    /* Settings | Developer Settings | Personal Access Tokens */
+    .token-scope {
+        color: var(--primary-text-color)
+    }
+
     /* Modal */
 
     .facebox-popup {

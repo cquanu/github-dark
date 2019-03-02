@@ -1,5 +1,5 @@
 /**
-    * GitHub Dark v2.6.1
+    * GitHub Dark v2.6.3
     * Copyright 2016 Quan You.
     * Mods by Lance Jordan
     * GitHub Project (https://cquanu.github.io/github-dark/)
@@ -1927,6 +1927,11 @@ dl.new-email-form {
 
 .payment-history .refunded, .payment-history .failed {
     background-color: var(--accent-color);
+}
+
+/* Settings | Developer Settings | Personal Access Tokens */
+.token-scope {
+    color: var(--primary-text-color)
 }
 
 /* Modal */
