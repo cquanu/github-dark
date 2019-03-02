@@ -541,9 +541,9 @@
         background-color: var(--accent-color);
         border-color: var(--border-color);
     }
-    
+
     /* Repo find file */
-    
+
     .tree-finder .tree-browser,
     .tree-browser td {
         border-color: var(--border-color) !important;
@@ -928,7 +928,7 @@
     .tabnav-tab:hover {
         color: var(--primary-text-color)
     }
-    
+
     .timeline-comment-wrapper {
         border: 0;
     }
@@ -1389,7 +1389,7 @@
     .wiki-wrapper .wiki-custom-sidebar {
         border-color: var(--border-color);
     }
-    
+
     .boxed-group-table td {
         border-color: var(--border-color);
     }
@@ -1637,7 +1637,7 @@
     .integrations-callout-standalone .integration-settings-callout {
         border-color: var(--border-color);
     }
-    
+
     /* Repo Settings | Collaborators */
 
     .access-form-wrapper {
@@ -1647,7 +1647,7 @@
     .autocomplete-results {
         background-color: var(--depth-color);
     }
-    
+
     /* Profile */
 
     .border-top {
@@ -2241,45 +2241,20 @@
 
     /* Octotree Addon */
 
-    .octotree_github_sidebar {
+    .octotree_github_sidebar .octotree_views {
         background-color: var(--body-color);
-        color: var(--primary-text-color);
+        border-color: var(--border-color);
     }
 
     .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
         background-color: var(--body-color);
-        border-bottom: 1px solid var(--border-color);
-        background-image: none;
-    }
-
-    .octotree_views .octotree_view .octotree_view_header {
-        text-shadow: none;
-    }
-
-    .octotree_github_sidebar input,
-    .octotree_github_sidebar textarea {
-        background-color: var(--depth-color);
-        border: 1px solid var(--border-color);
-        padding: 2px;
-        color: var(--primary-text-color);
-    }
-
-    .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
-        background-color: var(--accent-color);
-    }
-
-    .octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
-        background-color: var(--accent-color);
-    }
-
-    .octotree_sidebar {
         border-color: var(--border-color);
+        border-right-color: var(--border-color) !important;
+        border-bottom-color: var(--border-color) !important;
     }
 
-    .octotree_github_sidebar a.octotree_toggle>span::after,
-    .octotree_github_sidebar a.octotree_opts {
-        -webkit-filter: invert(1);
-        filter: invert(1);
+    .octotree_sidebar .ui-resizable-e {
+        background-color: var(--border-color);
     }
 
     .markdown-body .task-list-item.hovered {
@@ -2549,7 +2524,7 @@
         background-color: var(--body-color);
         border-right: 1px solid var(--accent-color);
     }
-  
+
     div.application-main > div.border-bottom,
     div.application-main div.container-xl > div.position-relative div[style] {
         background: var(--body-color) !important;

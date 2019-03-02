@@ -2243,45 +2243,20 @@ div.application-main div.container-xl > div.position-relative div[style] {
 
 /* Octotree Addon */
 
-.octotree_github_sidebar {
+.octotree_github_sidebar .octotree_views {
     background-color: var(--body-color);
-    color: var(--primary-text-color);
+    border-color: var(--border-color);
 }
 
 .octotree_github_sidebar .octotree_views .octotree_view .octotree_view_header {
     background-color: var(--body-color);
-    border-bottom: 1px solid var(--border-color);
-    background-image: none;
-}
-
-.octotree_views .octotree_view .octotree_view_header {
-    text-shadow: none;
-}
-
-.octotree_github_sidebar input,
-.octotree_github_sidebar textarea {
-    background-color: var(--depth-color);
-    border: 1px solid var(--border-color);
-    padding: 2px;
-    color: var(--primary-text-color);
-}
-
-.octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-clicked {
-    background-color: var(--accent-color);
-}
-
-.octotree_github_sidebar .octotree_views .octotree_treeview .jstree-default .jstree-wholerow-hovered {
-    background-color: var(--accent-color);
-}
-
-.octotree_sidebar {
     border-color: var(--border-color);
+    border-right-color: var(--border-color) !important;
+    border-bottom-color: var(--border-color) !important;
 }
 
-.octotree_github_sidebar a.octotree_toggle>span::after,
-.octotree_github_sidebar a.octotree_opts {
-    -webkit-filter: invert(1);
-    filter: invert(1);
+.octotree_sidebar .ui-resizable-e {
+    background-color: var(--border-color);
 }
 
 .markdown-body .task-list-item.hovered {
