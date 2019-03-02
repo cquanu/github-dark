@@ -925,6 +925,10 @@
         border-color: var(--border-color);
     }
 
+    .tabnav-tab:hover {
+        color: var(--primary-text-color)
+    }
+    
     .timeline-comment-wrapper {
         border: 0;
     }
