@@ -258,16 +258,25 @@
     .ajax-pagination-form .ajax-pagination-d {
         background: #babdcb;
     }
-
+      
     .boxed-group>h3,
     .boxed-group .heading,
     .Box,
-    .Box-header {
+    .Box-header,
+    .dashboard .js-all-activity-header + div {
         color: var(--primary-text-color);
         background-color: var(--accent-color);
         border: 1px solid var(--border-color);
     }
-
+    .dashboard-rollup-items .body {
+        border-color: var(--border-color) !important;
+    }
+    
+    .dashboard .js-all-activity-header + div {
+        background-color: var(--body-color) !important;
+        border: 1px solid var(--border-color) !important;
+    }
+    
     .boxed-group-inner {
         background: var(--body-color);
         border: 1px solid var(--border-color);
