@@ -19,6 +19,7 @@
         --primary-text-color: #ffffff;
         --secondary-text-color: #607d8b;
         --code-blob-color: #537698;
+        --code-color: #6d6d72;
     }
 
     /* HTML Global */
@@ -310,7 +311,7 @@
     }
 
     .subscribe-feed {
-        color: #6d6d72;
+        color: var(--code-color);
     }
 
     .protip-callout {
@@ -645,8 +646,8 @@
         border-color: var(--border-color);
     }
 
-    .blob-code-inner {
-        color: #6d6d72;
+    .blob-code-inner, .pl-mi {
+        color: var(--code-color);
     }
 
     .blob-code-hunk,
@@ -822,7 +823,7 @@
     }
 
     .protip {
-        color: #6d6d72;
+        color: var(--code-color);
     }
 
     .milestone-title-link a {
@@ -2085,7 +2086,7 @@
     }
 
     .gist-snippet-meta .description {
-        color: #6d6d72;
+        color: var(--code-color);
     }
 
     /* Rework Buttons | Icons */
@@ -2500,7 +2501,7 @@
     /* editor: syntax */
 
     .CodeMirror-line span {
-        color: #6d6d72;
+        color: var(--code-color);
     }
 
     .cm-string {

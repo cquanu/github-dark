@@ -18,6 +18,7 @@
     --primary-text-color: #ffffff;
     --secondary-text-color: #607d8b;
     --code-blob-color: #537698;
+    --code-color: #6d6d72;
 }
 
 /* HTML Global */
@@ -310,7 +311,7 @@ button.dropdown-item.dropdown-signout {
 }
 
 .subscribe-feed {
-    color: #6d6d72;
+    color: var(--code-color);
 }
 
 .protip-callout {
@@ -647,8 +648,8 @@ span.d-block {
     border-color: var(--border-color);
 }
 
-.blob-code-inner {
-    color: #6d6d72;
+.blob-code-inner, .pl-mi {
+    color: var(--code-color);
 }
 
 .blob-code-hunk,
@@ -824,7 +825,7 @@ span.d-block {
 }
 
 .protip {
-    color: #6d6d72;
+    color: var(--code-color);
 }
 
 .milestone-title-link a {
@@ -2088,7 +2089,7 @@ dl.new-email-form {
 }
 
 .gist-snippet-meta .description {
-    color: #6d6d72;
+    color: var(--code-color);
 }
 
 /* Rework Buttons | Icons */
@@ -2503,7 +2504,7 @@ div.application-main div.container-xl > div.position-relative div[style] {
 /* editor: syntax */
 
 .CodeMirror-line span {
-    color: #6d6d72;
+    color: var(--code-color);
 }
 
 .cm-string {
