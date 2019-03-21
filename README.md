@@ -15,7 +15,9 @@ Install a userstyle manager for your favorite browser:
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) (be sure to place the CSS inside the `@-moz-document domain("github.com")` block, but is best to install as a userstyle)
 - [Safari](http://sobolev.us/stylish)
 
-Then, copy-pasta the styles from `github-dark.css` into a new userstyle. Be sure to specify that it apply to sites beginning with `https://github.com/*`.
+Copy and paste the styles from ‘github-dark.css’ into a new user style.
+Specify that the new user style applies to sites beginning with ‘https://github.com/*’.
+
 
 ### Userstyles.org
 
