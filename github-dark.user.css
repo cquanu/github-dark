@@ -1379,7 +1379,7 @@
     /* Repo Wiki Tab */
 
     .blankslate {
-        background-color: var(--depth-color);
+        background-color: var(--depth-color) !important;
         border-color: var(--border-color);
         box-shadow: none;
     }
@@ -1681,7 +1681,7 @@
         border-color: var(--border-color);
         border-radius: 5px 5px 0px 0px;
     }
-
+    
     .UnderlineNav-item {
         color: var(--primary-text-color);
     }
@@ -2416,7 +2416,11 @@
     }
 
     /* org fix */
-
+    
+    .UnderlineNav {
+        border-color: var(--border-color);
+    }
+    
     .unstyled-members-count,
     .js-repositories-count {
         color: #FFF;
@@ -2433,7 +2437,7 @@
     .stats-group-stat {
         border-color: var(--border-color) !important;
     }
-
+    
     /* blog */
 
     .blog-post-title a {
