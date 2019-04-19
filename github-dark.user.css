@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GitHub Dark v2.6.3
 @namespace      github.com/cquanu/github-dark
-@version        2.6.3
+@version        2.6.4
 @description    GitHub Dark 2.0
 @author         Quan You, Tyler Thrailkill, Lance Jordan, Lexa Hall, Jared Allard, seanysean
 @license        MIT
@@ -899,6 +899,9 @@
 
     .gh-header {
         background-color: var(--body-color)
+    }
+    .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
+      background-color: var(--accent-color);
     }
     .gh-header-edit .edit-issue-title,
     .gh-header-edit .edit-issue-title:focus {

@@ -258,7 +258,7 @@ button.dropdown-item.dropdown-signout {
 .ajax-pagination-form .ajax-pagination-d {
     background: #babdcb;
 }
-
+    
 .boxed-group>h3,
 .boxed-group .heading,
 .Box,
@@ -268,14 +268,13 @@ button.dropdown-item.dropdown-signout {
     background-color: var(--accent-color);
     border: 1px solid var(--border-color);
 }
-    
 .dashboard-rollup-items .body {
     border-color: var(--border-color) !important;
 }
-    
+
 .dashboard .js-all-activity-header + div {
-   background-color: var(--body-color) !important;
-   border: 1px solid var(--border-color) !important;
+    background-color: var(--body-color) !important;
+    border: 1px solid var(--border-color) !important;
 }
 
 .boxed-group-inner {
@@ -558,11 +557,9 @@ span.d-block {
 .tree-browser td {
     border-color: var(--border-color) !important;
 }
-
 .tree-browser td {
     background: var(--background-color);
 }
-
 .tree-browser tr[aria-selected="true"] td,
 .tree-browser tr.navigation-focus td {
     background: var(--depth-color);
@@ -901,6 +898,9 @@ span.d-block {
 
 .gh-header {
     background-color: var(--body-color)
+}
+.gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
+    background-color: var(--accent-color);
 }
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
@@ -1656,7 +1656,6 @@ hr,
     background-color: var(--depth-color);
     border-color: var(--border-color);
 }
-
 .autocomplete-results {
     background-color: var(--depth-color);
 }
@@ -2419,11 +2418,11 @@ div.application-main div.container-xl > div.position-relative div[style] {
 }
 
 /* org fix */
-    
+
 .UnderlineNav {
     border-color: var(--border-color);
 }
-    
+
 .unstyled-members-count,
 .js-repositories-count {
     color: #FFF;
@@ -2440,7 +2439,6 @@ div.application-main div.container-xl > div.position-relative div[style] {
 .stats-group-stat {
     border-color: var(--border-color) !important;
 }
-    
 
 /* blog */
 
