@@ -1,5 +1,5 @@
 /**
-    * GitHub Dark v2.6.3
+    * GitHub Dark v2.6.5
     * Copyright 2016 Quan You.
     * Mods by Lance Jordan
     * GitHub Project (https://cquanu.github.io/github-dark/)
@@ -1363,6 +1363,14 @@ ul.comparison-list>li {
 .subnav-item:hover,
 .subnav-item:focus {
     background-color: var(--depth-color);
+}
+
+.mark {
+    color: var(--secondary-text-color);
+}
+
+.jump-to-field-active {
+    color: var(--primary-text-color) !important;
 }
 
 .Box>#jump-to-results>.navigation-item>.jump-to-suggestions-path {
