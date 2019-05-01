@@ -1366,7 +1366,7 @@
         background-color: var(--depth-color);
     }
 
-    .mark {
+    mark {
         color: var(--secondary-text-color);
     }
     
