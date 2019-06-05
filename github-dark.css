@@ -1,5 +1,5 @@
 /**
-    * GitHub Dark v2.6.6
+    * GitHub Dark v2.6.7
     * Copyright 2016 Quan You.
     * Mods by Lance Jordan
     * GitHub Project (https://cquanu.github.io/github-dark/)
@@ -258,7 +258,7 @@ button.dropdown-item.dropdown-signout {
 .ajax-pagination-form .ajax-pagination-d {
     background: #babdcb;
 }
-    
+  
 .boxed-group>h3,
 .boxed-group .heading,
 .Box,
@@ -268,6 +268,11 @@ button.dropdown-item.dropdown-signout {
     background-color: var(--accent-color);
     border: 1px solid var(--border-color);
 }
+
+.protected-branch-orgs-and-repo-admins {
+    background-color: var(--body-color)
+}
+
 .dashboard-rollup-items .body {
     border-color: var(--border-color) !important;
 }
@@ -900,7 +905,7 @@ span.d-block {
     background-color: var(--body-color)
 }
 .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow {
-    background-color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
@@ -1570,7 +1575,6 @@ circle.day {
 /* Repo Graph | Traffic */
 
 table.capped-list td {
-    ;
     border-color: var(--border-color);
 }
 
@@ -1878,6 +1882,11 @@ hr,
 
 .listgroup {
     border-color: var(--border-color);
+    background-color: var(--accent-color);
+}
+
+.listgroup-overflow {
+  background-color: var(--body-color);
 }
 
 .listgroup-item+.listgroup-item {

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           GitHub Dark v2.6.3
 @namespace      github.com/cquanu/github-dark
-@version        2.6.6
+@version        2.6.7
 @description    GitHub Dark 2.0
 @author         Quan You, Tyler Thrailkill, Lance Jordan, Lexa Hall, Jared Allard, seanysean
 @license        MIT
@@ -269,6 +269,11 @@
         background-color: var(--accent-color);
         border: 1px solid var(--border-color);
     }
+
+    .protected-branch-orgs-and-repo-admins {
+        background-color: var(--body-color)
+    }
+
     .dashboard-rollup-items .body {
         border-color: var(--border-color) !important;
     }
@@ -1571,7 +1576,6 @@
     /* Repo Graph | Traffic */
 
     table.capped-list td {
-        ;
         border-color: var(--border-color);
     }
 
@@ -1879,6 +1883,11 @@
 
     .listgroup {
         border-color: var(--border-color);
+        background-color: var(--accent-color);
+    }
+
+    .listgroup-overflow {
+      background-color: var(--body-color);
     }
 
     .listgroup-item+.listgroup-item {
