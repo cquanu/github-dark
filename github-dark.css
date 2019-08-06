@@ -337,6 +337,10 @@ button.dropdown-item.dropdown-signout {
     border-top: 1px solid var(--border-color);
 }
 
+.github-jobs-logo strong {
+    filter: invert(40%);   
+}
+
 /* New Repo */
 
 .outline-box-highlighted {
