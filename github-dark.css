@@ -1465,6 +1465,10 @@ mark {
     background-color: var(--body-color) !important;
 }
 
+.bg-blue-light {
+    background-color: var(--accent-color) !important;
+}
+
 .js-project-column-cards {
     -ms-overflow-style: none;
 }
