@@ -614,7 +614,7 @@
     }
 
     .markdown-body img {
-        background-color: var(--depth-color);
+        background-color: transparent;
     }
 
     .markdown-body h1 .octicon-link,
