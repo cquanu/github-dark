@@ -1454,6 +1454,10 @@
         background-color: #151f29;
     }
 
+    .project-issue-body-blur {
+        background: linear-gradient(0deg, var(--accent-color), hsla(0, 0%, 100%, 0));
+    }
+ 
     .bg-white {
         background-color: var(--accent-color) !important;
     }
