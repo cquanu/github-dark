@@ -1467,7 +1467,7 @@
     }
 
     .bg-blue-light {
-        backgroud-color: var(--accent-color) !important;
+        background-color: var(--accent-color) !important;
     }
 
     .js-project-column-cards {
