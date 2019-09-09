@@ -974,6 +974,10 @@ span.d-block {
     border-right-color: var(--border-color);
 }
 
+.timeline-comment {
+    color: var(--primary-text-color)
+}
+
 timeline-comment::before {
     border-right-color: var(--accent-color) !important;
 }
