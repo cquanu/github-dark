@@ -933,11 +933,23 @@ span.d-block {
     color: var(--depth-color);
 }
 
+.tabnav {
+    border-color: var(--border-color);
+}
+
 .tabnav-tab.selected {
+    color: var(--primary-text-color);
+    border-color: var(--border-color);
     background-color: var(--body-color);
 }
 
 .tabnav-pr .tabnav-tab.selected {
+    color: var(--primary-text-color);
+    border-color: var(--border-color);
+}
+
+.tabnav-tab.selected, .tabnav-tab[aria-selected="true"] {
+    background-color: var(--body-color);
     color: var(--primary-text-color);
     border-color: var(--border-color);
 }
@@ -1098,15 +1110,6 @@ timeline-comment::before {
 }
 
 .suggester li {
-    border-color: var(--border-color);
-}
-
-.tabnav {
-    border-color: var(--border-color);
-}
-
-.tabnav-tab.selected {
-    color: var(--primary-text-color);
     border-color: var(--border-color);
 }
 
