@@ -1191,6 +1191,11 @@
         background-color: var(--body-color)
     }
     
+    .TimelineItem-break {
+        background-color: var(--body-color);
+        border-top: 4px solid var(--accent-color);
+    }
+
     /* Site | Issue Tab */
 
     .Box-row--focus-gray.navigation-focus {
