@@ -906,6 +906,10 @@
 
     /* Repo Issues & Pull Request Convo */
 
+    .js-comment-edit-history > .details-overlay > summary {
+        background-color: var(--accent-color);
+    }
+    
     .gh-header {
         background-color: var(--body-color)
     }
