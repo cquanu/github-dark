@@ -1736,6 +1736,17 @@
         border-color: var(--border-color);
     }
 
+    /* Not selected pinned item*/
+    .pinned-item-name {
+        color: var(--secondary-text-color);
+    }
+
+    /* selected pinned item */
+    .pinned-item-checkbox:checked + .pinned-item-name {
+        color: var(--primary-text-color);
+        background-color: var(--body-color);
+    }
+
     .user-profile-nav {
         background-color: var(--accent-color);
         border-color: var(--border-color);
