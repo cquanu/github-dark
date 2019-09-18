@@ -370,6 +370,10 @@
         color: #4caf50;
     }
 
+    .select-menu-item.selected, details-menu .select-menu-item[aria-checked="true"], details-menu .select-menu-item[aria-selected="true"] {
+        color: var(--secondary-text-color);
+    }
+
     /* Repo Page (Main) */
 
     .repohead.experiment-repo-nav {
@@ -2160,6 +2164,10 @@
 
     .ajax-pagination-form .ajax-pagination-btn:hover {
         background-color: var(--depth-color);
+    }
+
+    .btn-outline {
+        background-color: var(--body-color);
     }
 
     .btn-outline:disabled,
