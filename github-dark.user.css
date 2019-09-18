@@ -2595,6 +2595,10 @@
         border-right: 1px solid var(--accent-color);
     }
 
+    .MarketplaceBackground-buffer {
+        background-color: var(--body-color);
+    }
+    
     div.application-main > div.border-bottom,
     div.application-main div.container-xl > div.position-relative div[style] {
         background: var(--body-color) !important;
