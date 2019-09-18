@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Replace version number
-      run: sed -i -r 's/^(@version.*)([[:digit:]])\.([[:digit:]])\.([[:digit:]])/echo "\1\2.\3.$((\4+1))"/ge' github-dark.user.css
+      run: sed -i -r 's/^(@version.*)([[:digit:]])\.([[:digit:]])\.([[:digit:]]+)/echo "\1\2.\3.$((\4+1))"/ge' github-dark.user.css
     - uses: stefanzweifel/git-auto-commit-action@v2.0.0
       with:
         commit_author_email: tyler.b.thrailkill@gmail.com
