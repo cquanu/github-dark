@@ -6,6 +6,7 @@
     * Licensed under MIT (https://github.com/cquanu/github-dark/blob/master/LICENSE)
 */
 
+/** Github Actions Start Block **/
 /* Colors */
 
 :root {
@@ -20,6 +21,7 @@
     --code-blob-color: #537698;
     --code-color: #6d6d72;
 }
+/** Github Actions End Block **/
 
 /* HTML Global */
 
@@ -99,6 +101,10 @@ h4 > a {
     background-image: none;
     background-color: var(--body-color);
     border-color: var(--border-color);
+}
+
+.Box-row--hover-blue:hover {
+    background-color: var(--accent-color);
 }
 
 /* Main Site Login */
