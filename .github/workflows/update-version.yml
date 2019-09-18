@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Replace version number
       run: awk -F'[[:space:]]+|[.]' '/^@version/ {print $1,"       "$2"."$3"."$4+1}' github-dark.user.css
-    - uses: actions/bin/filter@46ffca7632504e61db2d4cb16be1e80f333cb859
-      with: 
-        args: not branch master
-        
+    - uses: docker://cdssnc/auto-commit-github-action
+      args: "Update version"
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
