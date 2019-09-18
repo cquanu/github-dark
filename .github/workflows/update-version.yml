@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    paths:
+    - "github-dark.user.css"
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Replace version number
+      run: awk -F'[[:space:]]+|[.]' '/^@version/ {print $1,"       "$2"."$3"."$4+1}' github-dark.user.css
+    - uses: actions/bin/filter@46ffca7632504e61db2d4cb16be1e80f333cb859
+      with: 
+        args: not branch master
+        
