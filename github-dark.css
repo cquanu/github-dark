@@ -1104,6 +1104,10 @@ timeline-comment::before {
     background-color: var(--border-color);
 }
 
+.previewable-comment-form .comment-form-head.tabnav {
+    background-color: var(--accent-color);
+}
+
 .new-discussion-timeline .previewable-comment-form .comment-form-head.tabnav {
     background: var(--accent-color);
 }
