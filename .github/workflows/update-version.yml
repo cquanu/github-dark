@@ -15,6 +15,7 @@ jobs:
     - name: Replace version number
       run: awk -F'[[:space:]]+|[.]' '/^@version/ {print $1,"       "$2"."$3"."$4+1}' github-dark.user.css
     - uses: docker://cdssnc/auto-commit-github-action
-      args: "Update version"
+      with:
+        args: "Update version"
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
