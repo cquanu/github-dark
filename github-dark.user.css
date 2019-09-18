@@ -37,6 +37,10 @@
         color: var(--primary-text-color);
     }
 
+    h4 > a {
+        color: var(--primary-text-color);
+    }
+
     /* Class Global */
 
     .lead {
