@@ -2360,6 +2360,34 @@
         color: #607d8b;
     }
 
+    .octotree-sidebar.octotree-github-sidebar .octotree-views {
+        background-color: var(--body-color);
+    }
+    
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-tree-view .jstree-default .jstree-wholerow-clicked,
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-tree-view .jstree-default .jstree-wholerow-hovered {
+        color: var(--primary-text-color);
+        background-color: var(--accent-color) !important;
+    }
+
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-tree-view .jstree-anchor,
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-view .jstree-anchor {
+        color: var(--primary-text-color);
+    }
+
+    /** arrows for folders **/
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-tree-view .jstree-default .jstree-no-dots .jstree-open > .jstree-ocl::before,
+    .octotree-sidebar.octotree-github-sidebar .octotree-views .octotree-tree-view .jstree-default .jstree-no-dots .jstree-closed > .jstree-ocl::before {
+        color: var(--icon-color) !important;
+    }
+    
+    .octotree-sidebar.octotree-github-sidebar .octotree-footer {
+        background-color: var(--accent-color);
+    }
+
+    .octotree-sidebar.octotree-github-sidebar .octotree-footer .octotree-ad-small a {
+        color: var(--secondary-text-color) !important;
+    }
     /* End */
 
     /* Fix new additions to github. */
