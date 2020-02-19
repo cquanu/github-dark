@@ -1513,6 +1513,10 @@
         display: none;
     }
 
+    .bg-gray-2 {
+      background-color: var(--depth-color) !important;
+    }
+
     /* Repo Pulse Tab */
 
     .pulse-graph:first-child {
@@ -1843,6 +1847,12 @@
 
     .notifications-list .notifications .list-group-item:not(.confirmation) {
         border-top: 1px solid var(--border-color);
+    }
+
+    /** Notification beta **/
+
+    .notifications-list-item.notification-unread {
+      background-color: var(--accent-color);
     }
 
     /* Organisation */
