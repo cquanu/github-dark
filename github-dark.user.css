@@ -1495,7 +1495,9 @@
         background-color: var(--accent-color) !important;
     }
 
-    .bg-gray-light {
+    .bg-gray-light,
+    .page-responsive .bg-gray-light
+    {
         background-color: var(--body-color) !important;
     }
 
