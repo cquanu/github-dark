@@ -1404,6 +1404,7 @@
     /* Nav */
 
     .subnav-item {
+        color: var(--secondary-text-color);
         border-color: var(--border-color);
     }
 
